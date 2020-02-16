@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="define_int_androidStyledDialogs">year;owner</string>
+    <string name="library_androidStyledDialogs_author">inmite</string>
+    <string name="library_androidStyledDialogs_authorWebsite">http://www.inmite.eu</string>
+    <string name="library_androidStyledDialogs_libraryName">StyledDialogs</string>
+    <string name="library_androidStyledDialogs_libraryDescription">This library makes styling and using dialogs a piece of cake.</string>
+    <string name="library_androidStyledDialogs_libraryVersion">1.1.2</string>
+    <string name="library_androidStyledDialogs_libraryWebsite">https://github.com/inmite/android-styled-dialogs</string>
+    <string name="library_androidStyledDialogs_licenseId">apache_2_0</string>
+    <string name="library_androidStyledDialogs_isOpenSource">true</string>
+    <string name="library_androidStyledDialogs_repositoryLink">https://github.com/inmite/android-styled-dialogs</string>
+    <string name="library_androidStyledDialogs_classPath">eu.inmite.android.lib.dialogs.BaseDialogBuilder</string>
+    <!-- Custom variables section -->
+    <string name="library_androidStyledDialogs_owner">inmite</string>
+    <string name="library_androidStyledDialogs_year">2014</string>
+</resources>

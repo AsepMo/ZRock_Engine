@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.3'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
@@ -16,10 +16,8 @@ android {
         versionName "3.6"
         versionCode = 58
         minSdkVersion 17
-        targetSdkVersion 26
-        //renderscriptTargetApi 17
-        //renderscriptSupportModeEnabled true
-
+        targetSdkVersion 25
+		
         vectorDrawables.useSupportLibrary = true
     }
     signingConfigs {
@@ -61,12 +59,19 @@ android {
 
 dependencies {
 	//Add Android Support
-	compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.android.support:design:26.1.0'
-    compile 'com.android.support:support-v4:26.1.0'
-    compile 'com.android.support:recyclerview-v7:26.1.0'
-    compile 'com.android.support:cardview-v7:26.1.0'
-    compile 'com.android.support:mediarouter-v7:26.1.0'
- 
+	compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
+    compile 'com.android.support:mediarouter-v7:25.2.0'
+    compile 'com.android.support:multidex:1.0.3'
+	
+	//Add Library
+	compile 'com.squareup.okhttp3:okhttp:3.10.0'
+    compile 'org.jsoup:jsoup:1.11.3'
+    compile('com.mikepenz:materialdrawer:3.0.7@aar') {
+        transitive = true
+    }
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

@@ -1,0 +1,7 @@
+<AppUpdater>
+  <update>
+    <latestVersion>1.2.2</latestVersion>
+    <latestVersionCode>10</latestVersionCode>
+    <url>https://github.com/ZRock-Application/ZRock_Engine/releases</url>
+  </update>
+</AppUpdater>

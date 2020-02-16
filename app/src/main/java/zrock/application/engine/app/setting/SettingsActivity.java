@@ -38,7 +38,7 @@ public class SettingsActivity extends PreferenceActivity {
                         //.setUpdateFrom(UpdateFrom.GITHUB)
                         //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.XML)
-                        .setUpdateXML("https://raw.githubusercontent.com/ZRock-Application/AppUpdater/master/app/update-changelog.xml")
+					.setUpdateXML("https://raw.githubusercontent.com/ZRock-Application/ZRock_Engine/master/app/update-changelog.xml")
                         .setDisplay(Display.DIALOG)
                         .showAppUpdated(true)
                         .start();

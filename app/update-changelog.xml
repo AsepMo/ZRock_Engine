@@ -4,8 +4,8 @@
     <latestVersionCode>10</latestVersionCode>
     <url>https://github.com/ZRock-Application/ZRock_Engine/releases</url>
     <releaseNotes>
-- First evolution
-- Second evolution
+- First ZRock Engine Application Plugin
+- Clean Memori,Detect App Malware,Backup,Install,And UnInstall Your App In Device
 - Bug fixes
     </releaseNotes>
   </update>

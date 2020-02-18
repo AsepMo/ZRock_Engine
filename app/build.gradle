@@ -69,6 +69,7 @@ dependencies {
 	compile 'com.android.support:customtabs:25.2.0'
 
 	//Add Library
+	compile 'com.thomashaertel:secure-preferences:0.2.0@aar'
 	compile 'com.squareup.okhttp3:okhttp:3.10.0'
     compile 'org.jsoup:jsoup:1.11.3'
     compile('com.mikepenz:materialdrawer:3.0.7@aar') {

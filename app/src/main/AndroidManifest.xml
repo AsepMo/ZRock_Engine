@@ -7,10 +7,17 @@
 	
     <application
 		android:allowBackup="true"
+		android:backupAgent="zrock.application.engine.app.device.backup.SimpleBackupAgent"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
 		android:supportsRtl="true"
         android:resizeableActivity = "true">
+
+        <!-- the app needs to be registered to android backup service to make use of a backup agent.
+		an app can be registered here: https://developer.android.com/google/backup/signup.html?csw=1 -->
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIfV-tWF3gTmj-JFTszYmDQDKDmY2WtXUmh24ALQ" />
 		
         <activity
             android:theme="@style/AboutLibrariesTheme"
@@ -22,17 +29,118 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-		<!-- ZROCK APPLICATION ENGINE APP LIBRARIES -->
+		<!-- ZROCK APPLICATION ENGINE APP -->
 		<activity
-            android:name="zrock.application.engine.app.libraries.LibrariesActivity"
+            android:name="zrock.application.engine.app.BackupActivity"
             android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesSampleTheme">
+            android:theme="@style/AboutLibrariesTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.CUSTUM_INTENT"/>
             </intent-filter>
         </activity>
+		<activity
+            android:name="zrock.application.engine.app.InstallActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.UninstallActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.UpdaterActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.MonitorActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.PluginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.EditorActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.LibrariesActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.PackageActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.DeviceInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="zrock.application.engine.app.ZRockPackageActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
+		<!-- ZROCK APPLICATION ENGINE APP LIBRARIES -->
         <activity
             android:theme="@style/AboutLibrariesTheme"
             android:name="zrock.application.engine.app.libraries.ExtendActivity"

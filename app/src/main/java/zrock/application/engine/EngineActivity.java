@@ -1,5 +1,6 @@
 package zrock.application.engine;
 
+import zrock.application.engine.app.fragment.*;
 import zrock.application.engine.app.setting.SettingsActivity;
 import zrock.application.engine.app.chrome.Shared;
 import zrock.application.engine.app.libraries.CenteredTextFragment;
@@ -42,10 +43,10 @@ public class EngineActivity extends AppCompatActivity implements DrawerAdapter.O
 	public static final String TAG  = EngineActivity.class.getSimpleName();
 	private Toolbar mToolbar; 
 	private ActionBar mActionBar;
-	private static final int POS_DASHBOARD = 0;
-    private static final int POS_ACCOUNT = 1;
-    private static final int POS_MESSAGES = 2;
-    private static final int POS_CART = 3;
+	private static final int POS_ENGINE = 0;
+    private static final int POS_FLASHING = 1;
+    private static final int POS_TWEAKS = 2;
+    private static final int POS_MONITORING = 3;
     private static final int POS_LOGOUT = 5;
 
     private String[] screenTitles;
@@ -54,7 +55,7 @@ public class EngineActivity extends AppCompatActivity implements DrawerAdapter.O
     private SlidingRootNav slidingRootNav;
     private EngineActivity mActivity;
 	
-
+	
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -68,7 +69,7 @@ public class EngineActivity extends AppCompatActivity implements DrawerAdapter.O
 		{   
             mActionBar.setTitle(R.string.app_name);
 	    }
-
+		mActivity = this;
 		slidingRootNav = new SlidingRootNavBuilder(this)
 			.withToolbarMenuToggle(mToolbar)
 			.withMenuOpened(false)
@@ -81,10 +82,10 @@ public class EngineActivity extends AppCompatActivity implements DrawerAdapter.O
         screenTitles = loadScreenTitles();
 
         DrawerAdapter adapter = new DrawerAdapter(Arrays.asList(
-													  createItemFor(POS_DASHBOARD).setChecked(true),
-													  createItemFor(POS_ACCOUNT),
-													  createItemFor(POS_MESSAGES),
-													  createItemFor(POS_CART),
+													  createItemFor(POS_ENGINE).setChecked(true),
+													  createItemFor(POS_FLASHING),
+													  createItemFor(POS_TWEAKS),
+													  createItemFor(POS_MONITORING),
 													  new SpaceItem(48),
 													  createItemFor(POS_LOGOUT)));
         adapter.setListener(this);
@@ -93,10 +94,14 @@ public class EngineActivity extends AppCompatActivity implements DrawerAdapter.O
         list.setNestedScrollingEnabled(false);
         list.setLayoutManager(new LinearLayoutManager(this));
         list.setAdapter(adapter);
-        adapter.setSelected(POS_DASHBOARD);
+        adapter.setSelected(POS_ENGINE);
 		
 	}
 
+	
+
+    
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
@@ -124,33 +129,33 @@ public class EngineActivity extends AppCompatActivity implements DrawerAdapter.O
 	@Override
     public void onItemSelected(int position)
 	{
-        if (position == POS_DASHBOARD)
+        if (position == POS_ENGINE)
 		{
-            //switchContent(new DashboardFragment());
-			mActionBar.setSubtitle("DASHBOARD");
+            switchContent(new EngineMeFragment());
+			mActionBar.setSubtitle("ENGINE ME");
         }
-		if (position == POS_ACCOUNT)
+		if (position == POS_FLASHING)
 		{
-            //switchContent(new ProfileFragment());
-			mActionBar.setSubtitle("PROFILE");
+            switchContent(new FlashingFragment());
+			mActionBar.setSubtitle("FLASHING");
         }
-		if (position == POS_MESSAGES)
+		if (position == POS_TWEAKS)
 		{
-            //switchContent(new MessageFragment());
-			mActionBar.setSubtitle("MESSAGES");
+            switchContent(new TweaksFragment());
+			mActionBar.setSubtitle("TWEAKS");
         }
-		if (position == POS_CART)
+		if (position == POS_MONITORING)
 		{
-            //switchContent(new ChartFragment());
-			mActionBar.setSubtitle("CART");
+            switchContent(new MonitoringFragment());
+			mActionBar.setSubtitle("MONITORING");
         }
 		if (position == POS_LOGOUT)
 		{
             finish();
         }
         slidingRootNav.closeMenu();
-		Fragment selectedScreen = CenteredTextFragment.createFor(screenTitles[position]);
-        switchContent(selectedScreen);
+		//Fragment selectedScreen = CenteredTextFragment.createFor(screenTitles[position]);
+        //switchContent(selectedScreen);
 		
     }
 

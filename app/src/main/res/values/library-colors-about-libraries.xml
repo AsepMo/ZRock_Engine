@@ -28,4 +28,29 @@
     <color name="about_libraries_special_button_openSource_dark">#ffffffff</color>
     <color name="about_libraries_dividerDark_openSource_dark">#303030</color>
     <color name="about_libraries_dividerLight_openSource_dark">#303030</color>
+	
+	<!-- PickerUI lines colors -->
+    <color name="lines_panel_pickerui">#aaaaaa</color>
+
+    <!-- PickerUI panel colors -->
+    <color name="background_panel_pickerui">#fffafafa</color>
+	<color name="background_picker">#ff579fff</color>
+	
+    <!-- PickerUI items colors -->
+	<color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="text_center_pickerui">#ff000000</color>
+    <color name="text_no_center_pickerui">#aaa</color>
+    <drawable name="list_item_selected">#aaaaaa</drawable>
+
+    <!-- PickerUI shadow colors -->
+    <color name="grey1">#00CCCCCC</color>
+    <color name="grey2">#10CCCCCC</color>
+    <color name="grey3">#20CCCCCC</color>
+    <color name="grey4">#30CCCCCC</color>
+    <color name="grey5">#50747474</color>
+	<color name="sa_green">#1E9618</color>
+	<color name="sa_green_dark">#146310</color>
+	<color name="selector">#3FFFFFFF</color>
+	
 </resources>

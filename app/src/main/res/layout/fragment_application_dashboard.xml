@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:pickerui="http://schemas.android.com/apk/res-auto"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/layout_header"
+		android:background="?attr/colorPrimaryDark">
+
+		<LinearLayout
+			xmlns:tools="http://schemas.android.com/tools"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:paddingBottom="8dp"
+			android:paddingTop="8dp">
+
+			<ImageView
+				android:id="@+id/icon_engine"
+				android:layout_width="@dimen/aboutImage_openSource"
+				android:layout_height="@dimen/aboutImage_openSource"
+				android:layout_gravity="center"
+				tools:src="@drawable/button_rect_normal"/>
+
+			<TextView
+				android:id="@+id/name_activity"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="6dp"
+				android:gravity="center"
+				android:textSize="@dimen/textSizeLarge_openSource"
+				tools:text="About AppName"/>
+
+			<TextView
+				android:id="@+id/activity_version"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="4dp"
+				android:gravity="center"
+				android:textSize="@dimen/textSizeSmall_openSource"
+				tools:text="About version"/>
+
+			<LinearLayout
+				android:id="@+id/aboutSpecialContainer"
+				style="?android:buttonBarStyle"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="6dp"
+				android:layout_marginTop="6dp"
+				android:gravity="center"
+				android:orientation="horizontal">
+
+				<Button
+					android:id="@+id/aboutSpecial1"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:lines="1"
+					android:textSize="@dimen/textSizeSmall_openSource"
+					tools:text="Special 1"/>
+
+				<Button
+					android:id="@+id/aboutSpecial2"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:lines="1"
+					android:textSize="@dimen/textSizeSmall_openSource"
+					tools:text="Special 2"/>
+
+				<Button
+					android:id="@+id/aboutSpecial3"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:lines="1"
+					android:textSize="@dimen/textSizeSmall_openSource"
+					tools:text="Special 3"/>
+
+			</LinearLayout>
+
+			<View
+				android:id="@+id/aboutDivider"
+				android:layout_width="match_parent"
+				android:layout_height="1px"
+				android:layout_marginTop="4dp"/>
+
+			<TextView
+				android:id="@+id/aboutDescription"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:clickable="true"
+				android:gravity="center"
+				android:padding="8dp"
+				android:textSize="@dimen/textSizeSmall_openSource"
+				android:textStyle="normal"
+				tools:text="About description"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<View
+		android:id="@+id/layout_header_view"
+		android:layout_height="5dp"
+		android:layout_width="match_parent"
+		android:layout_below="@id/layout_header"
+		android:background="#FFFFFF"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_below="@id/layout_header_view"
+		android:background="#C93B31">
+
+		<zrock.application.engine.app.picker.PickerUI
+			android:id="@+id/picker_ui_view"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			pickerui:backgroundColor="#4cffa5"
+			pickerui:linesCenterColor="#3941ff"
+			pickerui:autoDismiss="true"
+			pickerui:itemsClickables="true"
+			pickerui:entries="@array/months"
+			pickerui:textCenterColor="#000000"
+			pickerui:textNoCenterColor="#737373"
+			pickerui:blur="true"
+			pickerui:blur_downScaleFactor="@integer/blur_downscale_min"
+			pickerui:blur_FilterColor="#ff5e48"
+			pickerui:blur_radius="@integer/blur_radius_min"
+			pickerui:blur_use_renderscript="true"/>
+		
+	</LinearLayout>
+
+</RelativeLayout>
+

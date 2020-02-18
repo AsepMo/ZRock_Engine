@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ZROCK ENGINE</string>
-   
+	<string name="app_activity_engine">Engine Me</string>
+	<string name="app_activity_engine_appupdater">Engine Updater</string>
+	<string name="app_activity_engine_installer">Engine Installer</string>
+	<string name="app_activity_engine_uninstaller">Engine Uninstaller</string>
+	<string name="app_activity_engine_backup">Engine Backup</string>
+	<string name="app_activity_engine_monitor">Engine Monitor</string>
+	<string name="app_activity_engine_plugin">Engine Plugin</string>
+	<string name="app_activity_engine_editor">Engine Editor</string>
+	<string name="app_activity_engine_libraries">Engine Libraries</string>
+	<string name="app_activity_engine_flashing">Flashing</string>
+	<string name="app_activity_engine_recovery">Recovery</string>
+	<string name="app_activity_engine_tweaks">Tweaks</string>
+	<string name="app_activity_engine_monitoring">Monitoring</string>
+	
+	<string name="app_activity_engine_package">Package</string>
+	<string name="app_activity_engine_device_info">Device Info</string>
+	<string name="app_activity_engine_zrock_package">ZRock Package</string>
+	
 	<string name="version">Version</string>
     <string name="action_manifestactivity">Manifest Activity</string>
     <string name="action_extendactivity">Extended Activity</string>
@@ -30,5 +47,28 @@
     <string name="hello_mil">Hello from the Mobile Innovation Lab!</string>
 	<string name="label_action_share">Hei Dunia!</string>
 	<string name="menu_item_title">Download</string>
+	<string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    
+	<string name="slide_up">Slide up</string>
+    <string name="slide">Slide</string>
+    <string name="slide_down">Slide down</string>
+    
+	<string name="random_color">Random color</string>
+    <string name="use_blur">Use blur</string>
+    <string name="items_clickables">Items clickables</string>
+    <string name="auto_dismiss">Auto dismiss</string>
+    <string name="blur_radius">Blur Radius</string>
+    <string name="blur_downscale">Blur Downscale</string>
 	
 </resources>

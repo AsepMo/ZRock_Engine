@@ -52,7 +52,7 @@ public class SettingsActivity extends PreferenceActivity {
     public void setContentView(int layoutResID) {
         ViewGroup contentView = (ViewGroup) LayoutInflater.from(this).inflate(R.layout.activity_application_engine_app_settings, new LinearLayout(this), false);
         Toolbar toolbar = (Toolbar) contentView.findViewById(R.id.toolbar);
-        toolbar.setTitle(R.string.action_settings);
+        toolbar.setTitle(R.string.app_activity_engine_appupdater);
         toolbar.setTitleTextColor(ContextCompat.getColor(this, android.R.color.white));
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

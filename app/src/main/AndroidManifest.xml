@@ -38,16 +38,29 @@
             android:name="zrock.application.engine.app.libraries.ExtendActivity"
             android:label="@string/app_name">
         </activity>
-        <activity
+	    <activity
             android:theme="@style/AboutLibrariesTheme"
             android:name="zrock.application.engine.app.libraries.CustomSortActivity"
             android:label="@string/app_name">
         </activity>
 		<activity android:name="zrock.application.engine.app.libraries.LibsActivity"/>
+		<!-- ZROCK APPLICATION ENGINE APP SETTING -->
 		<activity
             android:name="zrock.application.engine.app.setting.SettingsActivity"
             android:label="@string/app_name"
 			android:theme="@style/AboutLibrariesTheme"/>
+		<!-- ZROCK APPLICATION ENGINE APP CHROME -->
+		<activity 
+			android:name="zrock.application.engine.app.chrome.DownloadActivity"
+            android:screenOrientation="portrait"
+			android:theme="@style/AboutLibrariesTheme"/>
+
+		<activity 
+			android:name="zrock.application.engine.app.chrome.WebviewActivity"
+            android:screenOrientation="portrait"
+			android:theme="@style/AboutLibrariesTheme"/>
+		<receiver android:name="zrock.application.engine.app.chrome.ShareBroadcastReceiver" />
+		
     </application>
 
 </manifest>

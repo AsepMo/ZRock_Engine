@@ -78,6 +78,19 @@
 			android:label="@string/app_name"
 			android:theme="@style/AboutLibrariesTheme"/>
 
+		<activity
+			android:name="zrock.application.engine.app.chrome.DownloadActivity"
+			android:screenOrientation="portrait"
+			android:theme="@style/AboutLibrariesTheme"/>
+
+		<activity
+			android:name="zrock.application.engine.app.chrome.WebviewActivity"
+			android:screenOrientation="portrait"
+			android:theme="@style/AboutLibrariesTheme"/>
+
+		<receiver
+			android:name="zrock.application.engine.app.chrome.ShareBroadcastReceiver"/>
+
 	</application>
 
 </manifest>

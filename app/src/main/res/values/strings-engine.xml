@@ -12,9 +12,17 @@
     <string name="action_external">(Cust) External Libraries</string>
     <string name="action_defined">(Cust) Defined Libraries</string>
     <string name="action_opensource">Open Source</string>
-    <string name="action_about">About</string>
-    <string name="action_settings">Settings</string>
-      
+  
 	<string name="settings_check_for_updates">Check for updates</string>
     <string name="settings_check_for_updates_summary">Check for new versions using AppUpdater library.</string>
+	<!-- STRING FOR ZROCK OPTIONS MENU -->
+	<string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+	<string name="action_github">Github</string>
+	<!-- STRING FOR ZROCK CONTENT -->
+	<string name="splash_logo_desc">Splash Screen Logo</string>
+    <string name="hello_mil">Hello from the Mobile Innovation Lab!</string>
+	<string name="label_action_share">Hei Dunia!</string>
+	<string name="menu_item_title">Download</string>
+	
 </resources>

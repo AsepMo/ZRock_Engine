@@ -7,6 +7,7 @@
 	
     <application
 		android:allowBackup="true"
+		android:name="zrock.application.engine.ApplicationMain"
 		android:backupAgent="zrock.application.engine.app.device.backup.SimpleBackupAgent"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -140,6 +141,16 @@
                 <category android:name="android.intent.category.CUSTUM_INTENT"/>
             </intent-filter>
         </activity>
+		<activity
+            android:name="zrock.application.engine.app.TweaksActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.CUSTUM_INTENT"/>
+            </intent-filter>
+        </activity>
 		<!-- ZROCK APPLICATION ENGINE APP LIBRARIES -->
         <activity
             android:theme="@style/AboutLibrariesTheme"
@@ -168,6 +179,50 @@
             android:screenOrientation="portrait"
 			android:theme="@style/AboutLibrariesTheme"/>
 		<receiver android:name="zrock.application.engine.app.chrome.ShareBroadcastReceiver" />
+		<!-- ZROCK APPLICATION ENGINE APP CHROME -->
+		<activity 
+			android:name="zrock.application.engine.app.chrome.DownloadActivity"
+            android:screenOrientation="portrait"
+			android:theme="@style/AboutLibrariesTheme"/>
+		<activity 
+			android:name="zrock.application.engine.app.chrome.WebviewActivity"
+            android:screenOrientation="portrait"
+			android:theme="@style/AboutLibrariesTheme"/>
+		<receiver android:name="zrock.application.engine.app.chrome.ShareBroadcastReceiver" />
+		<!-- ZROCK APPLICATION ENGINE APP CONTENT -->
+		<activity 
+			android:name="zrock.application.engine.app.content.ContentActivity"
+            android:screenOrientation="portrait"
+			android:label="@string/app_name"
+			android:theme="@style/AboutLibrariesTheme"/>
+
+		<activity 
+			android:name="zrock.application.engine.app.content.ShareReceiverActivity"
+			android:screenOrientation="portrait"
+			android:theme="@style/AboutLibrariesTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <data android:mimeType="x-test/madeup" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="zrock.application.engine.app.content.SampleContentProvider"
+            android:authorities="zrock.application.engine.app.content"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="zrock.application.engine.app.content.ALLOW_INTERNAL_ACCESS"
+                android:value="true" />
+
+        </provider>
+
+        <provider
+            android:name="zrock.application.engine.app.content.SampleInternalContentProvider"
+            android:authorities="zrock.application.engine.app.content.internal"
+            android:exported="false" />
 		
     </application>
 

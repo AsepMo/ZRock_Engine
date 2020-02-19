@@ -16,6 +16,7 @@ import zrock.application.engine.app.setting.SettingsActivity;
 import zrock.application.engine.app.picker.PickerUI;
 import zrock.application.engine.app.picker.PickerUISettings;
 import zrock.application.engine.app.libraries.util.UIUtils;
+import zrock.application.engine.app.content.ContentActivity;
 
 import android.support.v4.app.Fragment;
 import android.graphics.Color;
@@ -73,6 +74,14 @@ public class EngineMeFragment extends Fragment
 		aboutSpecialContainer = headerView.findViewById(R.id.aboutSpecialContainer);
 		aboutSpecial1 = (Button) headerView.findViewById(R.id.aboutSpecial1);
 		aboutSpecial1.setText("Home");
+		aboutSpecial1.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v)
+				{
+					ContentActivity.start(getActivity());
+					Toast.makeText(getActivity(),"HOME" ,Toast.LENGTH_SHORT);
+				}
+			});
 		aboutSpecial2 = (Button) headerView.findViewById(R.id.aboutSpecial2);
 		aboutSpecial2.setText("Device");
 		aboutSpecial2.setOnClickListener(new View.OnClickListener() {

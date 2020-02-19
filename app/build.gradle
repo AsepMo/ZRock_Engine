@@ -52,10 +52,10 @@ android {
     lintOptions {
         abortOnError false
     }
-    aaptOptions {
-        noCompress 'apk'
-    }
 	
+	aaptOptions {
+        noCompress 'txt'
+    }
   }
 
 
@@ -70,7 +70,6 @@ dependencies {
     compile 'com.android.support:customtabs:25.2.0'
 
 	//Add Library
-	
 	compile 'uk.co.chrisjenx:calligraphy:2.1.0'
     compile 'com.wdullaer:materialdatetimepicker:1.5.1'
     compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'

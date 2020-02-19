@@ -42,8 +42,6 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
 				public boolean onPreferenceClick(Preference preference)
 				{
 					new AppUpdater(SettingsActivity.this)
-                        //.setUpdateFrom(UpdateFrom.GITHUB)
-                        //.setGitHubUserAndRepo("javiersantos", "AppUpdater")
                         .setUpdateFrom(UpdateFrom.XML)
 						.setUpdateXML("https://raw.githubusercontent.com/ZRock-Application/ZRock_Engine/master/app/update-changelog.xml")
                         .setDisplay(Display.DIALOG)

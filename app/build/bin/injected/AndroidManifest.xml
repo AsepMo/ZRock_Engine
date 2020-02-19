@@ -30,7 +30,6 @@
 			android:value="AEdPqrEAAAAIfV-tWF3gTmj-JFTszYmDQDKDmY2WtXUmh24ALQ"/>
 
 		<activity
-			android:theme="@style/AboutLibrariesTheme"
 			android:name="zrock.application.engine.EngineActivity"
 			android:label="@string/app_name">
 

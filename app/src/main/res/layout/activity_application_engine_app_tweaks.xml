@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:sa="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/layout_container"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="zrock.application.engine.app.TweaksActivity">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="?attr/colorPrimary"
+		android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+		sa:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+	</android.support.v7.widget.Toolbar>
+
+	<android.support.v7.widget.CardView
+		android:id="@+id/input_view"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:clipChildren="false">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:clipChildren="false"
+			android:padding="@dimen/card_padding">
+
+			<View
+				android:id="@+id/focus_holder"
+				android:layout_width="0dp"
+				android:layout_height="0dp"
+				android:focusableInTouchMode="true"/>
+
+			<EditText
+				android:id="@+id/input"
+				style="@style/Widget.TextView.Input"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="top"
+				android:hint="@string/type_here"
+				android:imeOptions="flagNoFullscreen|actionDone"
+				android:inputType="textMultiLine"/>
+
+			<ImageView
+				android:id="@+id/clear_input"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignEnd="@id/input"
+				android:layout_alignRight="@id/input"
+				android:layout_alignTop="@id/input"
+				android:contentDescription="@string/clear_input"
+				android:padding="8dp"
+				android:src="@drawable/ic_clear"
+				android:visibility="invisible"/>
+
+			<ImageView
+				android:id="@+id/input_done"
+				android:layout_width="32dip"
+				android:layout_height="32dip"
+				android:layout_alignBottom="@id/input"
+				android:layout_alignEnd="@id/input"
+				android:layout_alignRight="@id/input"
+				android:layout_margin="8dp"
+				android:background="@drawable/done_background"
+				android:contentDescription="@string/done"
+				android:elevation="4dp"
+				android:padding="2dp"
+				android:src="@drawable/ic_arrow_forward"
+				android:visibility="invisible"
+				tools:ignore="UnusedAttribute"/>
+
+		</RelativeLayout>
+
+	</android.support.v7.widget.CardView>
+
+	<FrameLayout
+		android:id="@+id/translation_panel"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:padding="@dimen/translation_outer_margin">
+
+		<android.support.v7.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<FrameLayout
+				android:id="@+id/translation_copy"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:foreground="@drawable/click_foreground">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="?attr/colorPrimary"
+					android:orientation="vertical"
+					tools:ignore="UselessParent">
+
+					<FrameLayout
+						android:id="@+id/translation_speak"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:foreground="@drawable/click_foreground"
+						android:padding="@dimen/translation_inner_margin">
+
+						<TextView
+							android:id="@+id/translation_label"
+							style="@style/Widget.TextView.Label"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:drawableLeft="@drawable/ic_tts"
+							android:drawablePadding="4dip"
+							android:drawableStart="@drawable/ic_tts"
+							android:text="@string/type_output"
+							android:textAllCaps="true"/>
+
+					</FrameLayout>
+
+					<TextView
+						android:id="@+id/translation"
+						style="@style/Widget.TextView.Translation"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginBottom="@dimen/translation_inner_margin"
+						android:layout_marginEnd="@dimen/translation_inner_margin"
+						android:layout_marginLeft="@dimen/translation_inner_margin"
+						android:layout_marginRight="@dimen/translation_inner_margin"
+						android:layout_marginStart="@dimen/translation_inner_margin"
+						android:text=""/>
+
+				</LinearLayout>
+
+			</FrameLayout>
+
+		</android.support.v7.widget.CardView>
+
+	</FrameLayout>
+
+</LinearLayout>
+

@@ -14,7 +14,6 @@
 	<string name="app_activity_engine_recovery">Recovery</string>
 	<string name="app_activity_engine_tweaks">Tweaks</string>
 	<string name="app_activity_engine_monitoring">Monitoring</string>
-	
 	<string name="app_activity_engine_package">Package</string>
 	<string name="app_activity_engine_device_info">Device Info</string>
 	<string name="app_activity_engine_zrock_package">ZRock Package</string>
@@ -41,7 +40,6 @@
     <string name="zrock_drawer_close">Close</string>
     <string name="zrock_ex_no_menu_view">No view for menu provided. You must either call .withMenuView(View) or pass a valid resource id to .withMenuLayout(int)</string>
     <string name="zrock_ex_bad_content_view">Your content view must contain exactly one child. Make sure you call inject() after setContentView().</string>
-	
 	<!-- STRING FOR ZROCK CONTENT -->
 	<string name="splash_logo_desc">Splash Screen Logo</string>
     <string name="hello_mil">Hello from the Mobile Innovation Lab!</string>
@@ -71,4 +69,36 @@
     <string name="blur_radius">Blur Radius</string>
     <string name="blur_downscale">Blur Downscale</string>
 	
+	<string name="type_output">Out Put</string>
+	<string name="type_here">Type here</string>
+	<string name="clear_input">Clear Input</string>
+	<string name="done">Done</string>
+	<!-- STRING FOR ZROCK REMINDER -->
+	<string name="no_to_dos">You don\'t have any todos</string>
+    <string name="title">Title</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="choose_date">Date</string>
+    <string name="choose_time">Time</string>
+    <string name="remind_date_and_time">Reminder set for %1$s, %2$s %3$s</string>
+    <string name="about_reminder">About</string>
+    <string name="app_version_reminder">Version: %1$s</string>
+    <string name="contact_me">You can contact me at</string>
+    <string name="made_by">Made by Avjinder</string>
+    <string name="done_label">Done</string>
+    <string name="date_reminder_default">Today</string>
+    <string name="date_error_check_again">The date you entered is in the past.</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="night_mode_on_summary">Night mode is on</string>
+    <string name="night_mode_off_summary">Night mode is off</string>
+    <string name="description">Description</string>
+
+    <string-array name="snooze_options">
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+    </string-array>
+
+    <string name="snooze">Snooze</string>
+    <string name="remove">Remove</string>
+    <string name="todo_error">Please enter a Todo</string>
 </resources>

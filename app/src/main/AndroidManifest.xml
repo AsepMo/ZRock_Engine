@@ -11,6 +11,7 @@
 		android:backupAgent="zrock.application.engine.app.device.backup.SimpleBackupAgent"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+		android:theme="@style/AboutLibrariesTheme"
 		android:supportsRtl="true"
         android:resizeableActivity = "true">
 
@@ -33,8 +34,7 @@
 		<!-- ZROCK APPLICATION ENGINE APP -->
 		<activity
             android:name="zrock.application.engine.app.BackupActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -43,8 +43,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.InstallActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -53,8 +52,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.UninstallActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -63,8 +61,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.UpdaterActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -73,8 +70,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.MonitorActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -83,8 +79,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.PluginActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -93,8 +88,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.EditorActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -103,8 +97,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.LibrariesActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -113,8 +106,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.PackageActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -123,8 +115,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.DeviceInfoActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -133,8 +124,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.ZRockPackageActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -143,8 +133,7 @@
         </activity>
 		<activity
             android:name="zrock.application.engine.app.TweaksActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AboutLibrariesTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -153,12 +142,10 @@
         </activity>
 		<!-- ZROCK APPLICATION ENGINE APP LIBRARIES -->
         <activity
-            android:theme="@style/AboutLibrariesTheme"
             android:name="zrock.application.engine.app.libraries.ExtendActivity"
             android:label="@string/app_name">
         </activity>
 	    <activity
-            android:theme="@style/AboutLibrariesTheme"
             android:name="zrock.application.engine.app.libraries.CustomSortActivity"
             android:label="@string/app_name">
         </activity>
@@ -166,40 +153,33 @@
 		<!-- ZROCK APPLICATION ENGINE APP SETTING -->
 		<activity
             android:name="zrock.application.engine.app.setting.SettingsActivity"
-            android:label="@string/app_name"
-			android:theme="@style/AboutLibrariesTheme"/>
+            android:label="@string/app_name"/>
 		<!-- ZROCK APPLICATION ENGINE APP CHROME -->
 		<activity 
 			android:name="zrock.application.engine.app.chrome.DownloadActivity"
-            android:screenOrientation="portrait"
-			android:theme="@style/AboutLibrariesTheme"/>
+            android:screenOrientation="portrait"/>
 
 		<activity 
 			android:name="zrock.application.engine.app.chrome.WebviewActivity"
-            android:screenOrientation="portrait"
-			android:theme="@style/AboutLibrariesTheme"/>
+            android:screenOrientation="portrait"/>
 		<receiver android:name="zrock.application.engine.app.chrome.ShareBroadcastReceiver" />
 		<!-- ZROCK APPLICATION ENGINE APP CHROME -->
 		<activity 
 			android:name="zrock.application.engine.app.chrome.DownloadActivity"
-            android:screenOrientation="portrait"
-			android:theme="@style/AboutLibrariesTheme"/>
+            android:screenOrientation="portrait"/>
 		<activity 
 			android:name="zrock.application.engine.app.chrome.WebviewActivity"
-            android:screenOrientation="portrait"
-			android:theme="@style/AboutLibrariesTheme"/>
+            android:screenOrientation="portrait"/>
 		<receiver android:name="zrock.application.engine.app.chrome.ShareBroadcastReceiver" />
 		<!-- ZROCK APPLICATION ENGINE APP CONTENT -->
 		<activity 
 			android:name="zrock.application.engine.app.content.ContentActivity"
             android:screenOrientation="portrait"
-			android:label="@string/app_name"
-			android:theme="@style/AboutLibrariesTheme"/>
+			android:label="@string/app_name"/>
 
 		<activity 
 			android:name="zrock.application.engine.app.content.ShareReceiverActivity"
-			android:screenOrientation="portrait"
-			android:theme="@style/AboutLibrariesTheme">
+			android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <data android:mimeType="x-test/madeup" />

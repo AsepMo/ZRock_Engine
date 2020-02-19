@@ -41,6 +41,7 @@ public final class R {
         public static final int ld_activityScreenIcons=0x7f100004;
         public static final int ld_activityScreenTitles=0x7f100003;
         public static final int months=0x7f100000;
+        public static final int snooze_options=0x7f100005;
     }
     public static final class attr {
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -4094,28 +4095,28 @@ containing a value of this type.
         public static final int top_shadow=0x7f02012c;
     }
     public static final class id {
-        public static final int ScrollView1=0x7f0d008b;
-        public static final int aboutDescription=0x7f0d00a6;
-        public static final int aboutDivider=0x7f0d00a5;
-        public static final int aboutIcon=0x7f0d00b0;
-        public static final int aboutName=0x7f0d00b1;
-        public static final int aboutSpecial1=0x7f0d00a2;
-        public static final int aboutSpecial2=0x7f0d00a3;
-        public static final int aboutSpecial3=0x7f0d00a4;
-        public static final int aboutSpecialContainer=0x7f0d00a1;
-        public static final int aboutVersion=0x7f0d00b2;
-        public static final int account_header_drawer=0x7f0d00be;
-        public static final int account_header_drawer_background=0x7f0d00bd;
-        public static final int account_header_drawer_current=0x7f0d00c2;
-        public static final int account_header_drawer_email=0x7f0d00c6;
-        public static final int account_header_drawer_name=0x7f0d00c5;
-        public static final int account_header_drawer_small_first=0x7f0d00bf;
-        public static final int account_header_drawer_small_second=0x7f0d00c0;
-        public static final int account_header_drawer_small_third=0x7f0d00c1;
-        public static final int account_header_drawer_text_section=0x7f0d00c3;
-        public static final int account_header_drawer_text_switcher=0x7f0d00c4;
-        public static final int action0=0x7f0d0107;
-        public static final int action_all=0x7f0d0126;
+        public static final int ScrollView1=0x7f0d0096;
+        public static final int aboutDescription=0x7f0d00b1;
+        public static final int aboutDivider=0x7f0d00b0;
+        public static final int aboutIcon=0x7f0d00bb;
+        public static final int aboutName=0x7f0d00bc;
+        public static final int aboutSpecial1=0x7f0d00ad;
+        public static final int aboutSpecial2=0x7f0d00ae;
+        public static final int aboutSpecial3=0x7f0d00af;
+        public static final int aboutSpecialContainer=0x7f0d00ac;
+        public static final int aboutVersion=0x7f0d00bd;
+        public static final int account_header_drawer=0x7f0d00c9;
+        public static final int account_header_drawer_background=0x7f0d00c8;
+        public static final int account_header_drawer_current=0x7f0d00cd;
+        public static final int account_header_drawer_email=0x7f0d00d1;
+        public static final int account_header_drawer_name=0x7f0d00d0;
+        public static final int account_header_drawer_small_first=0x7f0d00ca;
+        public static final int account_header_drawer_small_second=0x7f0d00cb;
+        public static final int account_header_drawer_small_third=0x7f0d00cc;
+        public static final int account_header_drawer_text_section=0x7f0d00ce;
+        public static final int account_header_drawer_text_switcher=0x7f0d00cf;
+        public static final int action0=0x7f0d0112;
+        public static final int action_all=0x7f0d0131;
         public static final int action_bar=0x7f0d006b;
         public static final int action_bar_activity_content=0x7f0d000b;
         public static final int action_bar_container=0x7f0d006a;
@@ -4123,192 +4124,198 @@ containing a value of this type.
         public static final int action_bar_spinner=0x7f0d000c;
         public static final int action_bar_subtitle=0x7f0d0049;
         public static final int action_bar_title=0x7f0d0048;
-        public static final int action_container=0x7f0d0104;
+        public static final int action_container=0x7f0d010f;
         public static final int action_context_bar=0x7f0d006c;
-        public static final int action_customactivity=0x7f0d0124;
-        public static final int action_customsortactivity=0x7f0d0123;
-        public static final int action_defined=0x7f0d0129;
-        public static final int action_divider=0x7f0d010b;
-        public static final int action_extendactivity=0x7f0d0122;
-        public static final int action_external=0x7f0d0127;
-        public static final int action_github=0x7f0d012a;
-        public static final int action_image=0x7f0d0105;
-        public static final int action_internal=0x7f0d0128;
-        public static final int action_manifestactivity=0x7f0d0121;
+        public static final int action_customactivity=0x7f0d012f;
+        public static final int action_customsortactivity=0x7f0d012e;
+        public static final int action_defined=0x7f0d0134;
+        public static final int action_divider=0x7f0d0116;
+        public static final int action_extendactivity=0x7f0d012d;
+        public static final int action_external=0x7f0d0132;
+        public static final int action_github=0x7f0d0135;
+        public static final int action_image=0x7f0d0110;
+        public static final int action_internal=0x7f0d0133;
+        public static final int action_manifestactivity=0x7f0d012c;
         public static final int action_menu_divider=0x7f0d000d;
         public static final int action_menu_presenter=0x7f0d000e;
         public static final int action_mode_bar=0x7f0d0068;
         public static final int action_mode_bar_stub=0x7f0d0067;
         public static final int action_mode_close_button=0x7f0d004a;
-        public static final int action_opensource=0x7f0d0125;
-        public static final int action_settings=0x7f0d012b;
-        public static final int action_text=0x7f0d0106;
-        public static final int actions=0x7f0d0114;
+        public static final int action_opensource=0x7f0d0130;
+        public static final int action_settings=0x7f0d0136;
+        public static final int action_text=0x7f0d0111;
+        public static final int actions=0x7f0d011f;
         public static final int activity_chooser_view_content=0x7f0d004b;
-        public static final int activity_version=0x7f0d00a0;
+        public static final int activity_version=0x7f0d00ab;
         public static final int add=0x7f0d003f;
         public static final int alertTitle=0x7f0d005f;
         public static final int all=0x7f0d002d;
         public static final int always=0x7f0d0043;
-        public static final int ampm_hitspace=0x7f0d00e1;
-        public static final int ampm_label=0x7f0d00e2;
+        public static final int ampm_hitspace=0x7f0d00ec;
+        public static final int ampm_label=0x7f0d00ed;
         public static final int animation=0x7f0d0000;
-        public static final int animator=0x7f0d00d6;
+        public static final int animator=0x7f0d00e1;
         public static final int auto=0x7f0d001b;
-        public static final int badge=0x7f0d00c8;
+        public static final int badge=0x7f0d00d3;
         public static final int beginning=0x7f0d0041;
         public static final int bottom=0x7f0d001c;
         public static final int buttonPanel=0x7f0d0052;
         public static final int calligraphy_tag_id=0x7f0d0004;
-        public static final int cancel=0x7f0d00d8;
-        public static final int cancel_action=0x7f0d0108;
-        public static final int cardContent=0x7f0d00ac;
-        public static final int cardListView=0x7f0d00a9;
+        public static final int cancel=0x7f0d00e3;
+        public static final int cancel_action=0x7f0d0113;
+        public static final int cardContent=0x7f0d00b7;
+        public static final int cardListView=0x7f0d00b4;
         public static final int center=0x7f0d001d;
         public static final int center_horizontal=0x7f0d001e;
         public static final int center_vertical=0x7f0d001f;
-        public static final int center_view=0x7f0d00db;
+        public static final int center_view=0x7f0d00e6;
         public static final int checkbox=0x7f0d0062;
-        public static final int chronometer=0x7f0d0110;
+        public static final int chronometer=0x7f0d011b;
+        public static final int clear_input=0x7f0d0085;
         public static final int clip_horizontal=0x7f0d0029;
         public static final int clip_vertical=0x7f0d002a;
         public static final int collapseActionView=0x7f0d0044;
         public static final int contentPanel=0x7f0d0055;
-        public static final int content_layout=0x7f0d00bc;
-        public static final int content_view=0x7f0d0099;
+        public static final int content_layout=0x7f0d00c7;
+        public static final int content_view=0x7f0d00a4;
         public static final int content_wrapper=0x7f0d0080;
         public static final int custom=0x7f0d005c;
         public static final int customPanel=0x7f0d005b;
-        public static final int date_picker_day=0x7f0d00d4;
-        public static final int date_picker_header=0x7f0d00d0;
-        public static final int date_picker_month=0x7f0d00d3;
-        public static final int date_picker_month_and_day=0x7f0d00d2;
-        public static final int date_picker_year=0x7f0d00d5;
-        public static final int day_picker_selected_date_layout=0x7f0d00d1;
+        public static final int date_picker_day=0x7f0d00df;
+        public static final int date_picker_header=0x7f0d00db;
+        public static final int date_picker_month=0x7f0d00de;
+        public static final int date_picker_month_and_day=0x7f0d00dd;
+        public static final int date_picker_year=0x7f0d00e0;
+        public static final int day_picker_selected_date_layout=0x7f0d00dc;
         public static final int decor_content_parent=0x7f0d0069;
         public static final int default_activity_button=0x7f0d004e;
-        public static final int description=0x7f0d0088;
-        public static final int design_bottom_sheet=0x7f0d0090;
-        public static final int design_menu_item_action_area=0x7f0d0097;
-        public static final int design_menu_item_action_area_stub=0x7f0d0096;
-        public static final int design_menu_item_text=0x7f0d0095;
-        public static final int design_navigation_view=0x7f0d0094;
+        public static final int description=0x7f0d0093;
+        public static final int design_bottom_sheet=0x7f0d009b;
+        public static final int design_menu_item_action_area=0x7f0d00a2;
+        public static final int design_menu_item_action_area_stub=0x7f0d00a1;
+        public static final int design_menu_item_text=0x7f0d00a0;
+        public static final int design_navigation_view=0x7f0d009f;
         public static final int disableHome=0x7f0d0039;
-        public static final int divider=0x7f0d00c7;
-        public static final int done_background=0x7f0d00d7;
-        public static final int drawer_layout=0x7f0d00bb;
+        public static final int divider=0x7f0d00d2;
+        public static final int done_background=0x7f0d00e2;
+        public static final int drawer_layout=0x7f0d00c6;
         public static final int edit_query=0x7f0d006d;
-        public static final int email=0x7f0d00cb;
+        public static final int email=0x7f0d00d6;
         public static final int end=0x7f0d0020;
-        public static final int end_padder=0x7f0d0119;
+        public static final int end_padder=0x7f0d0124;
         public static final int enterAlways=0x7f0d0016;
         public static final int enterAlwaysCollapsed=0x7f0d0017;
         public static final int exitUntilCollapsed=0x7f0d0018;
         public static final int expand_activities_button=0x7f0d004c;
         public static final int expanded_menu=0x7f0d0061;
-        public static final int extraStreamContentsSafe=0x7f0d0084;
-        public static final int extraStreamContentsTraditional=0x7f0d0083;
-        public static final int extraStreamValue=0x7f0d0082;
+        public static final int extraStreamContentsSafe=0x7f0d008f;
+        public static final int extraStreamContentsTraditional=0x7f0d008e;
+        public static final int extraStreamValue=0x7f0d008d;
         public static final int fill=0x7f0d002b;
         public static final int fill_horizontal=0x7f0d002c;
         public static final int fill_vertical=0x7f0d0021;
         public static final int fixed=0x7f0d0030;
-        public static final int footer=0x7f0d009c;
-        public static final int frameLayout=0x7f0d009b;
+        public static final int focus_holder=0x7f0d0083;
+        public static final int footer=0x7f0d00a7;
+        public static final int frameLayout=0x7f0d00a6;
         public static final int frame_container=0x7f0d007b;
-        public static final int hidden_panel=0x7f0d011a;
+        public static final int hidden_panel=0x7f0d0125;
         public static final int home=0x7f0d000f;
         public static final int homeAsUp=0x7f0d003a;
-        public static final int hour_space=0x7f0d00dc;
-        public static final int hours=0x7f0d00de;
+        public static final int hour_space=0x7f0d00e7;
+        public static final int hours=0x7f0d00e9;
         public static final int icon=0x7f0d0050;
-        public static final int icon_engine=0x7f0d009e;
-        public static final int icon_group=0x7f0d0115;
+        public static final int icon_engine=0x7f0d00a9;
+        public static final int icon_group=0x7f0d0120;
         public static final int ifRoom=0x7f0d0045;
         public static final int image=0x7f0d004d;
-        public static final int info=0x7f0d0111;
+        public static final int info=0x7f0d011c;
+        public static final int input=0x7f0d0084;
+        public static final int input_done=0x7f0d0086;
+        public static final int input_view=0x7f0d0082;
         public static final int item_touch_helper_previous_elevation=0x7f0d0007;
-        public static final int largeLabel=0x7f0d008e;
-        public static final int layout_header=0x7f0d009d;
-        public static final int layout_header_view=0x7f0d00a7;
+        public static final int largeLabel=0x7f0d0099;
+        public static final int layout_container=0x7f0d0081;
+        public static final int layout_header=0x7f0d00a8;
+        public static final int layout_header_view=0x7f0d00b2;
         public static final int left=0x7f0d0022;
-        public static final int libraryBottomContainer=0x7f0d00b8;
-        public static final int libraryBottomDivider=0x7f0d00b7;
-        public static final int libraryCreator=0x7f0d00b4;
-        public static final int libraryDescription=0x7f0d00b6;
-        public static final int libraryDescriptionDivider=0x7f0d00b5;
-        public static final int libraryLicense=0x7f0d00ba;
-        public static final int libraryName=0x7f0d00b3;
-        public static final int libraryVersion=0x7f0d00b9;
-        public static final int librarycreator=0x7f0d0087;
-        public static final int libraryname=0x7f0d0085;
-        public static final int libraryversion=0x7f0d0086;
-        public static final int line1=0x7f0d0116;
-        public static final int line3=0x7f0d0118;
-        public static final int list=0x7f0d00e9;
+        public static final int libraryBottomContainer=0x7f0d00c3;
+        public static final int libraryBottomDivider=0x7f0d00c2;
+        public static final int libraryCreator=0x7f0d00bf;
+        public static final int libraryDescription=0x7f0d00c1;
+        public static final int libraryDescriptionDivider=0x7f0d00c0;
+        public static final int libraryLicense=0x7f0d00c5;
+        public static final int libraryName=0x7f0d00be;
+        public static final int libraryVersion=0x7f0d00c4;
+        public static final int librarycreator=0x7f0d0092;
+        public static final int libraryname=0x7f0d0090;
+        public static final int libraryversion=0x7f0d0091;
+        public static final int line1=0x7f0d0121;
+        public static final int line3=0x7f0d0123;
+        public static final int list=0x7f0d00f4;
         public static final int listMode=0x7f0d0037;
-        public static final int listView=0x7f0d0089;
+        public static final int listView=0x7f0d0094;
         public static final int list_item=0x7f0d004f;
-        public static final int masked=0x7f0d0120;
-        public static final int media_actions=0x7f0d010a;
+        public static final int masked=0x7f0d012b;
+        public static final int media_actions=0x7f0d0115;
         public static final int middle=0x7f0d0042;
         public static final int mini=0x7f0d002e;
-        public static final int minutes=0x7f0d00e0;
-        public static final int minutes_space=0x7f0d00df;
-        public static final int month_text_view=0x7f0d00e7;
-        public static final int mr_art=0x7f0d00f6;
-        public static final int mr_chooser_list=0x7f0d00eb;
-        public static final int mr_chooser_route_desc=0x7f0d00ee;
-        public static final int mr_chooser_route_icon=0x7f0d00ec;
-        public static final int mr_chooser_route_name=0x7f0d00ed;
-        public static final int mr_chooser_title=0x7f0d00ea;
-        public static final int mr_close=0x7f0d00f3;
-        public static final int mr_control_divider=0x7f0d00f9;
-        public static final int mr_control_play_pause=0x7f0d00ff;
-        public static final int mr_control_subtitle=0x7f0d0102;
-        public static final int mr_control_title=0x7f0d0101;
-        public static final int mr_control_title_container=0x7f0d0100;
-        public static final int mr_custom_control=0x7f0d00f4;
-        public static final int mr_default_control=0x7f0d00f5;
-        public static final int mr_dialog_area=0x7f0d00f0;
-        public static final int mr_expandable_area=0x7f0d00ef;
-        public static final int mr_group_expand_collapse=0x7f0d0103;
-        public static final int mr_media_main_control=0x7f0d00f7;
-        public static final int mr_name=0x7f0d00f2;
-        public static final int mr_playback_control=0x7f0d00f8;
-        public static final int mr_title_bar=0x7f0d00f1;
-        public static final int mr_volume_control=0x7f0d00fa;
-        public static final int mr_volume_group_list=0x7f0d00fb;
-        public static final int mr_volume_item_icon=0x7f0d00fd;
-        public static final int mr_volume_slider=0x7f0d00fe;
+        public static final int minutes=0x7f0d00eb;
+        public static final int minutes_space=0x7f0d00ea;
+        public static final int month_text_view=0x7f0d00f2;
+        public static final int mr_art=0x7f0d0101;
+        public static final int mr_chooser_list=0x7f0d00f6;
+        public static final int mr_chooser_route_desc=0x7f0d00f9;
+        public static final int mr_chooser_route_icon=0x7f0d00f7;
+        public static final int mr_chooser_route_name=0x7f0d00f8;
+        public static final int mr_chooser_title=0x7f0d00f5;
+        public static final int mr_close=0x7f0d00fe;
+        public static final int mr_control_divider=0x7f0d0104;
+        public static final int mr_control_play_pause=0x7f0d010a;
+        public static final int mr_control_subtitle=0x7f0d010d;
+        public static final int mr_control_title=0x7f0d010c;
+        public static final int mr_control_title_container=0x7f0d010b;
+        public static final int mr_custom_control=0x7f0d00ff;
+        public static final int mr_default_control=0x7f0d0100;
+        public static final int mr_dialog_area=0x7f0d00fb;
+        public static final int mr_expandable_area=0x7f0d00fa;
+        public static final int mr_group_expand_collapse=0x7f0d010e;
+        public static final int mr_media_main_control=0x7f0d0102;
+        public static final int mr_name=0x7f0d00fd;
+        public static final int mr_playback_control=0x7f0d0103;
+        public static final int mr_title_bar=0x7f0d00fc;
+        public static final int mr_volume_control=0x7f0d0105;
+        public static final int mr_volume_group_list=0x7f0d0106;
+        public static final int mr_volume_item_icon=0x7f0d0108;
+        public static final int mr_volume_slider=0x7f0d0109;
         public static final int multiply=0x7f0d0032;
-        public static final int name=0x7f0d00c9;
-        public static final int name_activity=0x7f0d009f;
-        public static final int navigation_header_container=0x7f0d0093;
-        public static final int navtitle=0x7f0d00e8;
+        public static final int name=0x7f0d00d4;
+        public static final int name_activity=0x7f0d00aa;
+        public static final int navigation_header_container=0x7f0d009e;
+        public static final int navtitle=0x7f0d00f3;
         public static final int never=0x7f0d0046;
         public static final int none=0x7f0d0026;
         public static final int normal=0x7f0d002f;
-        public static final int notification_background=0x7f0d0113;
-        public static final int notification_main_column=0x7f0d010d;
-        public static final int notification_main_column_container=0x7f0d010c;
-        public static final int ok=0x7f0d00d9;
+        public static final int notification_background=0x7f0d011e;
+        public static final int notification_main_column=0x7f0d0118;
+        public static final int notification_main_column_container=0x7f0d0117;
+        public static final int ok=0x7f0d00e4;
         public static final int parallax=0x7f0d0027;
         public static final int parentPanel=0x7f0d0054;
-        public static final int picker_line_bottom=0x7f0d011d;
-        public static final int picker_line_top=0x7f0d011c;
-        public static final int picker_ui_listview=0x7f0d011b;
-        public static final int picker_ui_view=0x7f0d00a8;
+        public static final int picker_line_bottom=0x7f0d0128;
+        public static final int picker_line_top=0x7f0d0127;
+        public static final int picker_ui_listview=0x7f0d0126;
+        public static final int picker_ui_view=0x7f0d00b3;
         public static final int pin=0x7f0d0028;
-        public static final int placeholder=0x7f0d00ab;
-        public static final int profileIcon=0x7f0d00ca;
+        public static final int placeholder=0x7f0d00b6;
+        public static final int profileIcon=0x7f0d00d5;
         public static final int profile_header=0x7f0d0001;
         public static final int progress_circular=0x7f0d0010;
         public static final int progress_horizontal=0x7f0d0011;
         public static final int radio=0x7f0d0064;
         public static final int right=0x7f0d0023;
-        public static final int right_icon=0x7f0d0112;
-        public static final int right_side=0x7f0d010e;
+        public static final int right_icon=0x7f0d011d;
+        public static final int right_side=0x7f0d0119;
         public static final int rippleForegroundListenerView=0x7f0d0015;
         public static final int screen=0x7f0d0033;
         public static final int scroll=0x7f0d0019;
@@ -4327,8 +4334,8 @@ containing a value of this type.
         public static final int search_src_text=0x7f0d0074;
         public static final int search_voice_btn=0x7f0d0078;
         public static final int select_dialog_listview=0x7f0d0079;
-        public static final int separator=0x7f0d00dd;
-        public static final int shadow_top=0x7f0d00cf;
+        public static final int separator=0x7f0d00e8;
+        public static final int shadow_top=0x7f0d00da;
         public static final int shareAllowedContentButton=0x7f0d007e;
         public static final int shareBlockedContentButton=0x7f0d007f;
         public static final int shareFileButton=0x7f0d007d;
@@ -4336,60 +4343,65 @@ containing a value of this type.
         public static final int showCustom=0x7f0d003b;
         public static final int showHome=0x7f0d003c;
         public static final int showTitle=0x7f0d003d;
-        public static final int slider_layout=0x7f0d00ce;
-        public static final int smallLabel=0x7f0d008d;
-        public static final int snackbar_action=0x7f0d0092;
-        public static final int snackbar_text=0x7f0d0091;
+        public static final int slider_layout=0x7f0d00d9;
+        public static final int smallLabel=0x7f0d0098;
+        public static final int snackbar_action=0x7f0d009d;
+        public static final int snackbar_text=0x7f0d009c;
         public static final int snap=0x7f0d001a;
         public static final int spacer=0x7f0d0053;
         public static final int split_action_bar=0x7f0d0012;
         public static final int src_atop=0x7f0d0034;
         public static final int src_in=0x7f0d0035;
         public static final int src_over=0x7f0d0036;
-        public static final int stackContainer=0x7f0d00af;
-        public static final int stackRoot=0x7f0d00ad;
-        public static final int stackTitle=0x7f0d00ae;
+        public static final int stackContainer=0x7f0d00ba;
+        public static final int stackRoot=0x7f0d00b8;
+        public static final int stackTitle=0x7f0d00b9;
         public static final int start=0x7f0d0024;
-        public static final int status_bar_latest_event_content=0x7f0d0109;
-        public static final int sticky=0x7f0d008a;
+        public static final int status_bar_latest_event_content=0x7f0d0114;
+        public static final int sticky=0x7f0d0095;
         public static final int sticky_footer=0x7f0d0002;
         public static final int sticky_header=0x7f0d0003;
         public static final int submenuarrow=0x7f0d0065;
         public static final int submit_area=0x7f0d0076;
-        public static final int switchView=0x7f0d00cc;
+        public static final int switchView=0x7f0d00d7;
         public static final int tabMode=0x7f0d0038;
-        public static final int tableLayout=0x7f0d008c;
-        public static final int text=0x7f0d00aa;
-        public static final int text2=0x7f0d0117;
-        public static final int textDeviceInfo=0x7f0d009a;
+        public static final int tableLayout=0x7f0d0097;
+        public static final int text=0x7f0d00b5;
+        public static final int text2=0x7f0d0122;
+        public static final int textDeviceInfo=0x7f0d00a5;
         public static final int textSpacerNoButtons=0x7f0d0059;
         public static final int textSpacerNoTitle=0x7f0d0058;
-        public static final int text_input_password_toggle=0x7f0d0098;
+        public static final int text_input_password_toggle=0x7f0d00a3;
         public static final int textinput_counter=0x7f0d0008;
         public static final int textinput_error=0x7f0d0009;
-        public static final int time=0x7f0d010f;
-        public static final int time_display=0x7f0d00da;
-        public static final int time_display_background=0x7f0d00e4;
-        public static final int time_picker=0x7f0d00e6;
-        public static final int time_picker_dialog=0x7f0d00e3;
-        public static final int time_picker_header=0x7f0d00e5;
+        public static final int time=0x7f0d011a;
+        public static final int time_display=0x7f0d00e5;
+        public static final int time_display_background=0x7f0d00ef;
+        public static final int time_picker=0x7f0d00f1;
+        public static final int time_picker_dialog=0x7f0d00ee;
+        public static final int time_picker_header=0x7f0d00f0;
         public static final int title=0x7f0d0051;
         public static final int titleDividerNoCustom=0x7f0d0060;
         public static final int title_template=0x7f0d005e;
-        public static final int toggle=0x7f0d00cd;
+        public static final int toggle=0x7f0d00d8;
         public static final int toolbar=0x7f0d007a;
         public static final int top=0x7f0d0025;
         public static final int topPanel=0x7f0d005d;
-        public static final int touch_outside=0x7f0d008f;
+        public static final int touch_outside=0x7f0d009a;
         public static final int transition_current_scene=0x7f0d0005;
         public static final int transition_scene_layoutid_cache=0x7f0d0006;
-        public static final int tv_item=0x7f0d011e;
+        public static final int translation=0x7f0d008b;
+        public static final int translation_copy=0x7f0d0088;
+        public static final int translation_label=0x7f0d008a;
+        public static final int translation_panel=0x7f0d0087;
+        public static final int translation_speak=0x7f0d0089;
+        public static final int tv_item=0x7f0d0129;
         public static final int up=0x7f0d0013;
         public static final int useLogo=0x7f0d003e;
         public static final int view_offset_helper=0x7f0d000a;
-        public static final int visible=0x7f0d011f;
-        public static final int volume_item_container=0x7f0d00fc;
-        public static final int webview=0x7f0d0081;
+        public static final int visible=0x7f0d012a;
+        public static final int volume_item_container=0x7f0d0107;
+        public static final int webview=0x7f0d008c;
         public static final int withText=0x7f0d0047;
         public static final int wrap_content=0x7f0d0040;
         public static final int zrock_root_layout=0x7f0d0014;
@@ -4462,94 +4474,95 @@ containing a value of this type.
         public static final int activity_application_engine_app_package=0x7f040024;
         public static final int activity_application_engine_app_plugin=0x7f040025;
         public static final int activity_application_engine_app_settings=0x7f040026;
-        public static final int activity_application_engine_app_uninstaller=0x7f040027;
-        public static final int activity_application_engine_app_zrock_package=0x7f040028;
-        public static final int activity_application_engine_donwload_progress=0x7f040029;
-        public static final int activity_application_engine_webview=0x7f04002a;
-        public static final int activity_share_receiver=0x7f04002b;
-        public static final int card_library=0x7f04002c;
-        public static final int cards_view=0x7f04002d;
-        public static final int cards_view_multicolumn=0x7f04002e;
-        public static final int design_bottom_navigation_item=0x7f04002f;
-        public static final int design_bottom_sheet_dialog=0x7f040030;
-        public static final int design_layout_snackbar=0x7f040031;
-        public static final int design_layout_snackbar_include=0x7f040032;
-        public static final int design_layout_tab_icon=0x7f040033;
-        public static final int design_layout_tab_text=0x7f040034;
-        public static final int design_menu_item_action_area=0x7f040035;
-        public static final int design_navigation_item=0x7f040036;
-        public static final int design_navigation_item_header=0x7f040037;
-        public static final int design_navigation_item_separator=0x7f040038;
-        public static final int design_navigation_item_subheader=0x7f040039;
-        public static final int design_navigation_menu=0x7f04003a;
-        public static final int design_navigation_menu_item=0x7f04003b;
-        public static final int design_text_input_password_icon=0x7f04003c;
-        public static final int directory_application_backup_layout=0x7f04003d;
-        public static final int directory_application_download_layout=0x7f04003e;
-        public static final int directory_application_layout=0x7f04003f;
-        public static final int footer_fragment=0x7f040040;
-        public static final int fragment_application_dashboard=0x7f040041;
-        public static final int fragment_application_engine_opensource=0x7f040042;
-        public static final int fragment_text=0x7f040043;
-        public static final int header=0x7f040044;
-        public static final int item_card=0x7f040045;
-        public static final int item_card_empty_first=0x7f040046;
-        public static final int item_card_empty_last=0x7f040047;
-        public static final int item_option=0x7f040048;
-        public static final int item_play_card_empty_first=0x7f040049;
-        public static final int item_stack=0x7f04004a;
-        public static final int listheader_opensource=0x7f04004b;
-        public static final int listitem_opensource=0x7f04004c;
-        public static final int material_drawer=0x7f04004d;
-        public static final int material_drawer_compact_header=0x7f04004e;
-        public static final int material_drawer_header=0x7f04004f;
-        public static final int material_drawer_item_divider=0x7f040050;
-        public static final int material_drawer_item_footer=0x7f040051;
-        public static final int material_drawer_item_header=0x7f040052;
-        public static final int material_drawer_item_primary=0x7f040053;
-        public static final int material_drawer_item_profile=0x7f040054;
-        public static final int material_drawer_item_profile_setting=0x7f040055;
-        public static final int material_drawer_item_secondary=0x7f040056;
-        public static final int material_drawer_item_section=0x7f040057;
-        public static final int material_drawer_item_switch=0x7f040058;
-        public static final int material_drawer_item_toggle=0x7f040059;
-        public static final int material_drawer_slider=0x7f04005a;
-        public static final int mdtp_date_picker_dialog=0x7f04005b;
-        public static final int mdtp_date_picker_header_view=0x7f04005c;
-        public static final int mdtp_date_picker_selected_date=0x7f04005d;
-        public static final int mdtp_date_picker_view_animator=0x7f04005e;
-        public static final int mdtp_done_button=0x7f04005f;
-        public static final int mdtp_time_header_label=0x7f040060;
-        public static final int mdtp_time_picker_dialog=0x7f040061;
-        public static final int mdtp_year_label_text_view=0x7f040062;
-        public static final int menu_left_drawer=0x7f040063;
-        public static final int mr_chooser_dialog=0x7f040064;
-        public static final int mr_chooser_list_item=0x7f040065;
-        public static final int mr_controller_material_dialog_b=0x7f040066;
-        public static final int mr_controller_volume_item=0x7f040067;
-        public static final int mr_playback_control=0x7f040068;
-        public static final int mr_volume_control=0x7f040069;
-        public static final int notification_action=0x7f04006a;
-        public static final int notification_action_tombstone=0x7f04006b;
-        public static final int notification_media_action=0x7f04006c;
-        public static final int notification_media_cancel_action=0x7f04006d;
-        public static final int notification_template_big_media=0x7f04006e;
-        public static final int notification_template_big_media_custom=0x7f04006f;
-        public static final int notification_template_big_media_narrow=0x7f040070;
-        public static final int notification_template_big_media_narrow_custom=0x7f040071;
-        public static final int notification_template_custom_big=0x7f040072;
-        public static final int notification_template_icon_group=0x7f040073;
-        public static final int notification_template_lines_media=0x7f040074;
-        public static final int notification_template_media=0x7f040075;
-        public static final int notification_template_media_custom=0x7f040076;
-        public static final int notification_template_part_chronometer=0x7f040077;
-        public static final int notification_template_part_time=0x7f040078;
-        public static final int pickerui=0x7f040079;
-        public static final int pickerui_item=0x7f04007a;
-        public static final int select_dialog_item_material=0x7f04007b;
-        public static final int select_dialog_multichoice_material=0x7f04007c;
-        public static final int select_dialog_singlechoice_material=0x7f04007d;
-        public static final int support_simple_spinner_dropdown_item=0x7f04007e;
+        public static final int activity_application_engine_app_tweaks=0x7f040027;
+        public static final int activity_application_engine_app_uninstaller=0x7f040028;
+        public static final int activity_application_engine_app_zrock_package=0x7f040029;
+        public static final int activity_application_engine_donwload_progress=0x7f04002a;
+        public static final int activity_application_engine_webview=0x7f04002b;
+        public static final int activity_share_receiver=0x7f04002c;
+        public static final int card_library=0x7f04002d;
+        public static final int cards_view=0x7f04002e;
+        public static final int cards_view_multicolumn=0x7f04002f;
+        public static final int design_bottom_navigation_item=0x7f040030;
+        public static final int design_bottom_sheet_dialog=0x7f040031;
+        public static final int design_layout_snackbar=0x7f040032;
+        public static final int design_layout_snackbar_include=0x7f040033;
+        public static final int design_layout_tab_icon=0x7f040034;
+        public static final int design_layout_tab_text=0x7f040035;
+        public static final int design_menu_item_action_area=0x7f040036;
+        public static final int design_navigation_item=0x7f040037;
+        public static final int design_navigation_item_header=0x7f040038;
+        public static final int design_navigation_item_separator=0x7f040039;
+        public static final int design_navigation_item_subheader=0x7f04003a;
+        public static final int design_navigation_menu=0x7f04003b;
+        public static final int design_navigation_menu_item=0x7f04003c;
+        public static final int design_text_input_password_icon=0x7f04003d;
+        public static final int directory_application_backup_layout=0x7f04003e;
+        public static final int directory_application_download_layout=0x7f04003f;
+        public static final int directory_application_layout=0x7f040040;
+        public static final int footer_fragment=0x7f040041;
+        public static final int fragment_application_dashboard=0x7f040042;
+        public static final int fragment_application_engine_opensource=0x7f040043;
+        public static final int fragment_text=0x7f040044;
+        public static final int header=0x7f040045;
+        public static final int item_card=0x7f040046;
+        public static final int item_card_empty_first=0x7f040047;
+        public static final int item_card_empty_last=0x7f040048;
+        public static final int item_option=0x7f040049;
+        public static final int item_play_card_empty_first=0x7f04004a;
+        public static final int item_stack=0x7f04004b;
+        public static final int listheader_opensource=0x7f04004c;
+        public static final int listitem_opensource=0x7f04004d;
+        public static final int material_drawer=0x7f04004e;
+        public static final int material_drawer_compact_header=0x7f04004f;
+        public static final int material_drawer_header=0x7f040050;
+        public static final int material_drawer_item_divider=0x7f040051;
+        public static final int material_drawer_item_footer=0x7f040052;
+        public static final int material_drawer_item_header=0x7f040053;
+        public static final int material_drawer_item_primary=0x7f040054;
+        public static final int material_drawer_item_profile=0x7f040055;
+        public static final int material_drawer_item_profile_setting=0x7f040056;
+        public static final int material_drawer_item_secondary=0x7f040057;
+        public static final int material_drawer_item_section=0x7f040058;
+        public static final int material_drawer_item_switch=0x7f040059;
+        public static final int material_drawer_item_toggle=0x7f04005a;
+        public static final int material_drawer_slider=0x7f04005b;
+        public static final int mdtp_date_picker_dialog=0x7f04005c;
+        public static final int mdtp_date_picker_header_view=0x7f04005d;
+        public static final int mdtp_date_picker_selected_date=0x7f04005e;
+        public static final int mdtp_date_picker_view_animator=0x7f04005f;
+        public static final int mdtp_done_button=0x7f040060;
+        public static final int mdtp_time_header_label=0x7f040061;
+        public static final int mdtp_time_picker_dialog=0x7f040062;
+        public static final int mdtp_year_label_text_view=0x7f040063;
+        public static final int menu_left_drawer=0x7f040064;
+        public static final int mr_chooser_dialog=0x7f040065;
+        public static final int mr_chooser_list_item=0x7f040066;
+        public static final int mr_controller_material_dialog_b=0x7f040067;
+        public static final int mr_controller_volume_item=0x7f040068;
+        public static final int mr_playback_control=0x7f040069;
+        public static final int mr_volume_control=0x7f04006a;
+        public static final int notification_action=0x7f04006b;
+        public static final int notification_action_tombstone=0x7f04006c;
+        public static final int notification_media_action=0x7f04006d;
+        public static final int notification_media_cancel_action=0x7f04006e;
+        public static final int notification_template_big_media=0x7f04006f;
+        public static final int notification_template_big_media_custom=0x7f040070;
+        public static final int notification_template_big_media_narrow=0x7f040071;
+        public static final int notification_template_big_media_narrow_custom=0x7f040072;
+        public static final int notification_template_custom_big=0x7f040073;
+        public static final int notification_template_icon_group=0x7f040074;
+        public static final int notification_template_lines_media=0x7f040075;
+        public static final int notification_template_media=0x7f040076;
+        public static final int notification_template_media_custom=0x7f040077;
+        public static final int notification_template_part_chronometer=0x7f040078;
+        public static final int notification_template_part_time=0x7f040079;
+        public static final int pickerui=0x7f04007a;
+        public static final int pickerui_item=0x7f04007b;
+        public static final int select_dialog_item_material=0x7f04007c;
+        public static final int select_dialog_multichoice_material=0x7f04007d;
+        public static final int select_dialog_singlechoice_material=0x7f04007e;
+        public static final int support_simple_spinner_dropdown_item=0x7f04007f;
     }
     public static final class menu {
         public static final int fragment=0x7f110000;
@@ -4591,49 +4604,51 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f090063;
         public static final int abc_shareactionprovider_share_with_application=0x7f090064;
         public static final int abc_toolbar_collapse_description=0x7f090065;
-        public static final int aboutLibraries_description_name=0x7f090089;
-        public static final int aboutLibraries_description_showIcon=0x7f09008a;
-        public static final int aboutLibraries_description_showVersion=0x7f09008b;
+        public static final int aboutLibraries_description_name=0x7f09008c;
+        public static final int aboutLibraries_description_showIcon=0x7f09008d;
+        public static final int aboutLibraries_description_showVersion=0x7f09008e;
         /**  Just remove those entries if you don't want to use a special button with a text within your about this app view :D 
          */
-        public static final int aboutLibraries_description_special1_name=0x7f09008d;
-        public static final int aboutLibraries_description_special1_text=0x7f09008e;
-        public static final int aboutLibraries_description_special2_name=0x7f09008f;
-        public static final int aboutLibraries_description_special2_text=0x7f090090;
-        public static final int aboutLibraries_description_special3_name=0x7f090091;
-        public static final int aboutLibraries_description_special3_text=0x7f090092;
-        public static final int aboutLibraries_description_text=0x7f09008c;
+        public static final int aboutLibraries_description_special1_name=0x7f090090;
+        public static final int aboutLibraries_description_special1_text=0x7f090091;
+        public static final int aboutLibraries_description_special2_name=0x7f090092;
+        public static final int aboutLibraries_description_special2_text=0x7f090093;
+        public static final int aboutLibraries_description_special3_name=0x7f090094;
+        public static final int aboutLibraries_description_special3_text=0x7f090095;
+        public static final int aboutLibraries_description_text=0x7f09008f;
+        public static final int about_reminder=0x7f09050b;
         /**  STRING FOR ZROCK OPTIONS MENU 
          */
-        public static final int action_about=0x7f0904de;
-        public static final int action_all=0x7f0904d7;
-        public static final int action_customactivity=0x7f0904d6;
-        public static final int action_customsortactivity=0x7f0904d5;
-        public static final int action_defined=0x7f0904da;
-        public static final int action_extendactivity=0x7f0904d4;
-        public static final int action_external=0x7f0904d9;
-        public static final int action_github=0x7f0904e0;
-        public static final int action_internal=0x7f0904d8;
-        public static final int action_manifestactivity=0x7f0904d3;
-        public static final int action_opensource=0x7f0904db;
-        public static final int action_settings=0x7f0904df;
-        public static final int app_activity_engine=0x7f0904c2;
-        public static final int app_activity_engine_appupdater=0x7f0904c3;
-        public static final int app_activity_engine_backup=0x7f0904c6;
-        public static final int app_activity_engine_device_info=0x7f0904d0;
-        public static final int app_activity_engine_editor=0x7f0904c9;
-        public static final int app_activity_engine_flashing=0x7f0904cb;
-        public static final int app_activity_engine_installer=0x7f0904c4;
-        public static final int app_activity_engine_libraries=0x7f0904ca;
-        public static final int app_activity_engine_monitor=0x7f0904c7;
-        public static final int app_activity_engine_monitoring=0x7f0904ce;
-        public static final int app_activity_engine_package=0x7f0904cf;
-        public static final int app_activity_engine_plugin=0x7f0904c8;
-        public static final int app_activity_engine_recovery=0x7f0904cc;
-        public static final int app_activity_engine_tweaks=0x7f0904cd;
-        public static final int app_activity_engine_uninstaller=0x7f0904c5;
-        public static final int app_activity_engine_zrock_package=0x7f0904d1;
+        public static final int action_about=0x7f0904e1;
+        public static final int action_all=0x7f0904da;
+        public static final int action_customactivity=0x7f0904d9;
+        public static final int action_customsortactivity=0x7f0904d8;
+        public static final int action_defined=0x7f0904dd;
+        public static final int action_extendactivity=0x7f0904d7;
+        public static final int action_external=0x7f0904dc;
+        public static final int action_github=0x7f0904e3;
+        public static final int action_internal=0x7f0904db;
+        public static final int action_manifestactivity=0x7f0904d6;
+        public static final int action_opensource=0x7f0904de;
+        public static final int action_settings=0x7f0904e2;
+        public static final int app_activity_engine=0x7f0904c5;
+        public static final int app_activity_engine_appupdater=0x7f0904c6;
+        public static final int app_activity_engine_backup=0x7f0904c9;
+        public static final int app_activity_engine_device_info=0x7f0904d3;
+        public static final int app_activity_engine_editor=0x7f0904cc;
+        public static final int app_activity_engine_flashing=0x7f0904ce;
+        public static final int app_activity_engine_installer=0x7f0904c7;
+        public static final int app_activity_engine_libraries=0x7f0904cd;
+        public static final int app_activity_engine_monitor=0x7f0904ca;
+        public static final int app_activity_engine_monitoring=0x7f0904d1;
+        public static final int app_activity_engine_package=0x7f0904d2;
+        public static final int app_activity_engine_plugin=0x7f0904cb;
+        public static final int app_activity_engine_recovery=0x7f0904cf;
+        public static final int app_activity_engine_tweaks=0x7f0904d0;
+        public static final int app_activity_engine_uninstaller=0x7f0904c8;
+        public static final int app_activity_engine_zrock_package=0x7f0904d4;
         public static final int app_name=0x7f090000;
+        public static final int app_version_reminder=0x7f09050c;
         public static final int appbar_scrolling_view_behavior=0x7f09004b;
         public static final int appupdater_btn_disable=0x7f090085;
         public static final int appupdater_btn_dismiss=0x7f090086;
@@ -4647,177 +4662,188 @@ containing a value of this type.
         public static final int appupdater_update_available_description_snackbar=0x7f090080;
         public static final int appupdater_update_not_available=0x7f090082;
         public static final int appupdater_update_not_available_description=0x7f090083;
-        public static final int april=0x7f0904ec;
-        public static final int august=0x7f0904f0;
-        public static final int auto_dismiss=0x7f0904fb;
-        public static final int blur_downscale=0x7f0904fd;
-        public static final int blur_radius=0x7f0904fc;
+        public static final int april=0x7f0904ef;
+        public static final int august=0x7f0904f3;
+        public static final int auto_dismiss=0x7f0904fe;
+        public static final int blur_downscale=0x7f090500;
+        public static final int blur_radius=0x7f0904ff;
         public static final int bottom_sheet_behavior=0x7f09004c;
         public static final int character_counter_pattern=0x7f09004d;
-        public static final int december=0x7f0904f4;
-        public static final int define_AboutLibraries=0x7f090093;
+        public static final int choose_date=0x7f090508;
+        public static final int choose_time=0x7f090509;
+        public static final int clear_input=0x7f090503;
+        public static final int contact_me=0x7f09050d;
+        public static final int date_error_check_again=0x7f090511;
+        public static final int date_reminder_default=0x7f090510;
+        public static final int december=0x7f0904f7;
+        public static final int define_AboutLibraries=0x7f090096;
         public static final int define_AndroidIconics=0x7f090001;
         public static final int define_appupdater=0x7f090074;
-        public static final int define_int_ActionBarPullToRefresh=0x7f09009f;
-        public static final int define_int_ActionBarSherlock=0x7f0900ab;
-        public static final int define_int_ActiveAndroid=0x7f0900b9;
-        public static final int define_int_AndroidTimesSquare=0x7f090144;
-        public static final int define_int_AndroidViewPagerIndicator=0x7f090171;
-        public static final int define_int_AppCompat=0x7f09017e;
-        public static final int define_int_Butterknife=0x7f090196;
-        public static final int define_int_Crashlytics=0x7f0901e8;
-        public static final int define_int_Crouton=0x7f0901f4;
-        public static final int define_int_Dagger=0x7f09020d;
-        public static final int define_int_Dagger2=0x7f090201;
-        public static final int define_int_ErrorView=0x7f090224;
-        public static final int define_int_Eventbus=0x7f09022f;
-        public static final int define_int_FButton=0x7f090247;
-        public static final int define_int_Facebook=0x7f09023b;
-        public static final int define_int_FloatingActionButton=0x7f090254;
-        public static final int define_int_GooglePlayServices=0x7f09026a;
-        public static final int define_int_HoloGraphLibrary=0x7f0902ad;
-        public static final int define_int_Jsoup=0x7f0902e8;
-        public static final int define_int_LeakCanary=0x7f0902fe;
-        public static final int define_int_MaterialRangeBar=0x7f090341;
-        public static final int define_int_NineOldAndroids=0x7f090357;
-        public static final int define_int_OkHttp=0x7f09036f;
-        public static final int define_int_Otto=0x7f090386;
-        public static final int define_int_PagerSlidingTabStrip=0x7f090390;
-        public static final int define_int_Paralloid=0x7f09039c;
-        public static final int define_int_Picasso=0x7f0903b5;
-        public static final int define_int_Retrofit=0x7f0903f6;
-        public static final int define_int_ShowcaseView=0x7f09042d;
-        public static final int define_int_Smoothprogressbar=0x7f09043a;
-        public static final int define_int_SuperRecyclerView=0x7f09045c;
-        public static final int define_int_SupportLibrary=0x7f090467;
-        public static final int define_int_Timber=0x7f090493;
-        public static final int define_int_WilliamChart=0x7f09049f;
-        public static final int define_int_alexei=0x7f0900c6;
-        public static final int define_int_androidBetterpickers=0x7f0900e6;
-        public static final int define_int_androidIconify=0x7f090114;
-        public static final int define_int_androidStyledDialogs=0x7f090137;
-        public static final int define_int_androidannotations=0x7f0900d1;
-        public static final int define_int_androidasyncservice=0x7f0900db;
-        public static final int define_int_androidcountrypicker=0x7f0900f3;
-        public static final int define_int_androideasingfunctions=0x7f0900fe;
-        public static final int define_int_androidflowlayout=0x7f090109;
-        public static final int define_int_androidroundcornerprogressbar=0x7f090121;
-        public static final int define_int_androidslidinguppanel=0x7f09012c;
-        public static final int define_int_androidswipelayout=0x7f090472;
-        public static final int define_int_androiduniversalimageloader=0x7f090150;
-        public static final int define_int_androidviewanimations=0x7f09015b;
-        public static final int define_int_androidviewhover=0x7f090166;
-        public static final int define_int_bottomsheet=0x7f090189;
-        public static final int define_int_caldroid=0x7f0901a2;
-        public static final int define_int_calligraphy=0x7f0901af;
-        public static final int define_int_cardsuiForAndroid=0x7f0901ba;
-        public static final int define_int_circleindicator=0x7f0901c7;
-        public static final int define_int_colorpickercollection=0x7f0901d2;
-        public static final int define_int_commonsio=0x7f0901dd;
-        public static final int define_int_dynamicrecyclerview=0x7f090219;
-        public static final int define_int_foursquareAndroidOauth=0x7f09025e;
-        public static final int define_int_greendao=0x7f090275;
-        public static final int define_int_gson=0x7f090280;
-        public static final int define_int_gsonjodatimeserialisers=0x7f09028c;
-        public static final int define_int_guava=0x7f090297;
-        public static final int define_int_hellocharts=0x7f0902a2;
-        public static final int define_int_ion=0x7f0902ba;
-        public static final int define_int_jackson=0x7f0902c5;
-        public static final int define_int_jodaTime=0x7f0902d0;
-        public static final int define_int_jodatimeandroid=0x7f0902dd;
-        public static final int define_int_ldialogs=0x7f0902f3;
-        public static final int define_int_libphonenumber=0x7f090309;
-        public static final int define_int_materialdialogs=0x7f090313;
-        public static final int define_int_materialedittext=0x7f09031e;
-        public static final int define_int_materialicons=0x7f090329;
-        public static final int define_int_materialmenu=0x7f090334;
-        public static final int define_int_mpandroidchart=0x7f09034c;
-        public static final int define_int_observablescrollview=0x7f090364;
-        public static final int define_int_ollie=0x7f09037b;
-        public static final int define_int_paymill=0x7f0903a8;
-        public static final int define_int_priorityjobqueue=0x7f0903c1;
-        public static final int define_int_qcircledesigntemplate=0x7f0903cc;
-        public static final int define_int_qslide=0x7f0903d7;
-        public static final int define_int_rebound=0x7f0903e0;
-        public static final int define_int_recyclerviewanimators=0x7f0903eb;
-        public static final int define_int_robotocalendarview=0x7f090402;
-        public static final int define_int_rxJavaAndroid=0x7f090423;
-        public static final int define_int_rxandroid=0x7f09040d;
-        public static final int define_int_rxjava=0x7f090418;
-        public static final int define_int_snackbar=0x7f090446;
-        public static final int define_int_sugarorm=0x7f090451;
-        public static final int define_int_systembartint=0x7f09047d;
-        public static final int define_int_textdrawable=0x7f090488;
-        public static final int define_license_Apache_2_0=0x7f0904ae;
-        public static final int define_license_bsd_2=0x7f0904b3;
-        public static final int define_license_bsd_3=0x7f0904b8;
-        public static final int define_license_cc30=0x7f0904a9;
-        public static final int define_license_mit=0x7f0904bd;
+        public static final int define_int_ActionBarPullToRefresh=0x7f0900a2;
+        public static final int define_int_ActionBarSherlock=0x7f0900ae;
+        public static final int define_int_ActiveAndroid=0x7f0900bc;
+        public static final int define_int_AndroidTimesSquare=0x7f090147;
+        public static final int define_int_AndroidViewPagerIndicator=0x7f090174;
+        public static final int define_int_AppCompat=0x7f090181;
+        public static final int define_int_Butterknife=0x7f090199;
+        public static final int define_int_Crashlytics=0x7f0901eb;
+        public static final int define_int_Crouton=0x7f0901f7;
+        public static final int define_int_Dagger=0x7f090210;
+        public static final int define_int_Dagger2=0x7f090204;
+        public static final int define_int_ErrorView=0x7f090227;
+        public static final int define_int_Eventbus=0x7f090232;
+        public static final int define_int_FButton=0x7f09024a;
+        public static final int define_int_Facebook=0x7f09023e;
+        public static final int define_int_FloatingActionButton=0x7f090257;
+        public static final int define_int_GooglePlayServices=0x7f09026d;
+        public static final int define_int_HoloGraphLibrary=0x7f0902b0;
+        public static final int define_int_Jsoup=0x7f0902eb;
+        public static final int define_int_LeakCanary=0x7f090301;
+        public static final int define_int_MaterialRangeBar=0x7f090344;
+        public static final int define_int_NineOldAndroids=0x7f09035a;
+        public static final int define_int_OkHttp=0x7f090372;
+        public static final int define_int_Otto=0x7f090389;
+        public static final int define_int_PagerSlidingTabStrip=0x7f090393;
+        public static final int define_int_Paralloid=0x7f09039f;
+        public static final int define_int_Picasso=0x7f0903b8;
+        public static final int define_int_Retrofit=0x7f0903f9;
+        public static final int define_int_ShowcaseView=0x7f090430;
+        public static final int define_int_Smoothprogressbar=0x7f09043d;
+        public static final int define_int_SuperRecyclerView=0x7f09045f;
+        public static final int define_int_SupportLibrary=0x7f09046a;
+        public static final int define_int_Timber=0x7f090496;
+        public static final int define_int_WilliamChart=0x7f0904a2;
+        public static final int define_int_alexei=0x7f0900c9;
+        public static final int define_int_androidBetterpickers=0x7f0900e9;
+        public static final int define_int_androidIconify=0x7f090117;
+        public static final int define_int_androidStyledDialogs=0x7f09013a;
+        public static final int define_int_androidannotations=0x7f0900d4;
+        public static final int define_int_androidasyncservice=0x7f0900de;
+        public static final int define_int_androidcountrypicker=0x7f0900f6;
+        public static final int define_int_androideasingfunctions=0x7f090101;
+        public static final int define_int_androidflowlayout=0x7f09010c;
+        public static final int define_int_androidroundcornerprogressbar=0x7f090124;
+        public static final int define_int_androidslidinguppanel=0x7f09012f;
+        public static final int define_int_androidswipelayout=0x7f090475;
+        public static final int define_int_androiduniversalimageloader=0x7f090153;
+        public static final int define_int_androidviewanimations=0x7f09015e;
+        public static final int define_int_androidviewhover=0x7f090169;
+        public static final int define_int_bottomsheet=0x7f09018c;
+        public static final int define_int_caldroid=0x7f0901a5;
+        public static final int define_int_calligraphy=0x7f0901b2;
+        public static final int define_int_cardsuiForAndroid=0x7f0901bd;
+        public static final int define_int_circleindicator=0x7f0901ca;
+        public static final int define_int_colorpickercollection=0x7f0901d5;
+        public static final int define_int_commonsio=0x7f0901e0;
+        public static final int define_int_dynamicrecyclerview=0x7f09021c;
+        public static final int define_int_foursquareAndroidOauth=0x7f090261;
+        public static final int define_int_greendao=0x7f090278;
+        public static final int define_int_gson=0x7f090283;
+        public static final int define_int_gsonjodatimeserialisers=0x7f09028f;
+        public static final int define_int_guava=0x7f09029a;
+        public static final int define_int_hellocharts=0x7f0902a5;
+        public static final int define_int_ion=0x7f0902bd;
+        public static final int define_int_jackson=0x7f0902c8;
+        public static final int define_int_jodaTime=0x7f0902d3;
+        public static final int define_int_jodatimeandroid=0x7f0902e0;
+        public static final int define_int_ldialogs=0x7f0902f6;
+        public static final int define_int_libphonenumber=0x7f09030c;
+        public static final int define_int_materialdialogs=0x7f090316;
+        public static final int define_int_materialedittext=0x7f090321;
+        public static final int define_int_materialicons=0x7f09032c;
+        public static final int define_int_materialmenu=0x7f090337;
+        public static final int define_int_mpandroidchart=0x7f09034f;
+        public static final int define_int_observablescrollview=0x7f090367;
+        public static final int define_int_ollie=0x7f09037e;
+        public static final int define_int_paymill=0x7f0903ab;
+        public static final int define_int_priorityjobqueue=0x7f0903c4;
+        public static final int define_int_qcircledesigntemplate=0x7f0903cf;
+        public static final int define_int_qslide=0x7f0903da;
+        public static final int define_int_rebound=0x7f0903e3;
+        public static final int define_int_recyclerviewanimators=0x7f0903ee;
+        public static final int define_int_robotocalendarview=0x7f090405;
+        public static final int define_int_rxJavaAndroid=0x7f090426;
+        public static final int define_int_rxandroid=0x7f090410;
+        public static final int define_int_rxjava=0x7f09041b;
+        public static final int define_int_snackbar=0x7f090449;
+        public static final int define_int_sugarorm=0x7f090454;
+        public static final int define_int_systembartint=0x7f090480;
+        public static final int define_int_textdrawable=0x7f09048b;
+        public static final int define_license_Apache_2_0=0x7f0904b1;
+        public static final int define_license_bsd_2=0x7f0904b6;
+        public static final int define_license_bsd_3=0x7f0904bb;
+        public static final int define_license_cc30=0x7f0904ac;
+        public static final int define_license_mit=0x7f0904c0;
         public static final int define_materialdrawer=0x7f09000d;
+        public static final int description=0x7f090515;
+        public static final int done=0x7f090504;
+        public static final int done_label=0x7f09050f;
         public static final int drawer_close=0x7f09000e;
         public static final int drawer_open=0x7f09000f;
-        public static final int february=0x7f0904ea;
-        public static final int hello_mil=0x7f0904e6;
-        public static final int items_clickables=0x7f0904fa;
-        public static final int january=0x7f0904e9;
-        public static final int july=0x7f0904ef;
-        public static final int june=0x7f0904ee;
-        public static final int label_action_share=0x7f0904e7;
-        public static final int library_AboutLibraries_author=0x7f090094;
-        public static final int library_AboutLibraries_authorWebsite=0x7f090095;
-        public static final int library_AboutLibraries_isOpenSource=0x7f09009b;
-        public static final int library_AboutLibraries_libraryDescription=0x7f090097;
-        public static final int library_AboutLibraries_libraryName=0x7f090096;
-        public static final int library_AboutLibraries_libraryVersion=0x7f090098;
-        public static final int library_AboutLibraries_libraryWebsite=0x7f090099;
-        public static final int library_AboutLibraries_licenseId=0x7f09009a;
+        public static final int email_address=0x7f090089;
+        public static final int example=0x7f09008b;
+        public static final int february=0x7f0904ed;
+        public static final int hello_mil=0x7f0904e9;
+        public static final int items_clickables=0x7f0904fd;
+        public static final int january=0x7f0904ec;
+        public static final int july=0x7f0904f2;
+        public static final int june=0x7f0904f1;
+        public static final int label_action_share=0x7f0904ea;
+        public static final int library_AboutLibraries_author=0x7f090097;
+        public static final int library_AboutLibraries_authorWebsite=0x7f090098;
+        public static final int library_AboutLibraries_isOpenSource=0x7f09009e;
+        public static final int library_AboutLibraries_libraryDescription=0x7f09009a;
+        public static final int library_AboutLibraries_libraryName=0x7f090099;
+        public static final int library_AboutLibraries_libraryVersion=0x7f09009b;
+        public static final int library_AboutLibraries_libraryWebsite=0x7f09009c;
+        public static final int library_AboutLibraries_licenseId=0x7f09009d;
         /**  Custom variables section 
          */
-        public static final int library_AboutLibraries_owner=0x7f09009d;
-        public static final int library_AboutLibraries_repositoryLink=0x7f09009c;
-        public static final int library_AboutLibraries_year=0x7f09009e;
-        public static final int library_ActionBarPullToRefresh_author=0x7f0900a0;
-        public static final int library_ActionBarPullToRefresh_classPath=0x7f0900a8;
-        public static final int library_ActionBarPullToRefresh_isOpenSource=0x7f0900a6;
-        public static final int library_ActionBarPullToRefresh_libraryDescription=0x7f0900a2;
-        public static final int library_ActionBarPullToRefresh_libraryName=0x7f0900a1;
-        public static final int library_ActionBarPullToRefresh_libraryVersion=0x7f0900a3;
-        public static final int library_ActionBarPullToRefresh_libraryWebsite=0x7f0900a4;
-        public static final int library_ActionBarPullToRefresh_licenseId=0x7f0900a5;
+        public static final int library_AboutLibraries_owner=0x7f0900a0;
+        public static final int library_AboutLibraries_repositoryLink=0x7f09009f;
+        public static final int library_AboutLibraries_year=0x7f0900a1;
+        public static final int library_ActionBarPullToRefresh_author=0x7f0900a3;
+        public static final int library_ActionBarPullToRefresh_classPath=0x7f0900ab;
+        public static final int library_ActionBarPullToRefresh_isOpenSource=0x7f0900a9;
+        public static final int library_ActionBarPullToRefresh_libraryDescription=0x7f0900a5;
+        public static final int library_ActionBarPullToRefresh_libraryName=0x7f0900a4;
+        public static final int library_ActionBarPullToRefresh_libraryVersion=0x7f0900a6;
+        public static final int library_ActionBarPullToRefresh_libraryWebsite=0x7f0900a7;
+        public static final int library_ActionBarPullToRefresh_licenseId=0x7f0900a8;
         /**  Custom variables section 
          */
-        public static final int library_ActionBarPullToRefresh_owner=0x7f0900a9;
-        public static final int library_ActionBarPullToRefresh_repositoryLink=0x7f0900a7;
-        public static final int library_ActionBarPullToRefresh_year=0x7f0900aa;
-        public static final int library_ActionBarSherlock_author=0x7f0900ac;
-        public static final int library_ActionBarSherlock_authorWebsite=0x7f0900ad;
-        public static final int library_ActionBarSherlock_classPath=0x7f0900b6;
-        public static final int library_ActionBarSherlock_isOpenSource=0x7f0900b4;
-        public static final int library_ActionBarSherlock_libraryDescription=0x7f0900af;
-        public static final int library_ActionBarSherlock_libraryName=0x7f0900ae;
-        public static final int library_ActionBarSherlock_libraryVersion=0x7f0900b0;
-        public static final int library_ActionBarSherlock_libraryWebsite=0x7f0900b1;
-        public static final int library_ActionBarSherlock_licenseId=0x7f0900b3;
-        public static final int library_ActionBarSherlock_licenseVersion=0x7f0900b2;
+        public static final int library_ActionBarPullToRefresh_owner=0x7f0900ac;
+        public static final int library_ActionBarPullToRefresh_repositoryLink=0x7f0900aa;
+        public static final int library_ActionBarPullToRefresh_year=0x7f0900ad;
+        public static final int library_ActionBarSherlock_author=0x7f0900af;
+        public static final int library_ActionBarSherlock_authorWebsite=0x7f0900b0;
+        public static final int library_ActionBarSherlock_classPath=0x7f0900b9;
+        public static final int library_ActionBarSherlock_isOpenSource=0x7f0900b7;
+        public static final int library_ActionBarSherlock_libraryDescription=0x7f0900b2;
+        public static final int library_ActionBarSherlock_libraryName=0x7f0900b1;
+        public static final int library_ActionBarSherlock_libraryVersion=0x7f0900b3;
+        public static final int library_ActionBarSherlock_libraryWebsite=0x7f0900b4;
+        public static final int library_ActionBarSherlock_licenseId=0x7f0900b6;
+        public static final int library_ActionBarSherlock_licenseVersion=0x7f0900b5;
         /**  Custom variables section 
          */
-        public static final int library_ActionBarSherlock_owner=0x7f0900b7;
-        public static final int library_ActionBarSherlock_repositoryLink=0x7f0900b5;
-        public static final int library_ActionBarSherlock_year=0x7f0900b8;
-        public static final int library_ActiveAndroid_author=0x7f0900ba;
-        public static final int library_ActiveAndroid_authorWebsite=0x7f0900bb;
-        public static final int library_ActiveAndroid_classPath=0x7f0900c3;
-        public static final int library_ActiveAndroid_isOpenSource=0x7f0900c1;
-        public static final int library_ActiveAndroid_libraryDescription=0x7f0900bd;
-        public static final int library_ActiveAndroid_libraryName=0x7f0900bc;
-        public static final int library_ActiveAndroid_libraryVersion=0x7f0900be;
-        public static final int library_ActiveAndroid_libraryWebsite=0x7f0900bf;
-        public static final int library_ActiveAndroid_licenseId=0x7f0900c0;
+        public static final int library_ActionBarSherlock_owner=0x7f0900ba;
+        public static final int library_ActionBarSherlock_repositoryLink=0x7f0900b8;
+        public static final int library_ActionBarSherlock_year=0x7f0900bb;
+        public static final int library_ActiveAndroid_author=0x7f0900bd;
+        public static final int library_ActiveAndroid_authorWebsite=0x7f0900be;
+        public static final int library_ActiveAndroid_classPath=0x7f0900c6;
+        public static final int library_ActiveAndroid_isOpenSource=0x7f0900c4;
+        public static final int library_ActiveAndroid_libraryDescription=0x7f0900c0;
+        public static final int library_ActiveAndroid_libraryName=0x7f0900bf;
+        public static final int library_ActiveAndroid_libraryVersion=0x7f0900c1;
+        public static final int library_ActiveAndroid_libraryWebsite=0x7f0900c2;
+        public static final int library_ActiveAndroid_licenseId=0x7f0900c3;
         /**  Custom variables section 
          */
-        public static final int library_ActiveAndroid_owner=0x7f0900c4;
-        public static final int library_ActiveAndroid_repositoryLink=0x7f0900c2;
-        public static final int library_ActiveAndroid_year=0x7f0900c5;
+        public static final int library_ActiveAndroid_owner=0x7f0900c7;
+        public static final int library_ActiveAndroid_repositoryLink=0x7f0900c5;
+        public static final int library_ActiveAndroid_year=0x7f0900c8;
         public static final int library_AndroidIconics_author=0x7f090002;
         public static final int library_AndroidIconics_authorWebsite=0x7f090003;
         public static final int library_AndroidIconics_isOpenSource=0x7f090004;
@@ -4829,676 +4855,676 @@ containing a value of this type.
         public static final int library_AndroidIconics_owner=0x7f09000a;
         public static final int library_AndroidIconics_repositoryLink=0x7f09000b;
         public static final int library_AndroidIconics_year=0x7f09000c;
-        public static final int library_AndroidTimesSquare_author=0x7f090145;
-        public static final int library_AndroidTimesSquare_classPath=0x7f09014d;
-        public static final int library_AndroidTimesSquare_isOpenSource=0x7f09014b;
-        public static final int library_AndroidTimesSquare_libraryDescription=0x7f090147;
-        public static final int library_AndroidTimesSquare_libraryName=0x7f090146;
-        public static final int library_AndroidTimesSquare_libraryVersion=0x7f090148;
-        public static final int library_AndroidTimesSquare_libraryWebsite=0x7f090149;
-        public static final int library_AndroidTimesSquare_licenseId=0x7f09014a;
+        public static final int library_AndroidTimesSquare_author=0x7f090148;
+        public static final int library_AndroidTimesSquare_classPath=0x7f090150;
+        public static final int library_AndroidTimesSquare_isOpenSource=0x7f09014e;
+        public static final int library_AndroidTimesSquare_libraryDescription=0x7f09014a;
+        public static final int library_AndroidTimesSquare_libraryName=0x7f090149;
+        public static final int library_AndroidTimesSquare_libraryVersion=0x7f09014b;
+        public static final int library_AndroidTimesSquare_libraryWebsite=0x7f09014c;
+        public static final int library_AndroidTimesSquare_licenseId=0x7f09014d;
         /**  Custom variables section 
          */
-        public static final int library_AndroidTimesSquare_owner=0x7f09014e;
-        public static final int library_AndroidTimesSquare_repositoryLink=0x7f09014c;
-        public static final int library_AndroidTimesSquare_year=0x7f09014f;
-        public static final int library_AndroidViewPagerIndicator_author=0x7f090172;
-        public static final int library_AndroidViewPagerIndicator_authorWebsite=0x7f090173;
-        public static final int library_AndroidViewPagerIndicator_classPath=0x7f09017b;
-        public static final int library_AndroidViewPagerIndicator_isOpenSource=0x7f090179;
-        public static final int library_AndroidViewPagerIndicator_libraryDescription=0x7f090175;
-        public static final int library_AndroidViewPagerIndicator_libraryName=0x7f090174;
-        public static final int library_AndroidViewPagerIndicator_libraryVersion=0x7f090176;
-        public static final int library_AndroidViewPagerIndicator_libraryWebsite=0x7f090177;
+        public static final int library_AndroidTimesSquare_owner=0x7f090151;
+        public static final int library_AndroidTimesSquare_repositoryLink=0x7f09014f;
+        public static final int library_AndroidTimesSquare_year=0x7f090152;
+        public static final int library_AndroidViewPagerIndicator_author=0x7f090175;
+        public static final int library_AndroidViewPagerIndicator_authorWebsite=0x7f090176;
+        public static final int library_AndroidViewPagerIndicator_classPath=0x7f09017e;
+        public static final int library_AndroidViewPagerIndicator_isOpenSource=0x7f09017c;
+        public static final int library_AndroidViewPagerIndicator_libraryDescription=0x7f090178;
+        public static final int library_AndroidViewPagerIndicator_libraryName=0x7f090177;
+        public static final int library_AndroidViewPagerIndicator_libraryVersion=0x7f090179;
+        public static final int library_AndroidViewPagerIndicator_libraryWebsite=0x7f09017a;
         /**  Custom variables section 
          */
-        public static final int library_AndroidViewPagerIndicator_owner=0x7f09017c;
-        public static final int library_AndroidViewPagerIndicator_repositoryLink=0x7f09017a;
-        public static final int library_AndroidViewPagerIndicator_year=0x7f09017d;
-        public static final int library_AndroidViewPager_licenseId=0x7f090178;
-        public static final int library_AppCompat_author=0x7f09017f;
-        public static final int library_AppCompat_authorWebsite=0x7f090180;
-        public static final int library_AppCompat_isOpenSource=0x7f090185;
-        public static final int library_AppCompat_libraryDescription=0x7f090182;
-        public static final int library_AppCompat_libraryName=0x7f090181;
-        public static final int library_AppCompat_libraryWebsite=0x7f090183;
-        public static final int library_AppCompat_licenseId=0x7f090184;
+        public static final int library_AndroidViewPagerIndicator_owner=0x7f09017f;
+        public static final int library_AndroidViewPagerIndicator_repositoryLink=0x7f09017d;
+        public static final int library_AndroidViewPagerIndicator_year=0x7f090180;
+        public static final int library_AndroidViewPager_licenseId=0x7f09017b;
+        public static final int library_AppCompat_author=0x7f090182;
+        public static final int library_AppCompat_authorWebsite=0x7f090183;
+        public static final int library_AppCompat_isOpenSource=0x7f090188;
+        public static final int library_AppCompat_libraryDescription=0x7f090185;
+        public static final int library_AppCompat_libraryName=0x7f090184;
+        public static final int library_AppCompat_libraryWebsite=0x7f090186;
+        public static final int library_AppCompat_licenseId=0x7f090187;
         /**  Custom variables section 
          */
-        public static final int library_AppCompat_owner=0x7f090187;
-        public static final int library_AppCompat_repositoryLink=0x7f090186;
-        public static final int library_AppCompat_year=0x7f090188;
-        public static final int library_Butterknife_author=0x7f090197;
-        public static final int library_Butterknife_classPath=0x7f09019f;
-        public static final int library_Butterknife_isOpenSource=0x7f09019d;
-        public static final int library_Butterknife_libraryDescription=0x7f090199;
-        public static final int library_Butterknife_libraryName=0x7f090198;
-        public static final int library_Butterknife_libraryVersion=0x7f09019a;
-        public static final int library_Butterknife_libraryWebsite=0x7f09019b;
-        public static final int library_Butterknife_licenseId=0x7f09019c;
+        public static final int library_AppCompat_owner=0x7f09018a;
+        public static final int library_AppCompat_repositoryLink=0x7f090189;
+        public static final int library_AppCompat_year=0x7f09018b;
+        public static final int library_Butterknife_author=0x7f09019a;
+        public static final int library_Butterknife_classPath=0x7f0901a2;
+        public static final int library_Butterknife_isOpenSource=0x7f0901a0;
+        public static final int library_Butterknife_libraryDescription=0x7f09019c;
+        public static final int library_Butterknife_libraryName=0x7f09019b;
+        public static final int library_Butterknife_libraryVersion=0x7f09019d;
+        public static final int library_Butterknife_libraryWebsite=0x7f09019e;
+        public static final int library_Butterknife_licenseId=0x7f09019f;
         /**  Custom variables section 
          */
-        public static final int library_Butterknife_owner=0x7f0901a0;
-        public static final int library_Butterknife_repositoryLink=0x7f09019e;
-        public static final int library_Butterknife_year=0x7f0901a1;
-        public static final int library_Crashlytics_author=0x7f0901e9;
-        public static final int library_Crashlytics_authorWebsite=0x7f0901ea;
-        public static final int library_Crashlytics_classPath=0x7f0901eb;
-        public static final int library_Crashlytics_isOpenSource=0x7f0901f0;
-        public static final int library_Crashlytics_libraryDescription=0x7f0901ed;
-        public static final int library_Crashlytics_libraryName=0x7f0901ec;
-        public static final int library_Crashlytics_libraryWebsite=0x7f0901ee;
-        public static final int library_Crashlytics_licenseId=0x7f0901ef;
+        public static final int library_Butterknife_owner=0x7f0901a3;
+        public static final int library_Butterknife_repositoryLink=0x7f0901a1;
+        public static final int library_Butterknife_year=0x7f0901a4;
+        public static final int library_Crashlytics_author=0x7f0901ec;
+        public static final int library_Crashlytics_authorWebsite=0x7f0901ed;
+        public static final int library_Crashlytics_classPath=0x7f0901ee;
+        public static final int library_Crashlytics_isOpenSource=0x7f0901f3;
+        public static final int library_Crashlytics_libraryDescription=0x7f0901f0;
+        public static final int library_Crashlytics_libraryName=0x7f0901ef;
+        public static final int library_Crashlytics_libraryWebsite=0x7f0901f1;
+        public static final int library_Crashlytics_licenseId=0x7f0901f2;
         /**  Custom variables section 
          */
-        public static final int library_Crashlytics_owner=0x7f0901f2;
-        public static final int library_Crashlytics_repositoryLink=0x7f0901f1;
-        public static final int library_Crashlytics_year=0x7f0901f3;
-        public static final int library_Crouton_author=0x7f0901f5;
-        public static final int library_Crouton_authorWebsite=0x7f0901f6;
-        public static final int library_Crouton_classPath=0x7f0901fe;
-        public static final int library_Crouton_isOpenSource=0x7f0901fc;
-        public static final int library_Crouton_libraryDescription=0x7f0901f8;
-        public static final int library_Crouton_libraryName=0x7f0901f7;
-        public static final int library_Crouton_libraryVersion=0x7f0901f9;
-        public static final int library_Crouton_libraryWebsite=0x7f0901fa;
-        public static final int library_Crouton_licenseId=0x7f0901fb;
+        public static final int library_Crashlytics_owner=0x7f0901f5;
+        public static final int library_Crashlytics_repositoryLink=0x7f0901f4;
+        public static final int library_Crashlytics_year=0x7f0901f6;
+        public static final int library_Crouton_author=0x7f0901f8;
+        public static final int library_Crouton_authorWebsite=0x7f0901f9;
+        public static final int library_Crouton_classPath=0x7f090201;
+        public static final int library_Crouton_isOpenSource=0x7f0901ff;
+        public static final int library_Crouton_libraryDescription=0x7f0901fb;
+        public static final int library_Crouton_libraryName=0x7f0901fa;
+        public static final int library_Crouton_libraryVersion=0x7f0901fc;
+        public static final int library_Crouton_libraryWebsite=0x7f0901fd;
+        public static final int library_Crouton_licenseId=0x7f0901fe;
         /**  Custom variables section 
          */
-        public static final int library_Crouton_owner=0x7f0901ff;
-        public static final int library_Crouton_repositoryLink=0x7f0901fd;
-        public static final int library_Crouton_year=0x7f090200;
-        public static final int library_Dagger2_author=0x7f090202;
-        public static final int library_Dagger2_classPath=0x7f09020a;
-        public static final int library_Dagger2_isOpenSource=0x7f090208;
-        public static final int library_Dagger2_libraryDescription=0x7f090204;
-        public static final int library_Dagger2_libraryName=0x7f090203;
-        public static final int library_Dagger2_libraryVersion=0x7f090205;
-        public static final int library_Dagger2_libraryWebsite=0x7f090206;
-        public static final int library_Dagger2_licenseId=0x7f090207;
+        public static final int library_Crouton_owner=0x7f090202;
+        public static final int library_Crouton_repositoryLink=0x7f090200;
+        public static final int library_Crouton_year=0x7f090203;
+        public static final int library_Dagger2_author=0x7f090205;
+        public static final int library_Dagger2_classPath=0x7f09020d;
+        public static final int library_Dagger2_isOpenSource=0x7f09020b;
+        public static final int library_Dagger2_libraryDescription=0x7f090207;
+        public static final int library_Dagger2_libraryName=0x7f090206;
+        public static final int library_Dagger2_libraryVersion=0x7f090208;
+        public static final int library_Dagger2_libraryWebsite=0x7f090209;
+        public static final int library_Dagger2_licenseId=0x7f09020a;
         /**  Custom variables section 
          */
-        public static final int library_Dagger2_owner=0x7f09020b;
-        public static final int library_Dagger2_repositoryLink=0x7f090209;
-        public static final int library_Dagger2_year=0x7f09020c;
-        public static final int library_Dagger_author=0x7f09020e;
-        public static final int library_Dagger_classPath=0x7f090216;
-        public static final int library_Dagger_isOpenSource=0x7f090214;
-        public static final int library_Dagger_libraryDescription=0x7f090210;
-        public static final int library_Dagger_libraryName=0x7f09020f;
-        public static final int library_Dagger_libraryVersion=0x7f090211;
-        public static final int library_Dagger_libraryWebsite=0x7f090212;
-        public static final int library_Dagger_licenseId=0x7f090213;
+        public static final int library_Dagger2_owner=0x7f09020e;
+        public static final int library_Dagger2_repositoryLink=0x7f09020c;
+        public static final int library_Dagger2_year=0x7f09020f;
+        public static final int library_Dagger_author=0x7f090211;
+        public static final int library_Dagger_classPath=0x7f090219;
+        public static final int library_Dagger_isOpenSource=0x7f090217;
+        public static final int library_Dagger_libraryDescription=0x7f090213;
+        public static final int library_Dagger_libraryName=0x7f090212;
+        public static final int library_Dagger_libraryVersion=0x7f090214;
+        public static final int library_Dagger_libraryWebsite=0x7f090215;
+        public static final int library_Dagger_licenseId=0x7f090216;
         /**  Custom variables section 
          */
-        public static final int library_Dagger_owner=0x7f090217;
-        public static final int library_Dagger_repositoryLink=0x7f090215;
-        public static final int library_Dagger_year=0x7f090218;
+        public static final int library_Dagger_owner=0x7f09021a;
+        public static final int library_Dagger_repositoryLink=0x7f090218;
+        public static final int library_Dagger_year=0x7f09021b;
         /**  Author section 
          */
-        public static final int library_ErrorView_author=0x7f090225;
-        public static final int library_ErrorView_authorWebsite=0x7f090226;
+        public static final int library_ErrorView_author=0x7f090228;
+        public static final int library_ErrorView_authorWebsite=0x7f090229;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_ErrorView_classPath=0x7f09022d;
+        public static final int library_ErrorView_classPath=0x7f090230;
         /**  OpenSource section 
          */
-        public static final int library_ErrorView_isOpenSource=0x7f09022b;
-        public static final int library_ErrorView_libraryDescription=0x7f090228;
+        public static final int library_ErrorView_isOpenSource=0x7f09022e;
+        public static final int library_ErrorView_libraryDescription=0x7f09022b;
         /**  Library section 
          */
-        public static final int library_ErrorView_libraryName=0x7f090227;
-        public static final int library_ErrorView_libraryVersion=0x7f09022a;
-        public static final int library_ErrorView_libraryWebsite=0x7f090229;
+        public static final int library_ErrorView_libraryName=0x7f09022a;
+        public static final int library_ErrorView_libraryVersion=0x7f09022d;
+        public static final int library_ErrorView_libraryWebsite=0x7f09022c;
         /**  License section 
          */
-        public static final int library_ErrorView_licenseId=0x7f09022e;
-        public static final int library_ErrorView_repositoryLink=0x7f09022c;
-        public static final int library_Eventbus_author=0x7f090230;
-        public static final int library_Eventbus_classPath=0x7f090238;
-        public static final int library_Eventbus_isOpenSource=0x7f090236;
-        public static final int library_Eventbus_libraryDescription=0x7f090232;
-        public static final int library_Eventbus_libraryName=0x7f090231;
-        public static final int library_Eventbus_libraryVersion=0x7f090233;
-        public static final int library_Eventbus_libraryWebsite=0x7f090234;
-        public static final int library_Eventbus_licenseId=0x7f090235;
+        public static final int library_ErrorView_licenseId=0x7f090231;
+        public static final int library_ErrorView_repositoryLink=0x7f09022f;
+        public static final int library_Eventbus_author=0x7f090233;
+        public static final int library_Eventbus_classPath=0x7f09023b;
+        public static final int library_Eventbus_isOpenSource=0x7f090239;
+        public static final int library_Eventbus_libraryDescription=0x7f090235;
+        public static final int library_Eventbus_libraryName=0x7f090234;
+        public static final int library_Eventbus_libraryVersion=0x7f090236;
+        public static final int library_Eventbus_libraryWebsite=0x7f090237;
+        public static final int library_Eventbus_licenseId=0x7f090238;
         /**  Custom variables section 
          */
-        public static final int library_Eventbus_owner=0x7f090239;
-        public static final int library_Eventbus_repositoryLink=0x7f090237;
-        public static final int library_Eventbus_year=0x7f09023a;
-        public static final int library_FButton_author=0x7f090248;
-        public static final int library_FButton_authorWebsite=0x7f090249;
-        public static final int library_FButton_classPath=0x7f090251;
-        public static final int library_FButton_isOpenSource=0x7f09024f;
-        public static final int library_FButton_libraryDescription=0x7f09024b;
-        public static final int library_FButton_libraryName=0x7f09024a;
-        public static final int library_FButton_libraryVersion=0x7f09024c;
-        public static final int library_FButton_libraryWebsite=0x7f09024d;
-        public static final int library_FButton_licenseId=0x7f09024e;
+        public static final int library_Eventbus_owner=0x7f09023c;
+        public static final int library_Eventbus_repositoryLink=0x7f09023a;
+        public static final int library_Eventbus_year=0x7f09023d;
+        public static final int library_FButton_author=0x7f09024b;
+        public static final int library_FButton_authorWebsite=0x7f09024c;
+        public static final int library_FButton_classPath=0x7f090254;
+        public static final int library_FButton_isOpenSource=0x7f090252;
+        public static final int library_FButton_libraryDescription=0x7f09024e;
+        public static final int library_FButton_libraryName=0x7f09024d;
+        public static final int library_FButton_libraryVersion=0x7f09024f;
+        public static final int library_FButton_libraryWebsite=0x7f090250;
+        public static final int library_FButton_licenseId=0x7f090251;
         /**  Custom variables section 
          */
-        public static final int library_FButton_owner=0x7f090252;
-        public static final int library_FButton_repositoryLink=0x7f090250;
-        public static final int library_FButton_year=0x7f090253;
-        public static final int library_Facebook_author=0x7f09023c;
-        public static final int library_Facebook_authorWebsite=0x7f09023d;
-        public static final int library_Facebook_classPath=0x7f09023e;
-        public static final int library_Facebook_isOpenSource=0x7f090243;
-        public static final int library_Facebook_libraryDescription=0x7f090240;
-        public static final int library_Facebook_libraryName=0x7f09023f;
-        public static final int library_Facebook_libraryWebsite=0x7f090241;
-        public static final int library_Facebook_licenseId=0x7f090242;
+        public static final int library_FButton_owner=0x7f090255;
+        public static final int library_FButton_repositoryLink=0x7f090253;
+        public static final int library_FButton_year=0x7f090256;
+        public static final int library_Facebook_author=0x7f09023f;
+        public static final int library_Facebook_authorWebsite=0x7f090240;
+        public static final int library_Facebook_classPath=0x7f090241;
+        public static final int library_Facebook_isOpenSource=0x7f090246;
+        public static final int library_Facebook_libraryDescription=0x7f090243;
+        public static final int library_Facebook_libraryName=0x7f090242;
+        public static final int library_Facebook_libraryWebsite=0x7f090244;
+        public static final int library_Facebook_licenseId=0x7f090245;
         /**  Custom variables section 
          */
-        public static final int library_Facebook_owner=0x7f090245;
-        public static final int library_Facebook_repositoryLink=0x7f090244;
-        public static final int library_Facebook_year=0x7f090246;
+        public static final int library_Facebook_owner=0x7f090248;
+        public static final int library_Facebook_repositoryLink=0x7f090247;
+        public static final int library_Facebook_year=0x7f090249;
         /**  Author section 
          */
-        public static final int library_FloatingActionButton_author=0x7f090255;
-        public static final int library_FloatingActionButton_authorWebsite=0x7f090256;
+        public static final int library_FloatingActionButton_author=0x7f090258;
+        public static final int library_FloatingActionButton_authorWebsite=0x7f090259;
         /**  OpenSource section 
          */
-        public static final int library_FloatingActionButton_isOpenSource=0x7f09025b;
-        public static final int library_FloatingActionButton_libraryDescription=0x7f090258;
+        public static final int library_FloatingActionButton_isOpenSource=0x7f09025e;
+        public static final int library_FloatingActionButton_libraryDescription=0x7f09025b;
         /**  Library section 
          */
-        public static final int library_FloatingActionButton_libraryName=0x7f090257;
-        public static final int library_FloatingActionButton_libraryVersion=0x7f09025a;
-        public static final int library_FloatingActionButton_libraryWebsite=0x7f090259;
+        public static final int library_FloatingActionButton_libraryName=0x7f09025a;
+        public static final int library_FloatingActionButton_libraryVersion=0x7f09025d;
+        public static final int library_FloatingActionButton_libraryWebsite=0x7f09025c;
         /**  License section 
          */
-        public static final int library_FloatingActionButton_licenseId=0x7f09025d;
-        public static final int library_FloatingActionButton_repositoryLink=0x7f09025c;
-        public static final int library_GooglePlayServices_author=0x7f09026b;
-        public static final int library_GooglePlayServices_authorWebsite=0x7f09026c;
-        public static final int library_GooglePlayServices_isOpenSource=0x7f090271;
-        public static final int library_GooglePlayServices_libraryDescription=0x7f09026e;
-        public static final int library_GooglePlayServices_libraryName=0x7f09026d;
-        public static final int library_GooglePlayServices_libraryWebsite=0x7f09026f;
-        public static final int library_GooglePlayServices_licenseId=0x7f090270;
+        public static final int library_FloatingActionButton_licenseId=0x7f090260;
+        public static final int library_FloatingActionButton_repositoryLink=0x7f09025f;
+        public static final int library_GooglePlayServices_author=0x7f09026e;
+        public static final int library_GooglePlayServices_authorWebsite=0x7f09026f;
+        public static final int library_GooglePlayServices_isOpenSource=0x7f090274;
+        public static final int library_GooglePlayServices_libraryDescription=0x7f090271;
+        public static final int library_GooglePlayServices_libraryName=0x7f090270;
+        public static final int library_GooglePlayServices_libraryWebsite=0x7f090272;
+        public static final int library_GooglePlayServices_licenseId=0x7f090273;
         /**  Custom variables section 
          */
-        public static final int library_GooglePlayServices_owner=0x7f090273;
-        public static final int library_GooglePlayServices_repositoryLink=0x7f090272;
-        public static final int library_GooglePlayServices_year=0x7f090274;
-        public static final int library_HoloGraphLibrary_author=0x7f0902ae;
-        public static final int library_HoloGraphLibrary_authorWebsite=0x7f0902af;
-        public static final int library_HoloGraphLibrary_classPath=0x7f0902b7;
-        public static final int library_HoloGraphLibrary_isOpenSource=0x7f0902b5;
-        public static final int library_HoloGraphLibrary_libraryDescription=0x7f0902b1;
-        public static final int library_HoloGraphLibrary_libraryName=0x7f0902b0;
-        public static final int library_HoloGraphLibrary_libraryVersion=0x7f0902b2;
-        public static final int library_HoloGraphLibrary_libraryWebsite=0x7f0902b3;
-        public static final int library_HoloGraphLibrary_licenseId=0x7f0902b4;
+        public static final int library_GooglePlayServices_owner=0x7f090276;
+        public static final int library_GooglePlayServices_repositoryLink=0x7f090275;
+        public static final int library_GooglePlayServices_year=0x7f090277;
+        public static final int library_HoloGraphLibrary_author=0x7f0902b1;
+        public static final int library_HoloGraphLibrary_authorWebsite=0x7f0902b2;
+        public static final int library_HoloGraphLibrary_classPath=0x7f0902ba;
+        public static final int library_HoloGraphLibrary_isOpenSource=0x7f0902b8;
+        public static final int library_HoloGraphLibrary_libraryDescription=0x7f0902b4;
+        public static final int library_HoloGraphLibrary_libraryName=0x7f0902b3;
+        public static final int library_HoloGraphLibrary_libraryVersion=0x7f0902b5;
+        public static final int library_HoloGraphLibrary_libraryWebsite=0x7f0902b6;
+        public static final int library_HoloGraphLibrary_licenseId=0x7f0902b7;
         /**  Custom variables section 
          */
-        public static final int library_HoloGraphLibrary_owner=0x7f0902b8;
-        public static final int library_HoloGraphLibrary_repositoryLink=0x7f0902b6;
-        public static final int library_HoloGraphLibrary_year=0x7f0902b9;
+        public static final int library_HoloGraphLibrary_owner=0x7f0902bb;
+        public static final int library_HoloGraphLibrary_repositoryLink=0x7f0902b9;
+        public static final int library_HoloGraphLibrary_year=0x7f0902bc;
         /**  Author section 
          */
-        public static final int library_Jsoup_author=0x7f0902e9;
-        public static final int library_Jsoup_authorWebsite=0x7f0902ea;
+        public static final int library_Jsoup_author=0x7f0902ec;
+        public static final int library_Jsoup_authorWebsite=0x7f0902ed;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_Jsoup_classPath=0x7f0902f1;
+        public static final int library_Jsoup_classPath=0x7f0902f4;
         /**  OpenSource section 
          */
-        public static final int library_Jsoup_isOpenSource=0x7f0902ef;
-        public static final int library_Jsoup_libraryDescription=0x7f0902ec;
+        public static final int library_Jsoup_isOpenSource=0x7f0902f2;
+        public static final int library_Jsoup_libraryDescription=0x7f0902ef;
         /**  Library section 
          */
-        public static final int library_Jsoup_libraryName=0x7f0902eb;
-        public static final int library_Jsoup_libraryVersion=0x7f0902ee;
-        public static final int library_Jsoup_libraryWebsite=0x7f0902ed;
+        public static final int library_Jsoup_libraryName=0x7f0902ee;
+        public static final int library_Jsoup_libraryVersion=0x7f0902f1;
+        public static final int library_Jsoup_libraryWebsite=0x7f0902f0;
         /**  License section 
          */
-        public static final int library_Jsoup_licenseId=0x7f0902f2;
-        public static final int library_Jsoup_repositoryLink=0x7f0902f0;
-        public static final int library_LeakCanary_author=0x7f0902ff;
-        public static final int library_LeakCanary_authorWebsite=0x7f090300;
-        public static final int library_LeakCanary_classPath=0x7f090308;
-        public static final int library_LeakCanary_isOpenSource=0x7f090306;
-        public static final int library_LeakCanary_libraryDescription=0x7f090302;
-        public static final int library_LeakCanary_libraryName=0x7f090301;
-        public static final int library_LeakCanary_libraryVersion=0x7f090303;
-        public static final int library_LeakCanary_libraryWebsite=0x7f090304;
-        public static final int library_LeakCanary_licenseId=0x7f090305;
-        public static final int library_LeakCanary_repositoryLink=0x7f090307;
+        public static final int library_Jsoup_licenseId=0x7f0902f5;
+        public static final int library_Jsoup_repositoryLink=0x7f0902f3;
+        public static final int library_LeakCanary_author=0x7f090302;
+        public static final int library_LeakCanary_authorWebsite=0x7f090303;
+        public static final int library_LeakCanary_classPath=0x7f09030b;
+        public static final int library_LeakCanary_isOpenSource=0x7f090309;
+        public static final int library_LeakCanary_libraryDescription=0x7f090305;
+        public static final int library_LeakCanary_libraryName=0x7f090304;
+        public static final int library_LeakCanary_libraryVersion=0x7f090306;
+        public static final int library_LeakCanary_libraryWebsite=0x7f090307;
+        public static final int library_LeakCanary_licenseId=0x7f090308;
+        public static final int library_LeakCanary_repositoryLink=0x7f09030a;
         /**  Author section 
          */
-        public static final int library_MaterialRangeBar_author=0x7f090342;
-        public static final int library_MaterialRangeBar_authorWebsite=0x7f090343;
+        public static final int library_MaterialRangeBar_author=0x7f090345;
+        public static final int library_MaterialRangeBar_authorWebsite=0x7f090346;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_MaterialRangeBar_classPath=0x7f09034a;
+        public static final int library_MaterialRangeBar_classPath=0x7f09034d;
         /**  OpenSource section 
          */
-        public static final int library_MaterialRangeBar_isOpenSource=0x7f090348;
-        public static final int library_MaterialRangeBar_libraryDescription=0x7f090345;
+        public static final int library_MaterialRangeBar_isOpenSource=0x7f09034b;
+        public static final int library_MaterialRangeBar_libraryDescription=0x7f090348;
         /**  Library section 
          */
-        public static final int library_MaterialRangeBar_libraryName=0x7f090344;
-        public static final int library_MaterialRangeBar_libraryVersion=0x7f090347;
-        public static final int library_MaterialRangeBar_libraryWebsite=0x7f090346;
+        public static final int library_MaterialRangeBar_libraryName=0x7f090347;
+        public static final int library_MaterialRangeBar_libraryVersion=0x7f09034a;
+        public static final int library_MaterialRangeBar_libraryWebsite=0x7f090349;
         /**  License section 
          */
-        public static final int library_MaterialRangeBar_licenseId=0x7f09034b;
-        public static final int library_MaterialRangeBar_repositoryLink=0x7f090349;
-        public static final int library_NineOldAndroids_author=0x7f090358;
-        public static final int library_NineOldAndroids_authorWebsite=0x7f090359;
-        public static final int library_NineOldAndroids_classPath=0x7f090361;
-        public static final int library_NineOldAndroids_isOpenSource=0x7f09035f;
-        public static final int library_NineOldAndroids_libraryDescription=0x7f09035b;
-        public static final int library_NineOldAndroids_libraryName=0x7f09035a;
-        public static final int library_NineOldAndroids_libraryVersion=0x7f09035c;
-        public static final int library_NineOldAndroids_libraryWebsite=0x7f09035d;
-        public static final int library_NineOldAndroids_licenseId=0x7f09035e;
+        public static final int library_MaterialRangeBar_licenseId=0x7f09034e;
+        public static final int library_MaterialRangeBar_repositoryLink=0x7f09034c;
+        public static final int library_NineOldAndroids_author=0x7f09035b;
+        public static final int library_NineOldAndroids_authorWebsite=0x7f09035c;
+        public static final int library_NineOldAndroids_classPath=0x7f090364;
+        public static final int library_NineOldAndroids_isOpenSource=0x7f090362;
+        public static final int library_NineOldAndroids_libraryDescription=0x7f09035e;
+        public static final int library_NineOldAndroids_libraryName=0x7f09035d;
+        public static final int library_NineOldAndroids_libraryVersion=0x7f09035f;
+        public static final int library_NineOldAndroids_libraryWebsite=0x7f090360;
+        public static final int library_NineOldAndroids_licenseId=0x7f090361;
         /**  Custom variables section 
          */
-        public static final int library_NineOldAndroids_owner=0x7f090362;
-        public static final int library_NineOldAndroids_repositoryLink=0x7f090360;
-        public static final int library_NineOldAndroids_year=0x7f090363;
-        public static final int library_OkHttp_author=0x7f090370;
-        public static final int library_OkHttp_classPath=0x7f090378;
-        public static final int library_OkHttp_isOpenSource=0x7f090376;
-        public static final int library_OkHttp_libraryDescription=0x7f090372;
-        public static final int library_OkHttp_libraryName=0x7f090371;
-        public static final int library_OkHttp_libraryVersion=0x7f090373;
-        public static final int library_OkHttp_libraryWebsite=0x7f090374;
-        public static final int library_OkHttp_licenseId=0x7f090375;
+        public static final int library_NineOldAndroids_owner=0x7f090365;
+        public static final int library_NineOldAndroids_repositoryLink=0x7f090363;
+        public static final int library_NineOldAndroids_year=0x7f090366;
+        public static final int library_OkHttp_author=0x7f090373;
+        public static final int library_OkHttp_classPath=0x7f09037b;
+        public static final int library_OkHttp_isOpenSource=0x7f090379;
+        public static final int library_OkHttp_libraryDescription=0x7f090375;
+        public static final int library_OkHttp_libraryName=0x7f090374;
+        public static final int library_OkHttp_libraryVersion=0x7f090376;
+        public static final int library_OkHttp_libraryWebsite=0x7f090377;
+        public static final int library_OkHttp_licenseId=0x7f090378;
         /**  Custom variables section 
          */
-        public static final int library_OkHttp_owner=0x7f090379;
-        public static final int library_OkHttp_repositoryLink=0x7f090377;
-        public static final int library_OkHttp_year=0x7f09037a;
-        public static final int library_Otto_author=0x7f090387;
-        public static final int library_Otto_authorWebsite=0x7f090388;
-        public static final int library_Otto_isOpenSource=0x7f09038e;
-        public static final int library_Otto_libraryDescription=0x7f09038a;
-        public static final int library_Otto_libraryName=0x7f090389;
-        public static final int library_Otto_libraryVersion=0x7f09038b;
-        public static final int library_Otto_libraryWebsite=0x7f09038c;
-        public static final int library_Otto_licenseId=0x7f09038d;
-        public static final int library_Otto_repositoryLink=0x7f09038f;
-        public static final int library_PagerSlidingTabStrip_author=0x7f090391;
-        public static final int library_PagerSlidingTabStrip_classPath=0x7f090399;
-        public static final int library_PagerSlidingTabStrip_isOpenSource=0x7f090397;
-        public static final int library_PagerSlidingTabStrip_libraryDescription=0x7f090393;
-        public static final int library_PagerSlidingTabStrip_libraryName=0x7f090392;
-        public static final int library_PagerSlidingTabStrip_libraryVersion=0x7f090394;
-        public static final int library_PagerSlidingTabStrip_libraryWebsite=0x7f090395;
-        public static final int library_PagerSlidingTabStrip_licenseId=0x7f090396;
+        public static final int library_OkHttp_owner=0x7f09037c;
+        public static final int library_OkHttp_repositoryLink=0x7f09037a;
+        public static final int library_OkHttp_year=0x7f09037d;
+        public static final int library_Otto_author=0x7f09038a;
+        public static final int library_Otto_authorWebsite=0x7f09038b;
+        public static final int library_Otto_isOpenSource=0x7f090391;
+        public static final int library_Otto_libraryDescription=0x7f09038d;
+        public static final int library_Otto_libraryName=0x7f09038c;
+        public static final int library_Otto_libraryVersion=0x7f09038e;
+        public static final int library_Otto_libraryWebsite=0x7f09038f;
+        public static final int library_Otto_licenseId=0x7f090390;
+        public static final int library_Otto_repositoryLink=0x7f090392;
+        public static final int library_PagerSlidingTabStrip_author=0x7f090394;
+        public static final int library_PagerSlidingTabStrip_classPath=0x7f09039c;
+        public static final int library_PagerSlidingTabStrip_isOpenSource=0x7f09039a;
+        public static final int library_PagerSlidingTabStrip_libraryDescription=0x7f090396;
+        public static final int library_PagerSlidingTabStrip_libraryName=0x7f090395;
+        public static final int library_PagerSlidingTabStrip_libraryVersion=0x7f090397;
+        public static final int library_PagerSlidingTabStrip_libraryWebsite=0x7f090398;
+        public static final int library_PagerSlidingTabStrip_licenseId=0x7f090399;
         /**  Custom variables section 
          */
-        public static final int library_PagerSlidingTabStrip_owner=0x7f09039a;
-        public static final int library_PagerSlidingTabStrip_repositoryLink=0x7f090398;
-        public static final int library_PagerSlidingTabStrip_year=0x7f09039b;
-        public static final int library_Paralloid_author=0x7f09039d;
-        public static final int library_Paralloid_classPath=0x7f0903a5;
-        public static final int library_Paralloid_isOpenSource=0x7f0903a3;
-        public static final int library_Paralloid_libraryDescription=0x7f09039f;
-        public static final int library_Paralloid_libraryName=0x7f09039e;
-        public static final int library_Paralloid_libraryVersion=0x7f0903a0;
-        public static final int library_Paralloid_libraryWebsite=0x7f0903a1;
-        public static final int library_Paralloid_licenseId=0x7f0903a2;
+        public static final int library_PagerSlidingTabStrip_owner=0x7f09039d;
+        public static final int library_PagerSlidingTabStrip_repositoryLink=0x7f09039b;
+        public static final int library_PagerSlidingTabStrip_year=0x7f09039e;
+        public static final int library_Paralloid_author=0x7f0903a0;
+        public static final int library_Paralloid_classPath=0x7f0903a8;
+        public static final int library_Paralloid_isOpenSource=0x7f0903a6;
+        public static final int library_Paralloid_libraryDescription=0x7f0903a2;
+        public static final int library_Paralloid_libraryName=0x7f0903a1;
+        public static final int library_Paralloid_libraryVersion=0x7f0903a3;
+        public static final int library_Paralloid_libraryWebsite=0x7f0903a4;
+        public static final int library_Paralloid_licenseId=0x7f0903a5;
         /**  Custom variables section 
          */
-        public static final int library_Paralloid_owner=0x7f0903a6;
-        public static final int library_Paralloid_repositoryLink=0x7f0903a4;
-        public static final int library_Paralloid_year=0x7f0903a7;
-        public static final int library_Picasso_author=0x7f0903b6;
-        public static final int library_Picasso_classPath=0x7f0903be;
-        public static final int library_Picasso_isOpenSource=0x7f0903bc;
-        public static final int library_Picasso_libraryDescription=0x7f0903b8;
-        public static final int library_Picasso_libraryName=0x7f0903b7;
-        public static final int library_Picasso_libraryVersion=0x7f0903b9;
-        public static final int library_Picasso_libraryWebsite=0x7f0903ba;
-        public static final int library_Picasso_licenseId=0x7f0903bb;
+        public static final int library_Paralloid_owner=0x7f0903a9;
+        public static final int library_Paralloid_repositoryLink=0x7f0903a7;
+        public static final int library_Paralloid_year=0x7f0903aa;
+        public static final int library_Picasso_author=0x7f0903b9;
+        public static final int library_Picasso_classPath=0x7f0903c1;
+        public static final int library_Picasso_isOpenSource=0x7f0903bf;
+        public static final int library_Picasso_libraryDescription=0x7f0903bb;
+        public static final int library_Picasso_libraryName=0x7f0903ba;
+        public static final int library_Picasso_libraryVersion=0x7f0903bc;
+        public static final int library_Picasso_libraryWebsite=0x7f0903bd;
+        public static final int library_Picasso_licenseId=0x7f0903be;
         /**  Custom variables section 
          */
-        public static final int library_Picasso_owner=0x7f0903bf;
-        public static final int library_Picasso_repositoryLink=0x7f0903bd;
-        public static final int library_Picasso_year=0x7f0903c0;
-        public static final int library_Retrofit_author=0x7f0903f7;
-        public static final int library_Retrofit_classPath=0x7f0903ff;
-        public static final int library_Retrofit_isOpenSource=0x7f0903fd;
-        public static final int library_Retrofit_libraryDescription=0x7f0903f9;
-        public static final int library_Retrofit_libraryName=0x7f0903f8;
-        public static final int library_Retrofit_libraryVersion=0x7f0903fa;
-        public static final int library_Retrofit_libraryWebsite=0x7f0903fb;
-        public static final int library_Retrofit_licenseId=0x7f0903fc;
+        public static final int library_Picasso_owner=0x7f0903c2;
+        public static final int library_Picasso_repositoryLink=0x7f0903c0;
+        public static final int library_Picasso_year=0x7f0903c3;
+        public static final int library_Retrofit_author=0x7f0903fa;
+        public static final int library_Retrofit_classPath=0x7f090402;
+        public static final int library_Retrofit_isOpenSource=0x7f090400;
+        public static final int library_Retrofit_libraryDescription=0x7f0903fc;
+        public static final int library_Retrofit_libraryName=0x7f0903fb;
+        public static final int library_Retrofit_libraryVersion=0x7f0903fd;
+        public static final int library_Retrofit_libraryWebsite=0x7f0903fe;
+        public static final int library_Retrofit_licenseId=0x7f0903ff;
         /**  Custom variables section 
          */
-        public static final int library_Retrofit_owner=0x7f090400;
-        public static final int library_Retrofit_repositoryLink=0x7f0903fe;
-        public static final int library_Retrofit_year=0x7f090401;
-        public static final int library_ShowcaseView_author=0x7f09042e;
-        public static final int library_ShowcaseView_authorWebsite=0x7f09042f;
-        public static final int library_ShowcaseView_classPath=0x7f090437;
-        public static final int library_ShowcaseView_isOpenSource=0x7f090435;
-        public static final int library_ShowcaseView_libraryDescription=0x7f090431;
-        public static final int library_ShowcaseView_libraryName=0x7f090430;
-        public static final int library_ShowcaseView_libraryVersion=0x7f090432;
-        public static final int library_ShowcaseView_libraryWebsite=0x7f090433;
-        public static final int library_ShowcaseView_licenseId=0x7f090434;
+        public static final int library_Retrofit_owner=0x7f090403;
+        public static final int library_Retrofit_repositoryLink=0x7f090401;
+        public static final int library_Retrofit_year=0x7f090404;
+        public static final int library_ShowcaseView_author=0x7f090431;
+        public static final int library_ShowcaseView_authorWebsite=0x7f090432;
+        public static final int library_ShowcaseView_classPath=0x7f09043a;
+        public static final int library_ShowcaseView_isOpenSource=0x7f090438;
+        public static final int library_ShowcaseView_libraryDescription=0x7f090434;
+        public static final int library_ShowcaseView_libraryName=0x7f090433;
+        public static final int library_ShowcaseView_libraryVersion=0x7f090435;
+        public static final int library_ShowcaseView_libraryWebsite=0x7f090436;
+        public static final int library_ShowcaseView_licenseId=0x7f090437;
         /**  Custom variables section 
          */
-        public static final int library_ShowcaseView_owner=0x7f090438;
-        public static final int library_ShowcaseView_repositoryLink=0x7f090436;
-        public static final int library_ShowcaseView_year=0x7f090439;
-        public static final int library_Smoothprogressbar_author=0x7f09043b;
-        public static final int library_Smoothprogressbar_classPath=0x7f090443;
-        public static final int library_Smoothprogressbar_isOpenSource=0x7f090441;
-        public static final int library_Smoothprogressbar_libraryDescription=0x7f09043d;
-        public static final int library_Smoothprogressbar_libraryName=0x7f09043c;
-        public static final int library_Smoothprogressbar_libraryVersion=0x7f09043e;
-        public static final int library_Smoothprogressbar_libraryWebsite=0x7f09043f;
-        public static final int library_Smoothprogressbar_licenseId=0x7f090440;
+        public static final int library_ShowcaseView_owner=0x7f09043b;
+        public static final int library_ShowcaseView_repositoryLink=0x7f090439;
+        public static final int library_ShowcaseView_year=0x7f09043c;
+        public static final int library_Smoothprogressbar_author=0x7f09043e;
+        public static final int library_Smoothprogressbar_classPath=0x7f090446;
+        public static final int library_Smoothprogressbar_isOpenSource=0x7f090444;
+        public static final int library_Smoothprogressbar_libraryDescription=0x7f090440;
+        public static final int library_Smoothprogressbar_libraryName=0x7f09043f;
+        public static final int library_Smoothprogressbar_libraryVersion=0x7f090441;
+        public static final int library_Smoothprogressbar_libraryWebsite=0x7f090442;
+        public static final int library_Smoothprogressbar_licenseId=0x7f090443;
         /**  Custom variables section 
          */
-        public static final int library_Smoothprogressbar_owner=0x7f090444;
-        public static final int library_Smoothprogressbar_repositoryLink=0x7f090442;
-        public static final int library_Smoothprogressbar_year=0x7f090445;
-        public static final int library_SuperRecyclerView_author=0x7f09045d;
-        public static final int library_SuperRecyclerView_authorWebsite=0x7f09045e;
-        public static final int library_SuperRecyclerView_classPath=0x7f090466;
-        public static final int library_SuperRecyclerView_isOpenSource=0x7f090464;
-        public static final int library_SuperRecyclerView_libraryDescription=0x7f090460;
-        public static final int library_SuperRecyclerView_libraryName=0x7f09045f;
-        public static final int library_SuperRecyclerView_libraryVersion=0x7f090461;
-        public static final int library_SuperRecyclerView_libraryWebsite=0x7f090462;
-        public static final int library_SuperRecyclerView_licenseId=0x7f090463;
-        public static final int library_SuperRecyclerView_repositoryLink=0x7f090465;
-        public static final int library_SupportLibrary_author=0x7f090468;
-        public static final int library_SupportLibrary_authorWebsite=0x7f090469;
-        public static final int library_SupportLibrary_isOpenSource=0x7f09046e;
-        public static final int library_SupportLibrary_libraryDescription=0x7f09046b;
-        public static final int library_SupportLibrary_libraryName=0x7f09046a;
-        public static final int library_SupportLibrary_libraryWebsite=0x7f09046c;
-        public static final int library_SupportLibrary_licenseId=0x7f09046d;
+        public static final int library_Smoothprogressbar_owner=0x7f090447;
+        public static final int library_Smoothprogressbar_repositoryLink=0x7f090445;
+        public static final int library_Smoothprogressbar_year=0x7f090448;
+        public static final int library_SuperRecyclerView_author=0x7f090460;
+        public static final int library_SuperRecyclerView_authorWebsite=0x7f090461;
+        public static final int library_SuperRecyclerView_classPath=0x7f090469;
+        public static final int library_SuperRecyclerView_isOpenSource=0x7f090467;
+        public static final int library_SuperRecyclerView_libraryDescription=0x7f090463;
+        public static final int library_SuperRecyclerView_libraryName=0x7f090462;
+        public static final int library_SuperRecyclerView_libraryVersion=0x7f090464;
+        public static final int library_SuperRecyclerView_libraryWebsite=0x7f090465;
+        public static final int library_SuperRecyclerView_licenseId=0x7f090466;
+        public static final int library_SuperRecyclerView_repositoryLink=0x7f090468;
+        public static final int library_SupportLibrary_author=0x7f09046b;
+        public static final int library_SupportLibrary_authorWebsite=0x7f09046c;
+        public static final int library_SupportLibrary_isOpenSource=0x7f090471;
+        public static final int library_SupportLibrary_libraryDescription=0x7f09046e;
+        public static final int library_SupportLibrary_libraryName=0x7f09046d;
+        public static final int library_SupportLibrary_libraryWebsite=0x7f09046f;
+        public static final int library_SupportLibrary_licenseId=0x7f090470;
         /**  Custom variables section 
          */
-        public static final int library_SupportLibrary_owner=0x7f090470;
-        public static final int library_SupportLibrary_repositoryLink=0x7f09046f;
-        public static final int library_SupportLibrary_year=0x7f090471;
-        public static final int library_Timber_author=0x7f090494;
-        public static final int library_Timber_classPath=0x7f09049c;
-        public static final int library_Timber_isOpenSource=0x7f09049a;
-        public static final int library_Timber_libraryDescription=0x7f090496;
-        public static final int library_Timber_libraryName=0x7f090495;
-        public static final int library_Timber_libraryVersion=0x7f090497;
-        public static final int library_Timber_libraryWebsite=0x7f090498;
-        public static final int library_Timber_licenseId=0x7f090499;
+        public static final int library_SupportLibrary_owner=0x7f090473;
+        public static final int library_SupportLibrary_repositoryLink=0x7f090472;
+        public static final int library_SupportLibrary_year=0x7f090474;
+        public static final int library_Timber_author=0x7f090497;
+        public static final int library_Timber_classPath=0x7f09049f;
+        public static final int library_Timber_isOpenSource=0x7f09049d;
+        public static final int library_Timber_libraryDescription=0x7f090499;
+        public static final int library_Timber_libraryName=0x7f090498;
+        public static final int library_Timber_libraryVersion=0x7f09049a;
+        public static final int library_Timber_libraryWebsite=0x7f09049b;
+        public static final int library_Timber_licenseId=0x7f09049c;
         /**  Custom variables section 
          */
-        public static final int library_Timber_owner=0x7f09049d;
-        public static final int library_Timber_repositoryLink=0x7f09049b;
-        public static final int library_Timber_year=0x7f09049e;
-        public static final int library_WilliamChart_author=0x7f0904a0;
-        public static final int library_WilliamChart_authorWebsite=0x7f0904a1;
-        public static final int library_WilliamChart_isOpenSource=0x7f0904a7;
-        public static final int library_WilliamChart_libraryDescription=0x7f0904a3;
-        public static final int library_WilliamChart_libraryName=0x7f0904a2;
-        public static final int library_WilliamChart_libraryVersion=0x7f0904a4;
-        public static final int library_WilliamChart_libraryWebsite=0x7f0904a5;
-        public static final int library_WilliamChart_licenseId=0x7f0904a6;
-        public static final int library_WilliamChart_repositoryLink=0x7f0904a8;
-        public static final int library_alexei_author=0x7f0900c7;
-        public static final int library_alexei_authorWebsite=0x7f0900c8;
-        public static final int library_alexei_classPath=0x7f0900cf;
-        public static final int library_alexei_isOpenSource=0x7f0900cd;
-        public static final int library_alexei_libraryDescription=0x7f0900ca;
-        public static final int library_alexei_libraryName=0x7f0900c9;
-        public static final int library_alexei_libraryVersion=0x7f0900cc;
-        public static final int library_alexei_libraryWebsite=0x7f0900cb;
-        public static final int library_alexei_licenseId=0x7f0900d0;
-        public static final int library_alexei_repositoryLink=0x7f0900ce;
-        public static final int library_androidBetterpickers_author=0x7f0900e7;
-        public static final int library_androidBetterpickers_authorWebsite=0x7f0900e8;
-        public static final int library_androidBetterpickers_classPath=0x7f0900f0;
-        public static final int library_androidBetterpickers_isOpenSource=0x7f0900ee;
-        public static final int library_androidBetterpickers_libraryDescription=0x7f0900ea;
-        public static final int library_androidBetterpickers_libraryName=0x7f0900e9;
-        public static final int library_androidBetterpickers_libraryVersion=0x7f0900eb;
-        public static final int library_androidBetterpickers_libraryWebsite=0x7f0900ec;
-        public static final int library_androidBetterpickers_licenseId=0x7f0900ed;
+        public static final int library_Timber_owner=0x7f0904a0;
+        public static final int library_Timber_repositoryLink=0x7f09049e;
+        public static final int library_Timber_year=0x7f0904a1;
+        public static final int library_WilliamChart_author=0x7f0904a3;
+        public static final int library_WilliamChart_authorWebsite=0x7f0904a4;
+        public static final int library_WilliamChart_isOpenSource=0x7f0904aa;
+        public static final int library_WilliamChart_libraryDescription=0x7f0904a6;
+        public static final int library_WilliamChart_libraryName=0x7f0904a5;
+        public static final int library_WilliamChart_libraryVersion=0x7f0904a7;
+        public static final int library_WilliamChart_libraryWebsite=0x7f0904a8;
+        public static final int library_WilliamChart_licenseId=0x7f0904a9;
+        public static final int library_WilliamChart_repositoryLink=0x7f0904ab;
+        public static final int library_alexei_author=0x7f0900ca;
+        public static final int library_alexei_authorWebsite=0x7f0900cb;
+        public static final int library_alexei_classPath=0x7f0900d2;
+        public static final int library_alexei_isOpenSource=0x7f0900d0;
+        public static final int library_alexei_libraryDescription=0x7f0900cd;
+        public static final int library_alexei_libraryName=0x7f0900cc;
+        public static final int library_alexei_libraryVersion=0x7f0900cf;
+        public static final int library_alexei_libraryWebsite=0x7f0900ce;
+        public static final int library_alexei_licenseId=0x7f0900d3;
+        public static final int library_alexei_repositoryLink=0x7f0900d1;
+        public static final int library_androidBetterpickers_author=0x7f0900ea;
+        public static final int library_androidBetterpickers_authorWebsite=0x7f0900eb;
+        public static final int library_androidBetterpickers_classPath=0x7f0900f3;
+        public static final int library_androidBetterpickers_isOpenSource=0x7f0900f1;
+        public static final int library_androidBetterpickers_libraryDescription=0x7f0900ed;
+        public static final int library_androidBetterpickers_libraryName=0x7f0900ec;
+        public static final int library_androidBetterpickers_libraryVersion=0x7f0900ee;
+        public static final int library_androidBetterpickers_libraryWebsite=0x7f0900ef;
+        public static final int library_androidBetterpickers_licenseId=0x7f0900f0;
         /**  Custom variables section 
          */
-        public static final int library_androidBetterpickers_owner=0x7f0900f1;
-        public static final int library_androidBetterpickers_repositoryLink=0x7f0900ef;
-        public static final int library_androidBetterpickers_year=0x7f0900f2;
-        public static final int library_androidIconify_author=0x7f090115;
-        public static final int library_androidIconify_authorWebsite=0x7f090116;
-        public static final int library_androidIconify_classPath=0x7f09011e;
-        public static final int library_androidIconify_isOpenSource=0x7f09011c;
-        public static final int library_androidIconify_libraryDescription=0x7f090118;
-        public static final int library_androidIconify_libraryName=0x7f090117;
-        public static final int library_androidIconify_libraryVersion=0x7f090119;
-        public static final int library_androidIconify_libraryWebsite=0x7f09011a;
-        public static final int library_androidIconify_licenseId=0x7f09011b;
+        public static final int library_androidBetterpickers_owner=0x7f0900f4;
+        public static final int library_androidBetterpickers_repositoryLink=0x7f0900f2;
+        public static final int library_androidBetterpickers_year=0x7f0900f5;
+        public static final int library_androidIconify_author=0x7f090118;
+        public static final int library_androidIconify_authorWebsite=0x7f090119;
+        public static final int library_androidIconify_classPath=0x7f090121;
+        public static final int library_androidIconify_isOpenSource=0x7f09011f;
+        public static final int library_androidIconify_libraryDescription=0x7f09011b;
+        public static final int library_androidIconify_libraryName=0x7f09011a;
+        public static final int library_androidIconify_libraryVersion=0x7f09011c;
+        public static final int library_androidIconify_libraryWebsite=0x7f09011d;
+        public static final int library_androidIconify_licenseId=0x7f09011e;
         /**  Custom variables section 
          */
-        public static final int library_androidIconify_owner=0x7f09011f;
-        public static final int library_androidIconify_repositoryLink=0x7f09011d;
-        public static final int library_androidIconify_year=0x7f090120;
-        public static final int library_androidStyledDialogs_author=0x7f090138;
-        public static final int library_androidStyledDialogs_authorWebsite=0x7f090139;
-        public static final int library_androidStyledDialogs_classPath=0x7f090141;
-        public static final int library_androidStyledDialogs_isOpenSource=0x7f09013f;
-        public static final int library_androidStyledDialogs_libraryDescription=0x7f09013b;
-        public static final int library_androidStyledDialogs_libraryName=0x7f09013a;
-        public static final int library_androidStyledDialogs_libraryVersion=0x7f09013c;
-        public static final int library_androidStyledDialogs_libraryWebsite=0x7f09013d;
-        public static final int library_androidStyledDialogs_licenseId=0x7f09013e;
+        public static final int library_androidIconify_owner=0x7f090122;
+        public static final int library_androidIconify_repositoryLink=0x7f090120;
+        public static final int library_androidIconify_year=0x7f090123;
+        public static final int library_androidStyledDialogs_author=0x7f09013b;
+        public static final int library_androidStyledDialogs_authorWebsite=0x7f09013c;
+        public static final int library_androidStyledDialogs_classPath=0x7f090144;
+        public static final int library_androidStyledDialogs_isOpenSource=0x7f090142;
+        public static final int library_androidStyledDialogs_libraryDescription=0x7f09013e;
+        public static final int library_androidStyledDialogs_libraryName=0x7f09013d;
+        public static final int library_androidStyledDialogs_libraryVersion=0x7f09013f;
+        public static final int library_androidStyledDialogs_libraryWebsite=0x7f090140;
+        public static final int library_androidStyledDialogs_licenseId=0x7f090141;
         /**  Custom variables section 
          */
-        public static final int library_androidStyledDialogs_owner=0x7f090142;
-        public static final int library_androidStyledDialogs_repositoryLink=0x7f090140;
-        public static final int library_androidStyledDialogs_year=0x7f090143;
-        public static final int library_androidannotations_author=0x7f0900d2;
-        public static final int library_androidannotations_authorWebsite=0x7f0900d3;
-        public static final int library_androidannotations_isOpenSource=0x7f0900d9;
-        public static final int library_androidannotations_libraryDescription=0x7f0900d5;
-        public static final int library_androidannotations_libraryName=0x7f0900d4;
-        public static final int library_androidannotations_libraryVersion=0x7f0900d6;
-        public static final int library_androidannotations_libraryWebsite=0x7f0900d7;
-        public static final int library_androidannotations_licenseId=0x7f0900d8;
-        public static final int library_androidannotations_repositoryLink=0x7f0900da;
+        public static final int library_androidStyledDialogs_owner=0x7f090145;
+        public static final int library_androidStyledDialogs_repositoryLink=0x7f090143;
+        public static final int library_androidStyledDialogs_year=0x7f090146;
+        public static final int library_androidannotations_author=0x7f0900d5;
+        public static final int library_androidannotations_authorWebsite=0x7f0900d6;
+        public static final int library_androidannotations_isOpenSource=0x7f0900dc;
+        public static final int library_androidannotations_libraryDescription=0x7f0900d8;
+        public static final int library_androidannotations_libraryName=0x7f0900d7;
+        public static final int library_androidannotations_libraryVersion=0x7f0900d9;
+        public static final int library_androidannotations_libraryWebsite=0x7f0900da;
+        public static final int library_androidannotations_licenseId=0x7f0900db;
+        public static final int library_androidannotations_repositoryLink=0x7f0900dd;
         /**  Author section 
          */
-        public static final int library_androidasyncservice_author=0x7f0900dc;
-        public static final int library_androidasyncservice_authorWebsite=0x7f0900dd;
+        public static final int library_androidasyncservice_author=0x7f0900df;
+        public static final int library_androidasyncservice_authorWebsite=0x7f0900e0;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_androidasyncservice_classPath=0x7f0900e4;
+        public static final int library_androidasyncservice_classPath=0x7f0900e7;
         /**  OpenSource section 
          */
-        public static final int library_androidasyncservice_isOpenSource=0x7f0900e2;
-        public static final int library_androidasyncservice_libraryDescription=0x7f0900df;
+        public static final int library_androidasyncservice_isOpenSource=0x7f0900e5;
+        public static final int library_androidasyncservice_libraryDescription=0x7f0900e2;
         /**  Library section 
          */
-        public static final int library_androidasyncservice_libraryName=0x7f0900de;
-        public static final int library_androidasyncservice_libraryVersion=0x7f0900e1;
-        public static final int library_androidasyncservice_libraryWebsite=0x7f0900e0;
+        public static final int library_androidasyncservice_libraryName=0x7f0900e1;
+        public static final int library_androidasyncservice_libraryVersion=0x7f0900e4;
+        public static final int library_androidasyncservice_libraryWebsite=0x7f0900e3;
         /**  License section 
          */
-        public static final int library_androidasyncservice_licenseId=0x7f0900e5;
-        public static final int library_androidasyncservice_repositoryLink=0x7f0900e3;
+        public static final int library_androidasyncservice_licenseId=0x7f0900e8;
+        public static final int library_androidasyncservice_repositoryLink=0x7f0900e6;
         /**  Author section 
          */
-        public static final int library_androidcountrypicker_author=0x7f0900f4;
-        public static final int library_androidcountrypicker_authorWebsite=0x7f0900f5;
-        public static final int library_androidcountrypicker_classPath=0x7f0900fc;
+        public static final int library_androidcountrypicker_author=0x7f0900f7;
+        public static final int library_androidcountrypicker_authorWebsite=0x7f0900f8;
+        public static final int library_androidcountrypicker_classPath=0x7f0900ff;
         /**  OpenSource section 
          */
-        public static final int library_androidcountrypicker_isOpenSource=0x7f0900fa;
-        public static final int library_androidcountrypicker_libraryDescription=0x7f0900f7;
+        public static final int library_androidcountrypicker_isOpenSource=0x7f0900fd;
+        public static final int library_androidcountrypicker_libraryDescription=0x7f0900fa;
         /**  Library section 
          */
-        public static final int library_androidcountrypicker_libraryName=0x7f0900f6;
-        public static final int library_androidcountrypicker_libraryVersion=0x7f0900f9;
-        public static final int library_androidcountrypicker_libraryWebsite=0x7f0900f8;
+        public static final int library_androidcountrypicker_libraryName=0x7f0900f9;
+        public static final int library_androidcountrypicker_libraryVersion=0x7f0900fc;
+        public static final int library_androidcountrypicker_libraryWebsite=0x7f0900fb;
         /**  License section 
          */
-        public static final int library_androidcountrypicker_licenseId=0x7f0900fd;
-        public static final int library_androidcountrypicker_repositoryLink=0x7f0900fb;
+        public static final int library_androidcountrypicker_licenseId=0x7f090100;
+        public static final int library_androidcountrypicker_repositoryLink=0x7f0900fe;
         /**  Author section 
          */
-        public static final int library_androideasingfunctions_author=0x7f0900ff;
-        public static final int library_androideasingfunctions_authorWebsite=0x7f090100;
-        public static final int library_androideasingfunctions_classPath=0x7f090107;
+        public static final int library_androideasingfunctions_author=0x7f090102;
+        public static final int library_androideasingfunctions_authorWebsite=0x7f090103;
+        public static final int library_androideasingfunctions_classPath=0x7f09010a;
         /**  OpenSource section 
          */
-        public static final int library_androideasingfunctions_isOpenSource=0x7f090105;
-        public static final int library_androideasingfunctions_libraryDescription=0x7f090102;
+        public static final int library_androideasingfunctions_isOpenSource=0x7f090108;
+        public static final int library_androideasingfunctions_libraryDescription=0x7f090105;
         /**  Library section 
          */
-        public static final int library_androideasingfunctions_libraryName=0x7f090101;
-        public static final int library_androideasingfunctions_libraryVersion=0x7f090104;
-        public static final int library_androideasingfunctions_libraryWebsite=0x7f090103;
+        public static final int library_androideasingfunctions_libraryName=0x7f090104;
+        public static final int library_androideasingfunctions_libraryVersion=0x7f090107;
+        public static final int library_androideasingfunctions_libraryWebsite=0x7f090106;
         /**  License section 
          */
-        public static final int library_androideasingfunctions_licenseId=0x7f090108;
-        public static final int library_androideasingfunctions_repositoryLink=0x7f090106;
+        public static final int library_androideasingfunctions_licenseId=0x7f09010b;
+        public static final int library_androideasingfunctions_repositoryLink=0x7f090109;
         /**  Author section 
          */
-        public static final int library_androidflowlayout_author=0x7f09010a;
-        public static final int library_androidflowlayout_authorWebsite=0x7f09010b;
+        public static final int library_androidflowlayout_author=0x7f09010d;
+        public static final int library_androidflowlayout_authorWebsite=0x7f09010e;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_androidflowlayout_classPath=0x7f090112;
+        public static final int library_androidflowlayout_classPath=0x7f090115;
         /**  OpenSource section 
          */
-        public static final int library_androidflowlayout_isOpenSource=0x7f090110;
-        public static final int library_androidflowlayout_libraryDescription=0x7f09010d;
+        public static final int library_androidflowlayout_isOpenSource=0x7f090113;
+        public static final int library_androidflowlayout_libraryDescription=0x7f090110;
         /**  Library section 
          */
-        public static final int library_androidflowlayout_libraryName=0x7f09010c;
-        public static final int library_androidflowlayout_libraryVersion=0x7f09010f;
-        public static final int library_androidflowlayout_libraryWebsite=0x7f09010e;
+        public static final int library_androidflowlayout_libraryName=0x7f09010f;
+        public static final int library_androidflowlayout_libraryVersion=0x7f090112;
+        public static final int library_androidflowlayout_libraryWebsite=0x7f090111;
         /**  License section 
          */
-        public static final int library_androidflowlayout_licenseId=0x7f090113;
-        public static final int library_androidflowlayout_repositoryLink=0x7f090111;
+        public static final int library_androidflowlayout_licenseId=0x7f090116;
+        public static final int library_androidflowlayout_repositoryLink=0x7f090114;
         /**  Author section 
          */
-        public static final int library_androidroundcornerprogressbar_author=0x7f090122;
-        public static final int library_androidroundcornerprogressbar_authorWebsite=0x7f090123;
+        public static final int library_androidroundcornerprogressbar_author=0x7f090125;
+        public static final int library_androidroundcornerprogressbar_authorWebsite=0x7f090126;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_androidroundcornerprogressbar_classPath=0x7f09012a;
+        public static final int library_androidroundcornerprogressbar_classPath=0x7f09012d;
         /**  OpenSource section 
          */
-        public static final int library_androidroundcornerprogressbar_isOpenSource=0x7f090128;
-        public static final int library_androidroundcornerprogressbar_libraryDescription=0x7f090125;
+        public static final int library_androidroundcornerprogressbar_isOpenSource=0x7f09012b;
+        public static final int library_androidroundcornerprogressbar_libraryDescription=0x7f090128;
         /**  Library section 
          */
-        public static final int library_androidroundcornerprogressbar_libraryName=0x7f090124;
-        public static final int library_androidroundcornerprogressbar_libraryVersion=0x7f090127;
-        public static final int library_androidroundcornerprogressbar_libraryWebsite=0x7f090126;
+        public static final int library_androidroundcornerprogressbar_libraryName=0x7f090127;
+        public static final int library_androidroundcornerprogressbar_libraryVersion=0x7f09012a;
+        public static final int library_androidroundcornerprogressbar_libraryWebsite=0x7f090129;
         /**  License section 
          */
-        public static final int library_androidroundcornerprogressbar_licenseId=0x7f09012b;
-        public static final int library_androidroundcornerprogressbar_repositoryLink=0x7f090129;
+        public static final int library_androidroundcornerprogressbar_licenseId=0x7f09012e;
+        public static final int library_androidroundcornerprogressbar_repositoryLink=0x7f09012c;
         /**  Author section 
          */
-        public static final int library_androidslidinguppanel_author=0x7f09012d;
-        public static final int library_androidslidinguppanel_authorWebsite=0x7f09012e;
+        public static final int library_androidslidinguppanel_author=0x7f090130;
+        public static final int library_androidslidinguppanel_authorWebsite=0x7f090131;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_androidslidinguppanel_classPath=0x7f090135;
+        public static final int library_androidslidinguppanel_classPath=0x7f090138;
         /**  OpenSource section 
          */
-        public static final int library_androidslidinguppanel_isOpenSource=0x7f090133;
-        public static final int library_androidslidinguppanel_libraryDescription=0x7f090130;
+        public static final int library_androidslidinguppanel_isOpenSource=0x7f090136;
+        public static final int library_androidslidinguppanel_libraryDescription=0x7f090133;
         /**  Library section 
          */
-        public static final int library_androidslidinguppanel_libraryName=0x7f09012f;
-        public static final int library_androidslidinguppanel_libraryVersion=0x7f090132;
-        public static final int library_androidslidinguppanel_libraryWebsite=0x7f090131;
+        public static final int library_androidslidinguppanel_libraryName=0x7f090132;
+        public static final int library_androidslidinguppanel_libraryVersion=0x7f090135;
+        public static final int library_androidslidinguppanel_libraryWebsite=0x7f090134;
         /**  License section 
          */
-        public static final int library_androidslidinguppanel_licenseId=0x7f090136;
-        public static final int library_androidslidinguppanel_repositoryLink=0x7f090134;
+        public static final int library_androidslidinguppanel_licenseId=0x7f090139;
+        public static final int library_androidslidinguppanel_repositoryLink=0x7f090137;
         /**  Author section 
          */
-        public static final int library_androidswipelayout_author=0x7f090473;
-        public static final int library_androidswipelayout_authorWebsite=0x7f090474;
+        public static final int library_androidswipelayout_author=0x7f090476;
+        public static final int library_androidswipelayout_authorWebsite=0x7f090477;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_androidswipelayout_classPath=0x7f09047b;
+        public static final int library_androidswipelayout_classPath=0x7f09047e;
         /**  OpenSource section 
          */
-        public static final int library_androidswipelayout_isOpenSource=0x7f090479;
-        public static final int library_androidswipelayout_libraryDescription=0x7f090476;
+        public static final int library_androidswipelayout_isOpenSource=0x7f09047c;
+        public static final int library_androidswipelayout_libraryDescription=0x7f090479;
         /**  Library section 
          */
-        public static final int library_androidswipelayout_libraryName=0x7f090475;
-        public static final int library_androidswipelayout_libraryVersion=0x7f090478;
-        public static final int library_androidswipelayout_libraryWebsite=0x7f090477;
+        public static final int library_androidswipelayout_libraryName=0x7f090478;
+        public static final int library_androidswipelayout_libraryVersion=0x7f09047b;
+        public static final int library_androidswipelayout_libraryWebsite=0x7f09047a;
         /**  License section 
          */
-        public static final int library_androidswipelayout_licenseId=0x7f09047c;
-        public static final int library_androidswipelayout_repositoryLink=0x7f09047a;
+        public static final int library_androidswipelayout_licenseId=0x7f09047f;
+        public static final int library_androidswipelayout_repositoryLink=0x7f09047d;
         /**  Author section 
          */
-        public static final int library_androiduniversalimageloader_author=0x7f090151;
-        public static final int library_androiduniversalimageloader_authorWebsite=0x7f090152;
+        public static final int library_androiduniversalimageloader_author=0x7f090154;
+        public static final int library_androiduniversalimageloader_authorWebsite=0x7f090155;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_androiduniversalimageloader_classPath=0x7f090159;
+        public static final int library_androiduniversalimageloader_classPath=0x7f09015c;
         /**  OpenSource section 
          */
-        public static final int library_androiduniversalimageloader_isOpenSource=0x7f090157;
-        public static final int library_androiduniversalimageloader_libraryDescription=0x7f090154;
+        public static final int library_androiduniversalimageloader_isOpenSource=0x7f09015a;
+        public static final int library_androiduniversalimageloader_libraryDescription=0x7f090157;
         /**  Library section 
          */
-        public static final int library_androiduniversalimageloader_libraryName=0x7f090153;
-        public static final int library_androiduniversalimageloader_libraryVersion=0x7f090156;
-        public static final int library_androiduniversalimageloader_libraryWebsite=0x7f090155;
+        public static final int library_androiduniversalimageloader_libraryName=0x7f090156;
+        public static final int library_androiduniversalimageloader_libraryVersion=0x7f090159;
+        public static final int library_androiduniversalimageloader_libraryWebsite=0x7f090158;
         /**  License section 
          */
-        public static final int library_androiduniversalimageloader_licenseId=0x7f09015a;
-        public static final int library_androiduniversalimageloader_repositoryLink=0x7f090158;
+        public static final int library_androiduniversalimageloader_licenseId=0x7f09015d;
+        public static final int library_androiduniversalimageloader_repositoryLink=0x7f09015b;
         /**  Author section 
          */
-        public static final int library_androidviewanimations_author=0x7f09015c;
-        public static final int library_androidviewanimations_authorWebsite=0x7f09015d;
-        public static final int library_androidviewanimations_classPath=0x7f090164;
+        public static final int library_androidviewanimations_author=0x7f09015f;
+        public static final int library_androidviewanimations_authorWebsite=0x7f090160;
+        public static final int library_androidviewanimations_classPath=0x7f090167;
         /**  OpenSource section 
          */
-        public static final int library_androidviewanimations_isOpenSource=0x7f090162;
-        public static final int library_androidviewanimations_libraryDescription=0x7f09015f;
+        public static final int library_androidviewanimations_isOpenSource=0x7f090165;
+        public static final int library_androidviewanimations_libraryDescription=0x7f090162;
         /**  Library section 
          */
-        public static final int library_androidviewanimations_libraryName=0x7f09015e;
-        public static final int library_androidviewanimations_libraryVersion=0x7f090161;
-        public static final int library_androidviewanimations_libraryWebsite=0x7f090160;
+        public static final int library_androidviewanimations_libraryName=0x7f090161;
+        public static final int library_androidviewanimations_libraryVersion=0x7f090164;
+        public static final int library_androidviewanimations_libraryWebsite=0x7f090163;
         /**  License section 
          */
-        public static final int library_androidviewanimations_licenseId=0x7f090165;
-        public static final int library_androidviewanimations_repositoryLink=0x7f090163;
+        public static final int library_androidviewanimations_licenseId=0x7f090168;
+        public static final int library_androidviewanimations_repositoryLink=0x7f090166;
         /**  Author section 
          */
-        public static final int library_androidviewhover_author=0x7f090167;
-        public static final int library_androidviewhover_authorWebsite=0x7f090168;
-        public static final int library_androidviewhover_classPath=0x7f09016f;
+        public static final int library_androidviewhover_author=0x7f09016a;
+        public static final int library_androidviewhover_authorWebsite=0x7f09016b;
+        public static final int library_androidviewhover_classPath=0x7f090172;
         /**  OpenSource section 
          */
-        public static final int library_androidviewhover_isOpenSource=0x7f09016d;
-        public static final int library_androidviewhover_libraryDescription=0x7f09016a;
+        public static final int library_androidviewhover_isOpenSource=0x7f090170;
+        public static final int library_androidviewhover_libraryDescription=0x7f09016d;
         /**  Library section 
          */
-        public static final int library_androidviewhover_libraryName=0x7f090169;
-        public static final int library_androidviewhover_libraryVersion=0x7f09016c;
-        public static final int library_androidviewhover_libraryWebsite=0x7f09016b;
+        public static final int library_androidviewhover_libraryName=0x7f09016c;
+        public static final int library_androidviewhover_libraryVersion=0x7f09016f;
+        public static final int library_androidviewhover_libraryWebsite=0x7f09016e;
         /**  License section 
          */
-        public static final int library_androidviewhover_licenseId=0x7f090170;
-        public static final int library_androidviewhover_repositoryLink=0x7f09016e;
+        public static final int library_androidviewhover_licenseId=0x7f090173;
+        public static final int library_androidviewhover_repositoryLink=0x7f090171;
         public static final int library_appupdater_author=0x7f090075;
         public static final int library_appupdater_authorWebsite=0x7f090076;
         public static final int library_appupdater_isOpenSource=0x7f09007b;
@@ -5509,382 +5535,382 @@ containing a value of this type.
         public static final int library_appupdater_repositoryLink=0x7f09007c;
         /**  Author section 
          */
-        public static final int library_bottomsheet_author=0x7f09018a;
-        public static final int library_bottomsheet_authorWebsite=0x7f09018b;
+        public static final int library_bottomsheet_author=0x7f09018d;
+        public static final int library_bottomsheet_authorWebsite=0x7f09018e;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_bottomsheet_classPath=0x7f090192;
+        public static final int library_bottomsheet_classPath=0x7f090195;
         /**  OpenSource section 
          */
-        public static final int library_bottomsheet_isOpenSource=0x7f090190;
-        public static final int library_bottomsheet_libraryDescription=0x7f09018d;
+        public static final int library_bottomsheet_isOpenSource=0x7f090193;
+        public static final int library_bottomsheet_libraryDescription=0x7f090190;
         /**  Library section 
          */
-        public static final int library_bottomsheet_libraryName=0x7f09018c;
-        public static final int library_bottomsheet_libraryVersion=0x7f09018f;
-        public static final int library_bottomsheet_libraryWebsite=0x7f09018e;
-        public static final int library_bottomsheet_repositoryLink=0x7f090191;
-        public static final int library_caldroid_author=0x7f0901a3;
-        public static final int library_caldroid_authorWebsite=0x7f0901a4;
-        public static final int library_caldroid_classPath=0x7f0901ac;
-        public static final int library_caldroid_isOpenSource=0x7f0901aa;
-        public static final int library_caldroid_libraryDescription=0x7f0901a6;
-        public static final int library_caldroid_libraryName=0x7f0901a5;
-        public static final int library_caldroid_libraryVersion=0x7f0901a7;
-        public static final int library_caldroid_libraryWebsite=0x7f0901a8;
-        public static final int library_caldroid_licenseId=0x7f0901a9;
+        public static final int library_bottomsheet_libraryName=0x7f09018f;
+        public static final int library_bottomsheet_libraryVersion=0x7f090192;
+        public static final int library_bottomsheet_libraryWebsite=0x7f090191;
+        public static final int library_bottomsheet_repositoryLink=0x7f090194;
+        public static final int library_caldroid_author=0x7f0901a6;
+        public static final int library_caldroid_authorWebsite=0x7f0901a7;
+        public static final int library_caldroid_classPath=0x7f0901af;
+        public static final int library_caldroid_isOpenSource=0x7f0901ad;
+        public static final int library_caldroid_libraryDescription=0x7f0901a9;
+        public static final int library_caldroid_libraryName=0x7f0901a8;
+        public static final int library_caldroid_libraryVersion=0x7f0901aa;
+        public static final int library_caldroid_libraryWebsite=0x7f0901ab;
+        public static final int library_caldroid_licenseId=0x7f0901ac;
         /**  Custom variables section 
          */
-        public static final int library_caldroid_owner=0x7f0901ad;
-        public static final int library_caldroid_repositoryLink=0x7f0901ab;
-        public static final int library_caldroid_year=0x7f0901ae;
+        public static final int library_caldroid_owner=0x7f0901b0;
+        public static final int library_caldroid_repositoryLink=0x7f0901ae;
+        public static final int library_caldroid_year=0x7f0901b1;
         /**  Author section 
          */
-        public static final int library_calligraphy_author=0x7f0901b0;
-        public static final int library_calligraphy_authorWebsite=0x7f0901b1;
-        public static final int library_calligraphy_classPath=0x7f0901b8;
+        public static final int library_calligraphy_author=0x7f0901b3;
+        public static final int library_calligraphy_authorWebsite=0x7f0901b4;
+        public static final int library_calligraphy_classPath=0x7f0901bb;
         /**  OpenSource section 
          */
-        public static final int library_calligraphy_isOpenSource=0x7f0901b6;
-        public static final int library_calligraphy_libraryDescription=0x7f0901b3;
+        public static final int library_calligraphy_isOpenSource=0x7f0901b9;
+        public static final int library_calligraphy_libraryDescription=0x7f0901b6;
         /**  Library section 
          */
-        public static final int library_calligraphy_libraryName=0x7f0901b2;
-        public static final int library_calligraphy_libraryVersion=0x7f0901b5;
-        public static final int library_calligraphy_libraryWebsite=0x7f0901b4;
+        public static final int library_calligraphy_libraryName=0x7f0901b5;
+        public static final int library_calligraphy_libraryVersion=0x7f0901b8;
+        public static final int library_calligraphy_libraryWebsite=0x7f0901b7;
         /**  License section 
          */
-        public static final int library_calligraphy_licenseId=0x7f0901b9;
-        public static final int library_calligraphy_repositoryLink=0x7f0901b7;
-        public static final int library_cardsuiForAndroid_author=0x7f0901bb;
-        public static final int library_cardsuiForAndroid_authorWebsite=0x7f0901bc;
+        public static final int library_calligraphy_licenseId=0x7f0901bc;
+        public static final int library_calligraphy_repositoryLink=0x7f0901ba;
+        public static final int library_cardsuiForAndroid_author=0x7f0901be;
+        public static final int library_cardsuiForAndroid_authorWebsite=0x7f0901bf;
         /**  ClassPath for autoDetect 
          */
-        public static final int library_cardsuiForAndroid_classPath=0x7f0901c4;
-        public static final int library_cardsuiForAndroid_isOpenSource=0x7f0901c2;
-        public static final int library_cardsuiForAndroid_libraryDescription=0x7f0901be;
-        public static final int library_cardsuiForAndroid_libraryName=0x7f0901bd;
-        public static final int library_cardsuiForAndroid_libraryVersion=0x7f0901bf;
-        public static final int library_cardsuiForAndroid_libraryWebsite=0x7f0901c0;
-        public static final int library_cardsuiForAndroid_licenseId=0x7f0901c1;
+        public static final int library_cardsuiForAndroid_classPath=0x7f0901c7;
+        public static final int library_cardsuiForAndroid_isOpenSource=0x7f0901c5;
+        public static final int library_cardsuiForAndroid_libraryDescription=0x7f0901c1;
+        public static final int library_cardsuiForAndroid_libraryName=0x7f0901c0;
+        public static final int library_cardsuiForAndroid_libraryVersion=0x7f0901c2;
+        public static final int library_cardsuiForAndroid_libraryWebsite=0x7f0901c3;
+        public static final int library_cardsuiForAndroid_licenseId=0x7f0901c4;
         /**  Custom variables section 
          */
-        public static final int library_cardsuiForAndroid_owner=0x7f0901c5;
-        public static final int library_cardsuiForAndroid_repositoryLink=0x7f0901c3;
-        public static final int library_cardsuiForAndroid_year=0x7f0901c6;
+        public static final int library_cardsuiForAndroid_owner=0x7f0901c8;
+        public static final int library_cardsuiForAndroid_repositoryLink=0x7f0901c6;
+        public static final int library_cardsuiForAndroid_year=0x7f0901c9;
         /**  Author section 
          */
-        public static final int library_circleindicator_author=0x7f0901c8;
-        public static final int library_circleindicator_authorWebsite=0x7f0901c9;
+        public static final int library_circleindicator_author=0x7f0901cb;
+        public static final int library_circleindicator_authorWebsite=0x7f0901cc;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_circleindicator_classPath=0x7f0901d0;
+        public static final int library_circleindicator_classPath=0x7f0901d3;
         /**  OpenSource section 
          */
-        public static final int library_circleindicator_isOpenSource=0x7f0901ce;
-        public static final int library_circleindicator_libraryDescription=0x7f0901cb;
+        public static final int library_circleindicator_isOpenSource=0x7f0901d1;
+        public static final int library_circleindicator_libraryDescription=0x7f0901ce;
         /**  Library section 
          */
-        public static final int library_circleindicator_libraryName=0x7f0901ca;
-        public static final int library_circleindicator_libraryVersion=0x7f0901cd;
-        public static final int library_circleindicator_libraryWebsite=0x7f0901cc;
+        public static final int library_circleindicator_libraryName=0x7f0901cd;
+        public static final int library_circleindicator_libraryVersion=0x7f0901d0;
+        public static final int library_circleindicator_libraryWebsite=0x7f0901cf;
         /**  License section 
          */
-        public static final int library_circleindicator_licenseId=0x7f0901d1;
-        public static final int library_circleindicator_repositoryLink=0x7f0901cf;
+        public static final int library_circleindicator_licenseId=0x7f0901d4;
+        public static final int library_circleindicator_repositoryLink=0x7f0901d2;
         /**  Author section 
          */
-        public static final int library_colorpickercollection_author=0x7f0901d3;
-        public static final int library_colorpickercollection_authorWebsite=0x7f0901d4;
+        public static final int library_colorpickercollection_author=0x7f0901d6;
+        public static final int library_colorpickercollection_authorWebsite=0x7f0901d7;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_colorpickercollection_classPath=0x7f0901db;
+        public static final int library_colorpickercollection_classPath=0x7f0901de;
         /**  OpenSource section 
          */
-        public static final int library_colorpickercollection_isOpenSource=0x7f0901d9;
-        public static final int library_colorpickercollection_libraryDescription=0x7f0901d6;
+        public static final int library_colorpickercollection_isOpenSource=0x7f0901dc;
+        public static final int library_colorpickercollection_libraryDescription=0x7f0901d9;
         /**  Library section 
          */
-        public static final int library_colorpickercollection_libraryName=0x7f0901d5;
-        public static final int library_colorpickercollection_libraryVersion=0x7f0901d8;
-        public static final int library_colorpickercollection_libraryWebsite=0x7f0901d7;
+        public static final int library_colorpickercollection_libraryName=0x7f0901d8;
+        public static final int library_colorpickercollection_libraryVersion=0x7f0901db;
+        public static final int library_colorpickercollection_libraryWebsite=0x7f0901da;
         /**  License section 
          */
-        public static final int library_colorpickercollection_licenseId=0x7f0901dc;
-        public static final int library_colorpickercollection_repositoryLink=0x7f0901da;
+        public static final int library_colorpickercollection_licenseId=0x7f0901df;
+        public static final int library_colorpickercollection_repositoryLink=0x7f0901dd;
         /**  Author section 
          */
-        public static final int library_commonsio_author=0x7f0901de;
-        public static final int library_commonsio_authorWebsite=0x7f0901df;
+        public static final int library_commonsio_author=0x7f0901e1;
+        public static final int library_commonsio_authorWebsite=0x7f0901e2;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_commonsio_classPath=0x7f0901e6;
+        public static final int library_commonsio_classPath=0x7f0901e9;
         /**  OpenSource section 
          */
-        public static final int library_commonsio_isOpenSource=0x7f0901e4;
-        public static final int library_commonsio_libraryDescription=0x7f0901e1;
+        public static final int library_commonsio_isOpenSource=0x7f0901e7;
+        public static final int library_commonsio_libraryDescription=0x7f0901e4;
         /**  Library section 
          */
-        public static final int library_commonsio_libraryName=0x7f0901e0;
-        public static final int library_commonsio_libraryVersion=0x7f0901e3;
-        public static final int library_commonsio_libraryWebsite=0x7f0901e2;
+        public static final int library_commonsio_libraryName=0x7f0901e3;
+        public static final int library_commonsio_libraryVersion=0x7f0901e6;
+        public static final int library_commonsio_libraryWebsite=0x7f0901e5;
         /**  License section 
          */
-        public static final int library_commonsio_licenseId=0x7f0901e7;
-        public static final int library_commonsio_repositoryLink=0x7f0901e5;
+        public static final int library_commonsio_licenseId=0x7f0901ea;
+        public static final int library_commonsio_repositoryLink=0x7f0901e8;
         /**  Author section 
          */
-        public static final int library_dynamicrecyclerview_author=0x7f09021a;
-        public static final int library_dynamicrecyclerview_authorWebsite=0x7f09021b;
+        public static final int library_dynamicrecyclerview_author=0x7f09021d;
+        public static final int library_dynamicrecyclerview_authorWebsite=0x7f09021e;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_dynamicrecyclerview_classPath=0x7f090222;
+        public static final int library_dynamicrecyclerview_classPath=0x7f090225;
         /**  OpenSource section 
          */
-        public static final int library_dynamicrecyclerview_isOpenSource=0x7f090220;
-        public static final int library_dynamicrecyclerview_libraryDescription=0x7f09021d;
+        public static final int library_dynamicrecyclerview_isOpenSource=0x7f090223;
+        public static final int library_dynamicrecyclerview_libraryDescription=0x7f090220;
         /**  Library section 
          */
-        public static final int library_dynamicrecyclerview_libraryName=0x7f09021c;
-        public static final int library_dynamicrecyclerview_libraryVersion=0x7f09021f;
-        public static final int library_dynamicrecyclerview_libraryWebsite=0x7f09021e;
+        public static final int library_dynamicrecyclerview_libraryName=0x7f09021f;
+        public static final int library_dynamicrecyclerview_libraryVersion=0x7f090222;
+        public static final int library_dynamicrecyclerview_libraryWebsite=0x7f090221;
         /**  License section 
          */
-        public static final int library_dynamicrecyclerview_licenseId=0x7f090223;
-        public static final int library_dynamicrecyclerview_repositoryLink=0x7f090221;
-        public static final int library_foursquareAndroidOauth_author=0x7f09025f;
-        public static final int library_foursquareAndroidOauth_classPath=0x7f090267;
-        public static final int library_foursquareAndroidOauth_isOpenSource=0x7f090265;
-        public static final int library_foursquareAndroidOauth_libraryDescription=0x7f090261;
-        public static final int library_foursquareAndroidOauth_libraryName=0x7f090260;
-        public static final int library_foursquareAndroidOauth_libraryVersion=0x7f090262;
-        public static final int library_foursquareAndroidOauth_libraryWebsite=0x7f090263;
-        public static final int library_foursquareAndroidOauth_licenseId=0x7f090264;
+        public static final int library_dynamicrecyclerview_licenseId=0x7f090226;
+        public static final int library_dynamicrecyclerview_repositoryLink=0x7f090224;
+        public static final int library_foursquareAndroidOauth_author=0x7f090262;
+        public static final int library_foursquareAndroidOauth_classPath=0x7f09026a;
+        public static final int library_foursquareAndroidOauth_isOpenSource=0x7f090268;
+        public static final int library_foursquareAndroidOauth_libraryDescription=0x7f090264;
+        public static final int library_foursquareAndroidOauth_libraryName=0x7f090263;
+        public static final int library_foursquareAndroidOauth_libraryVersion=0x7f090265;
+        public static final int library_foursquareAndroidOauth_libraryWebsite=0x7f090266;
+        public static final int library_foursquareAndroidOauth_licenseId=0x7f090267;
         /**  Custom variables section 
          */
-        public static final int library_foursquareAndroidOauth_owner=0x7f090268;
-        public static final int library_foursquareAndroidOauth_repositoryLink=0x7f090266;
-        public static final int library_foursquareAndroidOauth_year=0x7f090269;
+        public static final int library_foursquareAndroidOauth_owner=0x7f09026b;
+        public static final int library_foursquareAndroidOauth_repositoryLink=0x7f090269;
+        public static final int library_foursquareAndroidOauth_year=0x7f09026c;
         /**  Author section 
          */
-        public static final int library_greendao_author=0x7f090276;
-        public static final int library_greendao_authorWebsite=0x7f090277;
-        public static final int library_greendao_classPath=0x7f09027e;
+        public static final int library_greendao_author=0x7f090279;
+        public static final int library_greendao_authorWebsite=0x7f09027a;
+        public static final int library_greendao_classPath=0x7f090281;
         /**  OpenSource section 
          */
-        public static final int library_greendao_isOpenSource=0x7f09027c;
-        public static final int library_greendao_libraryDescription=0x7f090279;
+        public static final int library_greendao_isOpenSource=0x7f09027f;
+        public static final int library_greendao_libraryDescription=0x7f09027c;
         /**  Library section 
          */
-        public static final int library_greendao_libraryName=0x7f090278;
-        public static final int library_greendao_libraryVersion=0x7f09027b;
-        public static final int library_greendao_libraryWebsite=0x7f09027a;
+        public static final int library_greendao_libraryName=0x7f09027b;
+        public static final int library_greendao_libraryVersion=0x7f09027e;
+        public static final int library_greendao_libraryWebsite=0x7f09027d;
         /**  License section 
          */
-        public static final int library_greendao_licenseId=0x7f09027f;
-        public static final int library_greendao_repositoryLink=0x7f09027d;
-        public static final int library_gson_author=0x7f090281;
-        public static final int library_gson_classPath=0x7f090289;
-        public static final int library_gson_isOpenSource=0x7f090287;
-        public static final int library_gson_libraryDescription=0x7f090283;
-        public static final int library_gson_libraryName=0x7f090282;
-        public static final int library_gson_libraryVersion=0x7f090284;
-        public static final int library_gson_libraryWebsite=0x7f090285;
-        public static final int library_gson_licenseId=0x7f090286;
+        public static final int library_greendao_licenseId=0x7f090282;
+        public static final int library_greendao_repositoryLink=0x7f090280;
+        public static final int library_gson_author=0x7f090284;
+        public static final int library_gson_classPath=0x7f09028c;
+        public static final int library_gson_isOpenSource=0x7f09028a;
+        public static final int library_gson_libraryDescription=0x7f090286;
+        public static final int library_gson_libraryName=0x7f090285;
+        public static final int library_gson_libraryVersion=0x7f090287;
+        public static final int library_gson_libraryWebsite=0x7f090288;
+        public static final int library_gson_licenseId=0x7f090289;
         /**  Custom variables section 
          */
-        public static final int library_gson_owner=0x7f09028a;
-        public static final int library_gson_repositoryLink=0x7f090288;
-        public static final int library_gson_year=0x7f09028b;
+        public static final int library_gson_owner=0x7f09028d;
+        public static final int library_gson_repositoryLink=0x7f09028b;
+        public static final int library_gson_year=0x7f09028e;
         /**  Author section 
          */
-        public static final int library_gsonjodatimeserialisers_author=0x7f09028d;
-        public static final int library_gsonjodatimeserialisers_authorWebsite=0x7f09028e;
+        public static final int library_gsonjodatimeserialisers_author=0x7f090290;
+        public static final int library_gsonjodatimeserialisers_authorWebsite=0x7f090291;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_gsonjodatimeserialisers_classPath=0x7f090295;
+        public static final int library_gsonjodatimeserialisers_classPath=0x7f090298;
         /**  OpenSource section 
          */
-        public static final int library_gsonjodatimeserialisers_isOpenSource=0x7f090293;
-        public static final int library_gsonjodatimeserialisers_libraryDescription=0x7f090290;
+        public static final int library_gsonjodatimeserialisers_isOpenSource=0x7f090296;
+        public static final int library_gsonjodatimeserialisers_libraryDescription=0x7f090293;
         /**  Library section 
          */
-        public static final int library_gsonjodatimeserialisers_libraryName=0x7f09028f;
-        public static final int library_gsonjodatimeserialisers_libraryVersion=0x7f090292;
-        public static final int library_gsonjodatimeserialisers_libraryWebsite=0x7f090291;
+        public static final int library_gsonjodatimeserialisers_libraryName=0x7f090292;
+        public static final int library_gsonjodatimeserialisers_libraryVersion=0x7f090295;
+        public static final int library_gsonjodatimeserialisers_libraryWebsite=0x7f090294;
         /**  License section 
          */
-        public static final int library_gsonjodatimeserialisers_licenseId=0x7f090296;
-        public static final int library_gsonjodatimeserialisers_repositoryLink=0x7f090294;
+        public static final int library_gsonjodatimeserialisers_licenseId=0x7f090299;
+        public static final int library_gsonjodatimeserialisers_repositoryLink=0x7f090297;
         /**  Author section 
          */
-        public static final int library_guava_author=0x7f090298;
-        public static final int library_guava_authorWebsite=0x7f090299;
+        public static final int library_guava_author=0x7f09029b;
+        public static final int library_guava_authorWebsite=0x7f09029c;
         /**  ClassPath for autoDetect 
          */
-        public static final int library_guava_classPath=0x7f0902a0;
+        public static final int library_guava_classPath=0x7f0902a3;
         /**  OpenSource section 
          */
-        public static final int library_guava_isOpenSource=0x7f09029e;
-        public static final int library_guava_libraryDescription=0x7f09029b;
+        public static final int library_guava_isOpenSource=0x7f0902a1;
+        public static final int library_guava_libraryDescription=0x7f09029e;
         /**  Library section 
          */
-        public static final int library_guava_libraryName=0x7f09029a;
-        public static final int library_guava_libraryVersion=0x7f09029d;
-        public static final int library_guava_libraryWebsite=0x7f09029c;
+        public static final int library_guava_libraryName=0x7f09029d;
+        public static final int library_guava_libraryVersion=0x7f0902a0;
+        public static final int library_guava_libraryWebsite=0x7f09029f;
         /**  License section 
          */
-        public static final int library_guava_licenseId=0x7f0902a1;
-        public static final int library_guava_repositoryLink=0x7f09029f;
+        public static final int library_guava_licenseId=0x7f0902a4;
+        public static final int library_guava_repositoryLink=0x7f0902a2;
         /**  Author section 
          */
-        public static final int library_hellocharts_author=0x7f0902a3;
-        public static final int library_hellocharts_authorWebsite=0x7f0902a4;
+        public static final int library_hellocharts_author=0x7f0902a6;
+        public static final int library_hellocharts_authorWebsite=0x7f0902a7;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_hellocharts_classPath=0x7f0902ab;
+        public static final int library_hellocharts_classPath=0x7f0902ae;
         /**  OpenSource section 
          */
-        public static final int library_hellocharts_isOpenSource=0x7f0902a9;
-        public static final int library_hellocharts_libraryDescription=0x7f0902a6;
+        public static final int library_hellocharts_isOpenSource=0x7f0902ac;
+        public static final int library_hellocharts_libraryDescription=0x7f0902a9;
         /**  Library section 
          */
-        public static final int library_hellocharts_libraryName=0x7f0902a5;
-        public static final int library_hellocharts_libraryVersion=0x7f0902a8;
-        public static final int library_hellocharts_libraryWebsite=0x7f0902a7;
+        public static final int library_hellocharts_libraryName=0x7f0902a8;
+        public static final int library_hellocharts_libraryVersion=0x7f0902ab;
+        public static final int library_hellocharts_libraryWebsite=0x7f0902aa;
         /**  License section 
          */
-        public static final int library_hellocharts_licenseId=0x7f0902ac;
-        public static final int library_hellocharts_repositoryLink=0x7f0902aa;
+        public static final int library_hellocharts_licenseId=0x7f0902af;
+        public static final int library_hellocharts_repositoryLink=0x7f0902ad;
         /**  Author section 
          */
-        public static final int library_ion_author=0x7f0902bb;
-        public static final int library_ion_authorWebsite=0x7f0902bc;
-        public static final int library_ion_classPath=0x7f0902c3;
+        public static final int library_ion_author=0x7f0902be;
+        public static final int library_ion_authorWebsite=0x7f0902bf;
+        public static final int library_ion_classPath=0x7f0902c6;
         /**  OpenSource section 
          */
-        public static final int library_ion_isOpenSource=0x7f0902c1;
-        public static final int library_ion_libraryDescription=0x7f0902be;
+        public static final int library_ion_isOpenSource=0x7f0902c4;
+        public static final int library_ion_libraryDescription=0x7f0902c1;
         /**  Library section 
          */
-        public static final int library_ion_libraryName=0x7f0902bd;
-        public static final int library_ion_libraryVersion=0x7f0902c0;
-        public static final int library_ion_libraryWebsite=0x7f0902bf;
+        public static final int library_ion_libraryName=0x7f0902c0;
+        public static final int library_ion_libraryVersion=0x7f0902c3;
+        public static final int library_ion_libraryWebsite=0x7f0902c2;
         /**  License section 
          */
-        public static final int library_ion_licenseId=0x7f0902c4;
-        public static final int library_ion_repositoryLink=0x7f0902c2;
+        public static final int library_ion_licenseId=0x7f0902c7;
+        public static final int library_ion_repositoryLink=0x7f0902c5;
         /**  Author section 
          */
-        public static final int library_jackson_author=0x7f0902c6;
-        public static final int library_jackson_authorWebsite=0x7f0902c7;
+        public static final int library_jackson_author=0x7f0902c9;
+        public static final int library_jackson_authorWebsite=0x7f0902ca;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_jackson_classPath=0x7f0902ce;
+        public static final int library_jackson_classPath=0x7f0902d1;
         /**  OpenSource section 
          */
-        public static final int library_jackson_isOpenSource=0x7f0902cc;
-        public static final int library_jackson_libraryDescription=0x7f0902c9;
+        public static final int library_jackson_isOpenSource=0x7f0902cf;
+        public static final int library_jackson_libraryDescription=0x7f0902cc;
         /**  Library section 
          */
-        public static final int library_jackson_libraryName=0x7f0902c8;
-        public static final int library_jackson_libraryVersion=0x7f0902cb;
-        public static final int library_jackson_libraryWebsite=0x7f0902ca;
+        public static final int library_jackson_libraryName=0x7f0902cb;
+        public static final int library_jackson_libraryVersion=0x7f0902ce;
+        public static final int library_jackson_libraryWebsite=0x7f0902cd;
         /**  License section 
          */
-        public static final int library_jackson_licenseId=0x7f0902cf;
-        public static final int library_jackson_repositoryLink=0x7f0902cd;
-        public static final int library_jodaTime_author=0x7f0902d1;
-        public static final int library_jodaTime_authorWebsite=0x7f0902d2;
-        public static final int library_jodaTime_classPath=0x7f0902da;
-        public static final int library_jodaTime_isOpenSource=0x7f0902d8;
-        public static final int library_jodaTime_libraryDescription=0x7f0902d4;
-        public static final int library_jodaTime_libraryName=0x7f0902d3;
-        public static final int library_jodaTime_libraryVersion=0x7f0902d5;
-        public static final int library_jodaTime_libraryWebsite=0x7f0902d6;
-        public static final int library_jodaTime_licenseId=0x7f0902d7;
+        public static final int library_jackson_licenseId=0x7f0902d2;
+        public static final int library_jackson_repositoryLink=0x7f0902d0;
+        public static final int library_jodaTime_author=0x7f0902d4;
+        public static final int library_jodaTime_authorWebsite=0x7f0902d5;
+        public static final int library_jodaTime_classPath=0x7f0902dd;
+        public static final int library_jodaTime_isOpenSource=0x7f0902db;
+        public static final int library_jodaTime_libraryDescription=0x7f0902d7;
+        public static final int library_jodaTime_libraryName=0x7f0902d6;
+        public static final int library_jodaTime_libraryVersion=0x7f0902d8;
+        public static final int library_jodaTime_libraryWebsite=0x7f0902d9;
+        public static final int library_jodaTime_licenseId=0x7f0902da;
         /**  Custom variables section 
          */
-        public static final int library_jodaTime_owner=0x7f0902db;
-        public static final int library_jodaTime_repositoryLink=0x7f0902d9;
-        public static final int library_jodaTime_year=0x7f0902dc;
+        public static final int library_jodaTime_owner=0x7f0902de;
+        public static final int library_jodaTime_repositoryLink=0x7f0902dc;
+        public static final int library_jodaTime_year=0x7f0902df;
         /**  Author section 
          */
-        public static final int library_jodatimeandroid_author=0x7f0902de;
-        public static final int library_jodatimeandroid_authorWebsite=0x7f0902df;
+        public static final int library_jodatimeandroid_author=0x7f0902e1;
+        public static final int library_jodatimeandroid_authorWebsite=0x7f0902e2;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_jodatimeandroid_classPath=0x7f0902e6;
+        public static final int library_jodatimeandroid_classPath=0x7f0902e9;
         /**  OpenSource section 
          */
-        public static final int library_jodatimeandroid_isOpenSource=0x7f0902e4;
-        public static final int library_jodatimeandroid_libraryDescription=0x7f0902e1;
+        public static final int library_jodatimeandroid_isOpenSource=0x7f0902e7;
+        public static final int library_jodatimeandroid_libraryDescription=0x7f0902e4;
         /**  Library section 
          */
-        public static final int library_jodatimeandroid_libraryName=0x7f0902e0;
-        public static final int library_jodatimeandroid_libraryVersion=0x7f0902e3;
-        public static final int library_jodatimeandroid_libraryWebsite=0x7f0902e2;
+        public static final int library_jodatimeandroid_libraryName=0x7f0902e3;
+        public static final int library_jodatimeandroid_libraryVersion=0x7f0902e6;
+        public static final int library_jodatimeandroid_libraryWebsite=0x7f0902e5;
         /**  License section 
          */
-        public static final int library_jodatimeandroid_licenseId=0x7f0902e7;
-        public static final int library_jodatimeandroid_repositoryLink=0x7f0902e5;
+        public static final int library_jodatimeandroid_licenseId=0x7f0902ea;
+        public static final int library_jodatimeandroid_repositoryLink=0x7f0902e8;
         /**  Author section 
          */
-        public static final int library_ldialogs_author=0x7f0902f4;
-        public static final int library_ldialogs_authorWebsite=0x7f0902f5;
+        public static final int library_ldialogs_author=0x7f0902f7;
+        public static final int library_ldialogs_authorWebsite=0x7f0902f8;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_ldialogs_classPath=0x7f0902fc;
+        public static final int library_ldialogs_classPath=0x7f0902ff;
         /**  OpenSource section 
          */
-        public static final int library_ldialogs_isOpenSource=0x7f0902fa;
-        public static final int library_ldialogs_libraryDescription=0x7f0902f7;
+        public static final int library_ldialogs_isOpenSource=0x7f0902fd;
+        public static final int library_ldialogs_libraryDescription=0x7f0902fa;
         /**  Library section 
          */
-        public static final int library_ldialogs_libraryName=0x7f0902f6;
-        public static final int library_ldialogs_libraryVersion=0x7f0902f9;
-        public static final int library_ldialogs_libraryWebsite=0x7f0902f8;
+        public static final int library_ldialogs_libraryName=0x7f0902f9;
+        public static final int library_ldialogs_libraryVersion=0x7f0902fc;
+        public static final int library_ldialogs_libraryWebsite=0x7f0902fb;
         /**  License section 
          */
-        public static final int library_ldialogs_licenseId=0x7f0902fd;
-        public static final int library_ldialogs_repositoryLink=0x7f0902fb;
+        public static final int library_ldialogs_licenseId=0x7f090300;
+        public static final int library_ldialogs_repositoryLink=0x7f0902fe;
         /**  Author section 
          */
-        public static final int library_libphonenumber_author=0x7f09030a;
-        public static final int library_libphonenumber_authorWebsite=0x7f09030b;
+        public static final int library_libphonenumber_author=0x7f09030d;
+        public static final int library_libphonenumber_authorWebsite=0x7f09030e;
         /**  OpenSource section 
          */
-        public static final int library_libphonenumber_isOpenSource=0x7f090310;
-        public static final int library_libphonenumber_libraryDescription=0x7f09030d;
+        public static final int library_libphonenumber_isOpenSource=0x7f090313;
+        public static final int library_libphonenumber_libraryDescription=0x7f090310;
         /**  Library section 
          */
-        public static final int library_libphonenumber_libraryName=0x7f09030c;
-        public static final int library_libphonenumber_libraryVersion=0x7f09030f;
-        public static final int library_libphonenumber_libraryWebsite=0x7f09030e;
+        public static final int library_libphonenumber_libraryName=0x7f09030f;
+        public static final int library_libphonenumber_libraryVersion=0x7f090312;
+        public static final int library_libphonenumber_libraryWebsite=0x7f090311;
         /**  License section 
          */
-        public static final int library_libphonenumber_licenseId=0x7f090312;
-        public static final int library_libphonenumber_repositoryLink=0x7f090311;
+        public static final int library_libphonenumber_licenseId=0x7f090315;
+        public static final int library_libphonenumber_repositoryLink=0x7f090314;
         /**  Author section 
          */
-        public static final int library_materialdialogs_author=0x7f090314;
-        public static final int library_materialdialogs_authorWebsite=0x7f090315;
+        public static final int library_materialdialogs_author=0x7f090317;
+        public static final int library_materialdialogs_authorWebsite=0x7f090318;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_materialdialogs_classPath=0x7f09031c;
+        public static final int library_materialdialogs_classPath=0x7f09031f;
         /**  OpenSource section 
          */
-        public static final int library_materialdialogs_isOpenSource=0x7f09031a;
-        public static final int library_materialdialogs_libraryDescription=0x7f090317;
+        public static final int library_materialdialogs_isOpenSource=0x7f09031d;
+        public static final int library_materialdialogs_libraryDescription=0x7f09031a;
         /**  Library section 
          */
-        public static final int library_materialdialogs_libraryName=0x7f090316;
-        public static final int library_materialdialogs_libraryVersion=0x7f090319;
-        public static final int library_materialdialogs_libraryWebsite=0x7f090318;
+        public static final int library_materialdialogs_libraryName=0x7f090319;
+        public static final int library_materialdialogs_libraryVersion=0x7f09031c;
+        public static final int library_materialdialogs_libraryWebsite=0x7f09031b;
         /**  License section 
          */
-        public static final int library_materialdialogs_licenseId=0x7f09031d;
-        public static final int library_materialdialogs_repositoryLink=0x7f09031b;
+        public static final int library_materialdialogs_licenseId=0x7f090320;
+        public static final int library_materialdialogs_repositoryLink=0x7f09031e;
         public static final int library_materialdrawer_author=0x7f090010;
         public static final int library_materialdrawer_authorWebsite=0x7f090011;
         public static final int library_materialdrawer_isOpenSource=0x7f090012;
@@ -5896,410 +5922,411 @@ containing a value of this type.
         public static final int library_materialdrawer_owner=0x7f090018;
         public static final int library_materialdrawer_repositoryLink=0x7f090019;
         public static final int library_materialdrawer_year=0x7f09001a;
-        public static final int library_materialedittext_author=0x7f09031f;
-        public static final int library_materialedittext_authorWebsite=0x7f090320;
-        public static final int library_materialedittext_classPath=0x7f090327;
-        public static final int library_materialedittext_isOpenSource=0x7f090325;
-        public static final int library_materialedittext_libraryDescription=0x7f090322;
-        public static final int library_materialedittext_libraryName=0x7f090321;
-        public static final int library_materialedittext_libraryVersion=0x7f090324;
-        public static final int library_materialedittext_libraryWebsite=0x7f090323;
-        public static final int library_materialedittext_licenseId=0x7f090328;
-        public static final int library_materialedittext_repositoryLink=0x7f090326;
+        public static final int library_materialedittext_author=0x7f090322;
+        public static final int library_materialedittext_authorWebsite=0x7f090323;
+        public static final int library_materialedittext_classPath=0x7f09032a;
+        public static final int library_materialedittext_isOpenSource=0x7f090328;
+        public static final int library_materialedittext_libraryDescription=0x7f090325;
+        public static final int library_materialedittext_libraryName=0x7f090324;
+        public static final int library_materialedittext_libraryVersion=0x7f090327;
+        public static final int library_materialedittext_libraryWebsite=0x7f090326;
+        public static final int library_materialedittext_licenseId=0x7f09032b;
+        public static final int library_materialedittext_repositoryLink=0x7f090329;
         /**  Author section 
          */
-        public static final int library_materialicons_author=0x7f09032a;
-        public static final int library_materialicons_authorWebsite=0x7f09032b;
+        public static final int library_materialicons_author=0x7f09032d;
+        public static final int library_materialicons_authorWebsite=0x7f09032e;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_materialicons_classPath=0x7f090332;
+        public static final int library_materialicons_classPath=0x7f090335;
         /**  OpenSource section 
          */
-        public static final int library_materialicons_isOpenSource=0x7f090330;
-        public static final int library_materialicons_libraryDescription=0x7f09032d;
+        public static final int library_materialicons_isOpenSource=0x7f090333;
+        public static final int library_materialicons_libraryDescription=0x7f090330;
         /**  Library section 
          */
-        public static final int library_materialicons_libraryName=0x7f09032c;
-        public static final int library_materialicons_libraryVersion=0x7f09032f;
-        public static final int library_materialicons_libraryWebsite=0x7f09032e;
+        public static final int library_materialicons_libraryName=0x7f09032f;
+        public static final int library_materialicons_libraryVersion=0x7f090332;
+        public static final int library_materialicons_libraryWebsite=0x7f090331;
         /**  License section 
          */
-        public static final int library_materialicons_licenseId=0x7f090333;
-        public static final int library_materialicons_repositoryLink=0x7f090331;
+        public static final int library_materialicons_licenseId=0x7f090336;
+        public static final int library_materialicons_repositoryLink=0x7f090334;
         /**  Author section 
          */
-        public static final int library_materialmenu_author=0x7f090335;
-        public static final int library_materialmenu_authorWebsite=0x7f090336;
+        public static final int library_materialmenu_author=0x7f090338;
+        public static final int library_materialmenu_authorWebsite=0x7f090339;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_materialmenu_classPath=0x7f09033d;
+        public static final int library_materialmenu_classPath=0x7f090340;
         /**  OpenSource section 
          */
-        public static final int library_materialmenu_isOpenSource=0x7f09033b;
-        public static final int library_materialmenu_libraryDescription=0x7f090338;
+        public static final int library_materialmenu_isOpenSource=0x7f09033e;
+        public static final int library_materialmenu_libraryDescription=0x7f09033b;
         /**  Library section 
          */
-        public static final int library_materialmenu_libraryName=0x7f090337;
-        public static final int library_materialmenu_libraryVersion=0x7f09033a;
-        public static final int library_materialmenu_libraryWebsite=0x7f090339;
+        public static final int library_materialmenu_libraryName=0x7f09033a;
+        public static final int library_materialmenu_libraryVersion=0x7f09033d;
+        public static final int library_materialmenu_libraryWebsite=0x7f09033c;
         /**  License section 
          */
-        public static final int library_materialmenu_licenseId=0x7f09033e;
+        public static final int library_materialmenu_licenseId=0x7f090341;
         /**  Custom variables section 
          */
-        public static final int library_materialmenu_owner=0x7f09033f;
-        public static final int library_materialmenu_repositoryLink=0x7f09033c;
-        public static final int library_materialmenu_year=0x7f090340;
+        public static final int library_materialmenu_owner=0x7f090342;
+        public static final int library_materialmenu_repositoryLink=0x7f09033f;
+        public static final int library_materialmenu_year=0x7f090343;
         /**  Author section 
          */
-        public static final int library_mpandroidchart_author=0x7f09034d;
-        public static final int library_mpandroidchart_authorWebsite=0x7f09034e;
+        public static final int library_mpandroidchart_author=0x7f090350;
+        public static final int library_mpandroidchart_authorWebsite=0x7f090351;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_mpandroidchart_classPath=0x7f090355;
+        public static final int library_mpandroidchart_classPath=0x7f090358;
         /**  OpenSource section 
          */
-        public static final int library_mpandroidchart_isOpenSource=0x7f090353;
-        public static final int library_mpandroidchart_libraryDescription=0x7f090350;
+        public static final int library_mpandroidchart_isOpenSource=0x7f090356;
+        public static final int library_mpandroidchart_libraryDescription=0x7f090353;
         /**  Library section 
          */
-        public static final int library_mpandroidchart_libraryName=0x7f09034f;
-        public static final int library_mpandroidchart_libraryVersion=0x7f090352;
-        public static final int library_mpandroidchart_libraryWebsite=0x7f090351;
+        public static final int library_mpandroidchart_libraryName=0x7f090352;
+        public static final int library_mpandroidchart_libraryVersion=0x7f090355;
+        public static final int library_mpandroidchart_libraryWebsite=0x7f090354;
         /**  License section 
          */
-        public static final int library_mpandroidchart_licenseId=0x7f090356;
-        public static final int library_mpandroidchart_repositoryLink=0x7f090354;
+        public static final int library_mpandroidchart_licenseId=0x7f090359;
+        public static final int library_mpandroidchart_repositoryLink=0x7f090357;
         /**  Author section 
          */
-        public static final int library_observablescrollview_author=0x7f090365;
-        public static final int library_observablescrollview_authorWebsite=0x7f090366;
+        public static final int library_observablescrollview_author=0x7f090368;
+        public static final int library_observablescrollview_authorWebsite=0x7f090369;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_observablescrollview_classPath=0x7f09036d;
+        public static final int library_observablescrollview_classPath=0x7f090370;
         /**  OpenSource section 
          */
-        public static final int library_observablescrollview_isOpenSource=0x7f09036b;
-        public static final int library_observablescrollview_libraryDescription=0x7f090368;
+        public static final int library_observablescrollview_isOpenSource=0x7f09036e;
+        public static final int library_observablescrollview_libraryDescription=0x7f09036b;
         /**  Library section 
          */
-        public static final int library_observablescrollview_libraryName=0x7f090367;
-        public static final int library_observablescrollview_libraryVersion=0x7f09036a;
-        public static final int library_observablescrollview_libraryWebsite=0x7f090369;
+        public static final int library_observablescrollview_libraryName=0x7f09036a;
+        public static final int library_observablescrollview_libraryVersion=0x7f09036d;
+        public static final int library_observablescrollview_libraryWebsite=0x7f09036c;
         /**  License section 
          */
-        public static final int library_observablescrollview_licenseId=0x7f09036e;
-        public static final int library_observablescrollview_repositoryLink=0x7f09036c;
+        public static final int library_observablescrollview_licenseId=0x7f090371;
+        public static final int library_observablescrollview_repositoryLink=0x7f09036f;
         /**  Author section 
          */
-        public static final int library_ollie_author=0x7f09037c;
-        public static final int library_ollie_authorWebsite=0x7f09037d;
+        public static final int library_ollie_author=0x7f09037f;
+        public static final int library_ollie_authorWebsite=0x7f090380;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_ollie_classPath=0x7f090384;
+        public static final int library_ollie_classPath=0x7f090387;
         /**  OpenSource section 
          */
-        public static final int library_ollie_isOpenSource=0x7f090382;
-        public static final int library_ollie_libraryDescription=0x7f09037f;
+        public static final int library_ollie_isOpenSource=0x7f090385;
+        public static final int library_ollie_libraryDescription=0x7f090382;
         /**  Library section 
          */
-        public static final int library_ollie_libraryName=0x7f09037e;
-        public static final int library_ollie_libraryVersion=0x7f090381;
-        public static final int library_ollie_libraryWebsite=0x7f090380;
+        public static final int library_ollie_libraryName=0x7f090381;
+        public static final int library_ollie_libraryVersion=0x7f090384;
+        public static final int library_ollie_libraryWebsite=0x7f090383;
         /**  License section 
          */
-        public static final int library_ollie_licenseId=0x7f090385;
-        public static final int library_ollie_repositoryLink=0x7f090383;
+        public static final int library_ollie_licenseId=0x7f090388;
+        public static final int library_ollie_repositoryLink=0x7f090386;
         /**  Author section 
          */
-        public static final int library_paymill_author=0x7f0903a9;
-        public static final int library_paymill_authorWebsite=0x7f0903aa;
-        public static final int library_paymill_classPath=0x7f0903b1;
+        public static final int library_paymill_author=0x7f0903ac;
+        public static final int library_paymill_authorWebsite=0x7f0903ad;
+        public static final int library_paymill_classPath=0x7f0903b4;
         /**  OpenSource section 
          */
-        public static final int library_paymill_isOpenSource=0x7f0903af;
-        public static final int library_paymill_libraryDescription=0x7f0903ac;
+        public static final int library_paymill_isOpenSource=0x7f0903b2;
+        public static final int library_paymill_libraryDescription=0x7f0903af;
         /**  Library section 
          */
-        public static final int library_paymill_libraryName=0x7f0903ab;
-        public static final int library_paymill_libraryVersion=0x7f0903ae;
-        public static final int library_paymill_libraryWebsite=0x7f0903ad;
-        public static final int library_paymill_repositoryLink=0x7f0903b0;
-        public static final int library_priorityjobqueue_author=0x7f0903c2;
-        public static final int library_priorityjobqueue_authorWebsite=0x7f0903c3;
-        public static final int library_priorityjobqueue_classPath=0x7f0903ca;
-        public static final int library_priorityjobqueue_isOpenSource=0x7f0903c8;
-        public static final int library_priorityjobqueue_libraryDescription=0x7f0903c5;
-        public static final int library_priorityjobqueue_libraryName=0x7f0903c4;
-        public static final int library_priorityjobqueue_libraryVersion=0x7f0903c7;
-        public static final int library_priorityjobqueue_libraryWebsite=0x7f0903c6;
-        public static final int library_priorityjobqueue_licenseId=0x7f0903cb;
-        public static final int library_priorityjobqueue_repositoryLink=0x7f0903c9;
+        public static final int library_paymill_libraryName=0x7f0903ae;
+        public static final int library_paymill_libraryVersion=0x7f0903b1;
+        public static final int library_paymill_libraryWebsite=0x7f0903b0;
+        public static final int library_paymill_repositoryLink=0x7f0903b3;
+        public static final int library_priorityjobqueue_author=0x7f0903c5;
+        public static final int library_priorityjobqueue_authorWebsite=0x7f0903c6;
+        public static final int library_priorityjobqueue_classPath=0x7f0903cd;
+        public static final int library_priorityjobqueue_isOpenSource=0x7f0903cb;
+        public static final int library_priorityjobqueue_libraryDescription=0x7f0903c8;
+        public static final int library_priorityjobqueue_libraryName=0x7f0903c7;
+        public static final int library_priorityjobqueue_libraryVersion=0x7f0903ca;
+        public static final int library_priorityjobqueue_libraryWebsite=0x7f0903c9;
+        public static final int library_priorityjobqueue_licenseId=0x7f0903ce;
+        public static final int library_priorityjobqueue_repositoryLink=0x7f0903cc;
         /**  Author section 
          */
-        public static final int library_qcircledesigntemplate_author=0x7f0903cd;
-        public static final int library_qcircledesigntemplate_authorWebsite=0x7f0903ce;
+        public static final int library_qcircledesigntemplate_author=0x7f0903d0;
+        public static final int library_qcircledesigntemplate_authorWebsite=0x7f0903d1;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_qcircledesigntemplate_classPath=0x7f0903d5;
+        public static final int library_qcircledesigntemplate_classPath=0x7f0903d8;
         /**  OpenSource section 
          */
-        public static final int library_qcircledesigntemplate_isOpenSource=0x7f0903d3;
-        public static final int library_qcircledesigntemplate_libraryDescription=0x7f0903d0;
+        public static final int library_qcircledesigntemplate_isOpenSource=0x7f0903d6;
+        public static final int library_qcircledesigntemplate_libraryDescription=0x7f0903d3;
         /**  Library section 
          */
-        public static final int library_qcircledesigntemplate_libraryName=0x7f0903cf;
-        public static final int library_qcircledesigntemplate_libraryVersion=0x7f0903d2;
-        public static final int library_qcircledesigntemplate_libraryWebsite=0x7f0903d1;
+        public static final int library_qcircledesigntemplate_libraryName=0x7f0903d2;
+        public static final int library_qcircledesigntemplate_libraryVersion=0x7f0903d5;
+        public static final int library_qcircledesigntemplate_libraryWebsite=0x7f0903d4;
         /**  License section 
          */
-        public static final int library_qcircledesigntemplate_licenseId=0x7f0903d6;
-        public static final int library_qcircledesigntemplate_repositoryLink=0x7f0903d4;
+        public static final int library_qcircledesigntemplate_licenseId=0x7f0903d9;
+        public static final int library_qcircledesigntemplate_repositoryLink=0x7f0903d7;
         /**  Author section 
          */
-        public static final int library_qslide_author=0x7f0903d8;
-        public static final int library_qslide_authorWebsite=0x7f0903d9;
+        public static final int library_qslide_author=0x7f0903db;
+        public static final int library_qslide_authorWebsite=0x7f0903dc;
         /**  OpenSource section 
          */
-        public static final int library_qslide_isOpenSource=0x7f0903de;
-        public static final int library_qslide_libraryDescription=0x7f0903db;
+        public static final int library_qslide_isOpenSource=0x7f0903e1;
+        public static final int library_qslide_libraryDescription=0x7f0903de;
         /**  Library section 
          */
-        public static final int library_qslide_libraryName=0x7f0903da;
-        public static final int library_qslide_libraryVersion=0x7f0903dd;
-        public static final int library_qslide_libraryWebsite=0x7f0903dc;
+        public static final int library_qslide_libraryName=0x7f0903dd;
+        public static final int library_qslide_libraryVersion=0x7f0903e0;
+        public static final int library_qslide_libraryWebsite=0x7f0903df;
         /**  License section 
          */
-        public static final int library_qslide_licenseId=0x7f0903df;
+        public static final int library_qslide_licenseId=0x7f0903e2;
         /**  Author section 
          */
-        public static final int library_rebound_author=0x7f0903e1;
-        public static final int library_rebound_authorWebsite=0x7f0903e2;
+        public static final int library_rebound_author=0x7f0903e4;
+        public static final int library_rebound_authorWebsite=0x7f0903e5;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_rebound_classPath=0x7f0903e9;
+        public static final int library_rebound_classPath=0x7f0903ec;
         /**  OpenSource section 
          */
-        public static final int library_rebound_isOpenSource=0x7f0903e7;
-        public static final int library_rebound_libraryDescription=0x7f0903e4;
+        public static final int library_rebound_isOpenSource=0x7f0903ea;
+        public static final int library_rebound_libraryDescription=0x7f0903e7;
         /**  Library section 
          */
-        public static final int library_rebound_libraryName=0x7f0903e3;
-        public static final int library_rebound_libraryVersion=0x7f0903e6;
-        public static final int library_rebound_libraryWebsite=0x7f0903e5;
+        public static final int library_rebound_libraryName=0x7f0903e6;
+        public static final int library_rebound_libraryVersion=0x7f0903e9;
+        public static final int library_rebound_libraryWebsite=0x7f0903e8;
         /**  License section 
          */
-        public static final int library_rebound_licenseId=0x7f0903ea;
-        public static final int library_rebound_repositoryLink=0x7f0903e8;
+        public static final int library_rebound_licenseId=0x7f0903ed;
+        public static final int library_rebound_repositoryLink=0x7f0903eb;
         /**  Author section 
          */
-        public static final int library_recyclerviewanimators_author=0x7f0903ec;
-        public static final int library_recyclerviewanimators_authorWebsite=0x7f0903ed;
+        public static final int library_recyclerviewanimators_author=0x7f0903ef;
+        public static final int library_recyclerviewanimators_authorWebsite=0x7f0903f0;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_recyclerviewanimators_classPath=0x7f0903f4;
+        public static final int library_recyclerviewanimators_classPath=0x7f0903f7;
         /**  OpenSource section 
          */
-        public static final int library_recyclerviewanimators_isOpenSource=0x7f0903f2;
-        public static final int library_recyclerviewanimators_libraryDescription=0x7f0903ef;
+        public static final int library_recyclerviewanimators_isOpenSource=0x7f0903f5;
+        public static final int library_recyclerviewanimators_libraryDescription=0x7f0903f2;
         /**  Library section 
          */
-        public static final int library_recyclerviewanimators_libraryName=0x7f0903ee;
-        public static final int library_recyclerviewanimators_libraryVersion=0x7f0903f1;
-        public static final int library_recyclerviewanimators_libraryWebsite=0x7f0903f0;
+        public static final int library_recyclerviewanimators_libraryName=0x7f0903f1;
+        public static final int library_recyclerviewanimators_libraryVersion=0x7f0903f4;
+        public static final int library_recyclerviewanimators_libraryWebsite=0x7f0903f3;
         /**  License section 
          */
-        public static final int library_recyclerviewanimators_licenseId=0x7f0903f5;
-        public static final int library_recyclerviewanimators_repositoryLink=0x7f0903f3;
+        public static final int library_recyclerviewanimators_licenseId=0x7f0903f8;
+        public static final int library_recyclerviewanimators_repositoryLink=0x7f0903f6;
         /**  Author section 
          */
-        public static final int library_robotocalendarview_author=0x7f090403;
-        public static final int library_robotocalendarview_authorWebsite=0x7f090404;
+        public static final int library_robotocalendarview_author=0x7f090406;
+        public static final int library_robotocalendarview_authorWebsite=0x7f090407;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_robotocalendarview_classPath=0x7f09040b;
+        public static final int library_robotocalendarview_classPath=0x7f09040e;
         /**  OpenSource section 
          */
-        public static final int library_robotocalendarview_isOpenSource=0x7f090409;
-        public static final int library_robotocalendarview_libraryDescription=0x7f090406;
+        public static final int library_robotocalendarview_isOpenSource=0x7f09040c;
+        public static final int library_robotocalendarview_libraryDescription=0x7f090409;
         /**  Library section 
          */
-        public static final int library_robotocalendarview_libraryName=0x7f090405;
-        public static final int library_robotocalendarview_libraryVersion=0x7f090408;
-        public static final int library_robotocalendarview_libraryWebsite=0x7f090407;
+        public static final int library_robotocalendarview_libraryName=0x7f090408;
+        public static final int library_robotocalendarview_libraryVersion=0x7f09040b;
+        public static final int library_robotocalendarview_libraryWebsite=0x7f09040a;
         /**  License section 
          */
-        public static final int library_robotocalendarview_licenseId=0x7f09040c;
-        public static final int library_robotocalendarview_repositoryLink=0x7f09040a;
+        public static final int library_robotocalendarview_licenseId=0x7f09040f;
+        public static final int library_robotocalendarview_repositoryLink=0x7f09040d;
         /**  Author section 
          */
-        public static final int library_rxJavaAndroid_author=0x7f090424;
-        public static final int library_rxJavaAndroid_authorWebsite=0x7f090425;
+        public static final int library_rxJavaAndroid_author=0x7f090427;
+        public static final int library_rxJavaAndroid_authorWebsite=0x7f090428;
         /**  OpenSource section 
          */
-        public static final int library_rxJavaAndroid_isOpenSource=0x7f09042a;
-        public static final int library_rxJavaAndroid_libraryDescription=0x7f090427;
+        public static final int library_rxJavaAndroid_isOpenSource=0x7f09042d;
+        public static final int library_rxJavaAndroid_libraryDescription=0x7f09042a;
         /**  Library section 
          */
-        public static final int library_rxJavaAndroid_libraryName=0x7f090426;
-        public static final int library_rxJavaAndroid_libraryVersion=0x7f090429;
-        public static final int library_rxJavaAndroid_libraryWebsite=0x7f090428;
+        public static final int library_rxJavaAndroid_libraryName=0x7f090429;
+        public static final int library_rxJavaAndroid_libraryVersion=0x7f09042c;
+        public static final int library_rxJavaAndroid_libraryWebsite=0x7f09042b;
         /**  License section 
          */
-        public static final int library_rxJavaAndroid_licenseId=0x7f09042c;
-        public static final int library_rxJavaAndroid_repositoryLink=0x7f09042b;
+        public static final int library_rxJavaAndroid_licenseId=0x7f09042f;
+        public static final int library_rxJavaAndroid_repositoryLink=0x7f09042e;
         /**  Author section 
          */
-        public static final int library_rxandroid_author=0x7f09040e;
-        public static final int library_rxandroid_authorWebsite=0x7f09040f;
+        public static final int library_rxandroid_author=0x7f090411;
+        public static final int library_rxandroid_authorWebsite=0x7f090412;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_rxandroid_classPath=0x7f090416;
+        public static final int library_rxandroid_classPath=0x7f090419;
         /**  OpenSource section 
          */
-        public static final int library_rxandroid_isOpenSource=0x7f090414;
-        public static final int library_rxandroid_libraryDescription=0x7f090411;
+        public static final int library_rxandroid_isOpenSource=0x7f090417;
+        public static final int library_rxandroid_libraryDescription=0x7f090414;
         /**  Library section 
          */
-        public static final int library_rxandroid_libraryName=0x7f090410;
-        public static final int library_rxandroid_libraryVersion=0x7f090413;
-        public static final int library_rxandroid_libraryWebsite=0x7f090412;
+        public static final int library_rxandroid_libraryName=0x7f090413;
+        public static final int library_rxandroid_libraryVersion=0x7f090416;
+        public static final int library_rxandroid_libraryWebsite=0x7f090415;
         /**  License section 
          */
-        public static final int library_rxandroid_licenseId=0x7f090417;
-        public static final int library_rxandroid_repositoryLink=0x7f090415;
+        public static final int library_rxandroid_licenseId=0x7f09041a;
+        public static final int library_rxandroid_repositoryLink=0x7f090418;
         /**  Author section 
          */
-        public static final int library_rxjava_author=0x7f090419;
-        public static final int library_rxjava_authorWebsite=0x7f09041a;
+        public static final int library_rxjava_author=0x7f09041c;
+        public static final int library_rxjava_authorWebsite=0x7f09041d;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_rxjava_classPath=0x7f090421;
+        public static final int library_rxjava_classPath=0x7f090424;
         /**  OpenSource section 
          */
-        public static final int library_rxjava_isOpenSource=0x7f09041f;
-        public static final int library_rxjava_libraryDescription=0x7f09041c;
+        public static final int library_rxjava_isOpenSource=0x7f090422;
+        public static final int library_rxjava_libraryDescription=0x7f09041f;
         /**  Library section 
          */
-        public static final int library_rxjava_libraryName=0x7f09041b;
-        public static final int library_rxjava_libraryVersion=0x7f09041e;
-        public static final int library_rxjava_libraryWebsite=0x7f09041d;
+        public static final int library_rxjava_libraryName=0x7f09041e;
+        public static final int library_rxjava_libraryVersion=0x7f090421;
+        public static final int library_rxjava_libraryWebsite=0x7f090420;
         /**  License section 
          */
-        public static final int library_rxjava_licenseId=0x7f090422;
-        public static final int library_rxjava_repositoryLink=0x7f090420;
+        public static final int library_rxjava_licenseId=0x7f090425;
+        public static final int library_rxjava_repositoryLink=0x7f090423;
         /**  Author section 
          */
-        public static final int library_snackbar_author=0x7f090447;
-        public static final int library_snackbar_authorWebsite=0x7f090448;
+        public static final int library_snackbar_author=0x7f09044a;
+        public static final int library_snackbar_authorWebsite=0x7f09044b;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_snackbar_classPath=0x7f09044f;
+        public static final int library_snackbar_classPath=0x7f090452;
         /**  OpenSource section 
          */
-        public static final int library_snackbar_isOpenSource=0x7f09044d;
-        public static final int library_snackbar_libraryDescription=0x7f09044a;
+        public static final int library_snackbar_isOpenSource=0x7f090450;
+        public static final int library_snackbar_libraryDescription=0x7f09044d;
         /**  Library section 
          */
-        public static final int library_snackbar_libraryName=0x7f090449;
-        public static final int library_snackbar_libraryVersion=0x7f09044c;
-        public static final int library_snackbar_libraryWebsite=0x7f09044b;
+        public static final int library_snackbar_libraryName=0x7f09044c;
+        public static final int library_snackbar_libraryVersion=0x7f09044f;
+        public static final int library_snackbar_libraryWebsite=0x7f09044e;
         /**  License section 
          */
-        public static final int library_snackbar_licenseId=0x7f090450;
-        public static final int library_snackbar_repositoryLink=0x7f09044e;
+        public static final int library_snackbar_licenseId=0x7f090453;
+        public static final int library_snackbar_repositoryLink=0x7f090451;
         /**  Author section 
          */
-        public static final int library_sugarorm_author=0x7f090452;
-        public static final int library_sugarorm_authorWebsite=0x7f090453;
+        public static final int library_sugarorm_author=0x7f090455;
+        public static final int library_sugarorm_authorWebsite=0x7f090456;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_sugarorm_classPath=0x7f09045a;
+        public static final int library_sugarorm_classPath=0x7f09045d;
         /**  OpenSource section 
          */
-        public static final int library_sugarorm_isOpenSource=0x7f090458;
-        public static final int library_sugarorm_libraryDescription=0x7f090455;
+        public static final int library_sugarorm_isOpenSource=0x7f09045b;
+        public static final int library_sugarorm_libraryDescription=0x7f090458;
         /**  Library section 
          */
-        public static final int library_sugarorm_libraryName=0x7f090454;
-        public static final int library_sugarorm_libraryVersion=0x7f090457;
-        public static final int library_sugarorm_libraryWebsite=0x7f090456;
-        public static final int library_sugarorm_repositoryLink=0x7f090459;
+        public static final int library_sugarorm_libraryName=0x7f090457;
+        public static final int library_sugarorm_libraryVersion=0x7f09045a;
+        public static final int library_sugarorm_libraryWebsite=0x7f090459;
+        public static final int library_sugarorm_repositoryLink=0x7f09045c;
         /**  Author section 
          */
-        public static final int library_systembartint_author=0x7f09047e;
-        public static final int library_systembartint_authorWebsite=0x7f09047f;
+        public static final int library_systembartint_author=0x7f090481;
+        public static final int library_systembartint_authorWebsite=0x7f090482;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_systembartint_classPath=0x7f090486;
+        public static final int library_systembartint_classPath=0x7f090489;
         /**  OpenSource section 
          */
-        public static final int library_systembartint_isOpenSource=0x7f090484;
-        public static final int library_systembartint_libraryDescription=0x7f090481;
+        public static final int library_systembartint_isOpenSource=0x7f090487;
+        public static final int library_systembartint_libraryDescription=0x7f090484;
         /**  Library section 
          */
-        public static final int library_systembartint_libraryName=0x7f090480;
-        public static final int library_systembartint_libraryVersion=0x7f090483;
-        public static final int library_systembartint_libraryWebsite=0x7f090482;
+        public static final int library_systembartint_libraryName=0x7f090483;
+        public static final int library_systembartint_libraryVersion=0x7f090486;
+        public static final int library_systembartint_libraryWebsite=0x7f090485;
         /**  License section 
          */
-        public static final int library_systembartint_licenseId=0x7f090487;
-        public static final int library_systembartint_repositoryLink=0x7f090485;
+        public static final int library_systembartint_licenseId=0x7f09048a;
+        public static final int library_systembartint_repositoryLink=0x7f090488;
         /**  Author section 
          */
-        public static final int library_textdrawable_author=0x7f090489;
-        public static final int library_textdrawable_authorWebsite=0x7f09048a;
+        public static final int library_textdrawable_author=0x7f09048c;
+        public static final int library_textdrawable_authorWebsite=0x7f09048d;
         /**  ClassPath for autoDetect section 
          */
-        public static final int library_textdrawable_classPath=0x7f090491;
+        public static final int library_textdrawable_classPath=0x7f090494;
         /**  OpenSource section 
          */
-        public static final int library_textdrawable_isOpenSource=0x7f09048f;
-        public static final int library_textdrawable_libraryDescription=0x7f09048c;
+        public static final int library_textdrawable_isOpenSource=0x7f090492;
+        public static final int library_textdrawable_libraryDescription=0x7f09048f;
         /**  Library section 
          */
-        public static final int library_textdrawable_libraryName=0x7f09048b;
-        public static final int library_textdrawable_libraryVersion=0x7f09048e;
-        public static final int library_textdrawable_libraryWebsite=0x7f09048d;
+        public static final int library_textdrawable_libraryName=0x7f09048e;
+        public static final int library_textdrawable_libraryVersion=0x7f090491;
+        public static final int library_textdrawable_libraryWebsite=0x7f090490;
         /**  License section 
          */
-        public static final int library_textdrawable_licenseId=0x7f090492;
-        public static final int library_textdrawable_repositoryLink=0x7f090490;
-        public static final int libray_bottomsheet_licenseContent=0x7f090195;
-        public static final int libray_bottomsheet_licenseLink=0x7f090194;
+        public static final int library_textdrawable_licenseId=0x7f090495;
+        public static final int library_textdrawable_repositoryLink=0x7f090493;
+        public static final int libray_bottomsheet_licenseContent=0x7f090198;
+        public static final int libray_bottomsheet_licenseLink=0x7f090197;
         /**  License section 
          */
-        public static final int libray_bottomsheet_licenseVersion=0x7f090193;
-        public static final int libray_paymill_licenseContent=0x7f0903b4;
-        public static final int libray_paymill_licenseLink=0x7f0903b3;
+        public static final int libray_bottomsheet_licenseVersion=0x7f090196;
+        public static final int libray_paymill_licenseContent=0x7f0903b7;
+        public static final int libray_paymill_licenseLink=0x7f0903b6;
         /**  License section 
          */
-        public static final int libray_paymill_licenseVersion=0x7f0903b2;
+        public static final int libray_paymill_licenseVersion=0x7f0903b5;
         /**  License section 
          */
-        public static final int libray_sugarorm_licenseContent=0x7f09045b;
-        public static final int license_Apache_2_0_licenseDescription=0x7f0904b2;
-        public static final int license_Apache_2_0_licenseName=0x7f0904af;
-        public static final int license_Apache_2_0_licenseShortDescription=0x7f0904b1;
-        public static final int license_Apache_2_0_licenseWebsite=0x7f0904b0;
-        public static final int license_bsd_2_licenseDescription=0x7f0904b7;
-        public static final int license_bsd_2_licenseName=0x7f0904b4;
-        public static final int license_bsd_2_licenseShortDescription=0x7f0904b6;
-        public static final int license_bsd_2_licenseWebsite=0x7f0904b5;
-        public static final int license_bsd_3_licenseDescription=0x7f0904bc;
-        public static final int license_bsd_3_licenseName=0x7f0904b9;
-        public static final int license_bsd_3_licenseShortDescription=0x7f0904bb;
-        public static final int license_bsd_3_licenseWebsite=0x7f0904ba;
-        public static final int license_cc30_licenseDescription=0x7f0904ad;
-        public static final int license_cc30_licenseName=0x7f0904aa;
-        public static final int license_cc30_licenseShortDescription=0x7f0904ac;
-        public static final int license_cc30_licenseWebsite=0x7f0904ab;
-        public static final int license_mit_licenseDescription=0x7f0904c1;
-        public static final int license_mit_licenseName=0x7f0904be;
-        public static final int license_mit_licenseShortDescription=0x7f0904c0;
-        public static final int license_mit_licenseWebsite=0x7f0904bf;
-        public static final int march=0x7f0904eb;
-        public static final int may=0x7f0904ed;
+        public static final int libray_sugarorm_licenseContent=0x7f09045e;
+        public static final int license_Apache_2_0_licenseDescription=0x7f0904b5;
+        public static final int license_Apache_2_0_licenseName=0x7f0904b2;
+        public static final int license_Apache_2_0_licenseShortDescription=0x7f0904b4;
+        public static final int license_Apache_2_0_licenseWebsite=0x7f0904b3;
+        public static final int license_bsd_2_licenseDescription=0x7f0904ba;
+        public static final int license_bsd_2_licenseName=0x7f0904b7;
+        public static final int license_bsd_2_licenseShortDescription=0x7f0904b9;
+        public static final int license_bsd_2_licenseWebsite=0x7f0904b8;
+        public static final int license_bsd_3_licenseDescription=0x7f0904bf;
+        public static final int license_bsd_3_licenseName=0x7f0904bc;
+        public static final int license_bsd_3_licenseShortDescription=0x7f0904be;
+        public static final int license_bsd_3_licenseWebsite=0x7f0904bd;
+        public static final int license_cc30_licenseDescription=0x7f0904b0;
+        public static final int license_cc30_licenseName=0x7f0904ad;
+        public static final int license_cc30_licenseShortDescription=0x7f0904af;
+        public static final int license_cc30_licenseWebsite=0x7f0904ae;
+        public static final int license_mit_licenseDescription=0x7f0904c4;
+        public static final int license_mit_licenseName=0x7f0904c1;
+        public static final int license_mit_licenseShortDescription=0x7f0904c3;
+        public static final int license_mit_licenseWebsite=0x7f0904c2;
+        public static final int made_by=0x7f09050e;
+        public static final int march=0x7f0904ee;
+        public static final int may=0x7f0904f0;
         public static final int mdtp_ampm_circle_radius_multiplier=0x7f090027;
         public static final int mdtp_cancel=0x7f090028;
         public static final int mdtp_circle_radius_multiplier=0x7f090029;
@@ -6328,7 +6355,7 @@ containing a value of this type.
         public static final int mdtp_time_placeholder=0x7f090035;
         public static final int mdtp_time_separator=0x7f090036;
         public static final int mdtp_year_picker_description=0x7f090025;
-        public static final int menu_item_title=0x7f0904e8;
+        public static final int menu_item_title=0x7f0904eb;
         public static final int mr_button_content_description=0x7f090037;
         public static final int mr_cast_button_connected=0x7f090038;
         public static final int mr_cast_button_connecting=0x7f090039;
@@ -6349,33 +6376,48 @@ containing a value of this type.
         public static final int mr_controller_volume_slider=0x7f090048;
         public static final int mr_system_route_name=0x7f090049;
         public static final int mr_user_route_category_name=0x7f09004a;
-        public static final int november=0x7f0904f3;
-        public static final int october=0x7f0904f2;
+        public static final int night_mode=0x7f090512;
+        public static final int night_mode_off_summary=0x7f090514;
+        public static final int night_mode_on_summary=0x7f090513;
+        public static final int night_mode_pref_key=0x7f09008a;
+        /**  STRING FOR ZROCK REMINDER 
+         */
+        public static final int no_to_dos=0x7f090505;
+        public static final int november=0x7f0904f6;
+        public static final int october=0x7f0904f5;
         public static final int password_toggle_content_description=0x7f09004e;
         public static final int path_password_eye=0x7f09004f;
         public static final int path_password_eye_mask_strike_through=0x7f090050;
         public static final int path_password_eye_mask_visible=0x7f090051;
         public static final int path_password_strike_through=0x7f090052;
-        public static final int random_color=0x7f0904f8;
+        public static final int random_color=0x7f0904fb;
+        public static final int remind_date_and_time=0x7f09050a;
+        public static final int remind_me=0x7f090507;
+        public static final int remove=0x7f090517;
         public static final int search_menu_title=0x7f090066;
-        public static final int september=0x7f0904f1;
-        public static final int settings_check_for_updates=0x7f0904dc;
-        public static final int settings_check_for_updates_summary=0x7f0904dd;
-        public static final int slide=0x7f0904f6;
-        public static final int slide_down=0x7f0904f7;
-        public static final int slide_up=0x7f0904f5;
+        public static final int september=0x7f0904f4;
+        public static final int settings_check_for_updates=0x7f0904df;
+        public static final int settings_check_for_updates_summary=0x7f0904e0;
+        public static final int slide=0x7f0904f9;
+        public static final int slide_down=0x7f0904fa;
+        public static final int slide_up=0x7f0904f8;
+        public static final int snooze=0x7f090516;
         /**  STRING FOR ZROCK CONTENT 
          */
-        public static final int splash_logo_desc=0x7f0904e5;
+        public static final int splash_logo_desc=0x7f0904e8;
         public static final int status_bar_notification_info_overflow=0x7f090067;
-        public static final int use_blur=0x7f0904f9;
-        public static final int version=0x7f0904d2;
-        public static final int zrock_drawer_close=0x7f0904e2;
+        public static final int title=0x7f090506;
+        public static final int todo_error=0x7f090518;
+        public static final int type_here=0x7f090502;
+        public static final int type_output=0x7f090501;
+        public static final int use_blur=0x7f0904fc;
+        public static final int version=0x7f0904d5;
+        public static final int zrock_drawer_close=0x7f0904e5;
         /**  STRING FOR ZROCK NAVIGATION MENU 
          */
-        public static final int zrock_drawer_open=0x7f0904e1;
-        public static final int zrock_ex_bad_content_view=0x7f0904e4;
-        public static final int zrock_ex_no_menu_view=0x7f0904e3;
+        public static final int zrock_drawer_open=0x7f0904e4;
+        public static final int zrock_ex_bad_content_view=0x7f0904e7;
+        public static final int zrock_ex_no_menu_view=0x7f0904e6;
     }
     public static final class style {
         public static final int AboutLibrariesSampleTheme=0x7f0b01ae;
@@ -6552,16 +6594,17 @@ containing a value of this type.
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b00ce;
         public static final int Base_Widget_Design_AppBarLayout=0x7f0b0032;
         public static final int Base_Widget_Design_TabLayout=0x7f0b0033;
-        public static final int CardLightText=0x7f0b01b6;
-        public static final int CardText=0x7f0b01b7;
-        public static final int CardTitle=0x7f0b01b8;
-        public static final int CardTitleBold=0x7f0b01b9;
+        public static final int CardLightText=0x7f0b01bc;
+        public static final int CardText=0x7f0b01bd;
+        public static final int CardTitle=0x7f0b01be;
+        public static final int CardTitleBold=0x7f0b01bf;
         public static final int CardView=0x7f0b002b;
         public static final int CardView_Dark=0x7f0b002d;
         public static final int CardView_Light=0x7f0b002e;
-        public static final int Item=0x7f0b01ba;
-        public static final int Item_Sticky=0x7f0b01bb;
-        public static final int Item_Top=0x7f0b01bc;
+        public static final int FloatingLabelTextAppearance=0x7f0b01b4;
+        public static final int Item=0x7f0b01c0;
+        public static final int Item_Sticky=0x7f0b01c1;
+        public static final int Item_Top=0x7f0b01c2;
         public static final int MaterialDrawer_DrawerArrowStyle=0x7f0b0011;
         public static final int MaterialDrawer_Light_DrawerArrowStyle=0x7f0b0012;
         public static final int MaterialDrawerBaseBaseTheme=0x7f0b0013;
@@ -6602,12 +6645,12 @@ containing a value of this type.
         public static final int MaterialDrawerTheme_Light_DarkToolbar_TranslucentStatus=0x7f0b000d;
         public static final int MaterialDrawerTheme_Light_TranslucentStatus=0x7f0b000e;
         public static final int MaterialDrawerTheme_TranslucentStatus=0x7f0b000f;
-        public static final int PickerUI_Center_Item=0x7f0b01af;
-        public static final int PickerUI_Far_Center_Item=0x7f0b01b2;
-        public static final int PickerUI_ListView=0x7f0b01b4;
-        public static final int PickerUI_Near_Center_Item=0x7f0b01b1;
-        public static final int PickerUI_No_Center_Item=0x7f0b01b0;
-        public static final int PickerUI_Small_Item=0x7f0b01b3;
+        public static final int PickerUI_Center_Item=0x7f0b01b5;
+        public static final int PickerUI_Far_Center_Item=0x7f0b01b8;
+        public static final int PickerUI_ListView=0x7f0b01ba;
+        public static final int PickerUI_Near_Center_Item=0x7f0b01b7;
+        public static final int PickerUI_No_Center_Item=0x7f0b01b6;
+        public static final int PickerUI_Small_Item=0x7f0b01b9;
         public static final int Platform_AppCompat=0x7f0b0068;
         public static final int Platform_AppCompat_Light=0x7f0b0069;
         public static final int Platform_ThemeOverlay_AppCompat=0x7f0b00cf;
@@ -6636,7 +6679,7 @@ containing a value of this type.
         public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b0086;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b0087;
         public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0088;
-        public static final int StackTitle=0x7f0b01bd;
+        public static final int StackTitle=0x7f0b01c3;
         public static final int TextAppearance_AppCompat=0x7f0b0118;
         public static final int TextAppearance_AppCompat_Body1=0x7f0b0119;
         public static final int TextAppearance_AppCompat_Body2=0x7f0b011a;
@@ -6752,6 +6795,7 @@ containing a value of this type.
         public static final int ThemeOverlay_AppCompat_Light=0x7f0b0160;
         public static final int ThemeOverlay_MediaRouter_Dark=0x7f0b0027;
         public static final int ThemeOverlay_MediaRouter_Light=0x7f0b0028;
+        public static final int Widget=0x7f0b01af;
         public static final int Widget_AppCompat_ActionBar=0x7f0b0161;
         public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b0162;
         public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b0163;
@@ -6839,7 +6883,11 @@ containing a value of this type.
         public static final int Widget_Design_TextInputLayout=0x7f0b0049;
         public static final int Widget_MediaRouter_Light_MediaRouteButton=0x7f0b0029;
         public static final int Widget_MediaRouter_MediaRouteButton=0x7f0b002a;
-        public static final int line_center_default=0x7f0b01b5;
+        public static final int Widget_TextView=0x7f0b01b0;
+        public static final int Widget_TextView_Input=0x7f0b01b3;
+        public static final int Widget_TextView_Label=0x7f0b01b1;
+        public static final int Widget_TextView_Translation=0x7f0b01b2;
+        public static final int line_center_default=0x7f0b01bb;
         public static final int mdtp_ActionButton=0x7f0b001c;
         public static final int mdtp_ActionButton_Text=0x7f0b001d;
         public static final int mdtp_ampm_label=0x7f0b001e;
